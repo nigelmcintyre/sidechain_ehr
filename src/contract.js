@@ -115,4 +115,17 @@ export default class Contract {
                 console.log(err);
             });
     }
+
+    async updatePatient(address, hash) {
+        return await this.ehrInstance.methods
+            .updatePatient(address, hash)
+            .send({ from: this.currentUserAddress[0] })
+            .then((res) => {
+                console.log(res);
+                window.alert('Patient successfully deleted');
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+    }
 }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Contract from './contract';
+import { set_address, get_address } from './actions';
+import { connect } from 'react-redux';
 
 class ViewPatient extends Component {
     constructor(props) {
@@ -9,13 +11,20 @@ class ViewPatient extends Component {
         this.value = 0;
 
         this.state = {
-            doctorAddress: '',
-            doctorName: '',
-            doctorEmail: '',
-            isValid: false,
-            isSending: false,
-            tx: null,
-            tries: 0,
+            patientAddress: '',
+            patient: '',
+            retrievedAddress: '',
+            age: '',
+            gender: '',
+            totalBilirubin: '',
+            directBilirubin: '',
+            alkalinePhosphotase: '',
+            alamineAminotransferase: '',
+            totalProteins: '',
+            albumin: '',
+            albuminGlobulinRatio: '',
+            isPatient: false,
+            deletePatientAddress: '',
         };
     }
 
@@ -34,29 +43,92 @@ class ViewPatient extends Component {
         });
     }
 
-    async deleteClick(e) {
-        e.preventDefault();
+    async updateClick(e) {
+        event.preventDefault();
+        // Add patient address to redux state object
+        if (this.state.patient) {
+            this.props.set_address(this.state.patient);
+            // Open update patient page
+            this.props.history.push('/updatePatient');
+        } else {
+            window.alert('Please search for a patient');
+        }
+    }
+
+    async deleteClick() {
+        if (this.state.patientAddress) {
+            // Checking if address belongs to a doctor account
+            const isDoctor = await this.contract.getDoctor(
+                this.state.patientAddress,
+            );
+            // If address doesnt belong to a doctor
+            if (!isDoctor) {
+                // Getting patient details from blockchain
+                const isPatient = await this.contract.getPatient(
+                    this.state.patientAddress,
+                );
+                // If patient exists
+                if (isPatient) {
+                    // Clear input
+                    this.setState({ patientAddress: '' });
+                    // Delete patient from blockchain
+                    await this.contract.deletePatient(isPatient[0]);
+                } else {
+                    this.setState({ patientAddress: '' });
+                    window.alert('Patient does not exist');
+                }
+            } else {
+                window.alert('Address belongs to a Doctor account');
+            }
+
+            // Allows for patient to be deleted if submit has been clicked
+        } else if (this.state.patient.patientAddress) {
+            this.contract.deletePatient(this.state.patient.patientAddress);
+            this.setState({
+                patient: '',
+            });
+        } else {
+            window.alert('Please enter a patient account address');
+        }
     }
 
     async confirmValue() {
-        try {
-            console.log(this.state.doctorAddress);
-            // const tx = await this.contract.newDoctor(
-            //     this.state.doctorAddress,
-            //     this.state.doctorName,
-            //     this.state.doctorEmail,
-            // );
-            const tx = await this.contract.getDoctor(this.state.doctorAddress);
-            console.log(tx);
+        this.setState({
+            isPatient: false,
+        });
+        // If address input field is not empty
+        console.log(this.state.patientAddress);
+        if (this.state.patientAddress) {
+            // Retrieving patient from blockchain
+            try {
+                const tx = await this.contract.getPatient(
+                    this.state.patientAddress,
+                );
+                this.state.patient = tx;
+            } catch (err) {
+                console.log(err);
+            }
 
-            this.setState({
-                tx,
-                doctorAddress: '',
-                doctorName: '',
-                doctorEmail: '',
-            });
-        } catch (err) {
-            console.error('Ops, some error happen:', err);
+            // Retrieving patient reccord from IPFS
+            if (this.state.patient) {
+                const result = await fetch(
+                    `https://ipfs.infura.io/ipfs/${this.state.patient[1]}`,
+                ).catch((error) => {
+                    window.alert('Error retrieving patient reccord from IPFS');
+                    console.log(error);
+                });
+                const IPFSpatient = await result.json();
+                this.setState({
+                    patient: IPFSpatient,
+                    patientAddress: '',
+                    isPatient: true,
+                });
+            } else {
+                this.setState({ patientAddress: '' });
+                window.alert('No patient account with that address');
+            }
+        } else {
+            window.alert('Please enter a patient account address');
         }
     }
 
@@ -72,10 +144,10 @@ class ViewPatient extends Component {
                         <label>Address</label>
                         <input
                             type="text"
-                            name="doctorAddress"
+                            name="patientAddress"
                             className="form-control"
                             onChange={(event) => this.onChangeHandler(event)}
-                            value={this.state.doctorAddress}
+                            value={this.state.patientAddress}
                         />
                     </div>
                     <button
@@ -189,4 +261,13 @@ class ViewPatient extends Component {
     }
 }
 
-export default ViewPatient;
+const mapStateToProps = (state) => {
+    return {
+        patientAddress: state.patientAddressReducer,
+    };
+};
+
+const mapDispatchToProps = () => {
+    return { set_address, get_address };
+};
+export default connect(mapStateToProps, mapDispatchToProps())(ViewPatient);

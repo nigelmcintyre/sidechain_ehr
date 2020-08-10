@@ -42,7 +42,7 @@ class AddDoctor extends Component {
             //     this.state.doctorName,
             //     this.state.doctorEmail,
             // );
-            const tx = await this.contract.getDoctor(this.state.doctorAddress);
+            const tx = await this.contract.getPatient(this.state.doctorAddress);
             console.log(tx);
 
             this.setState({
