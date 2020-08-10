@@ -43,8 +43,7 @@ class ViewPatient extends Component {
         });
     }
 
-    async updateClick(e) {
-        event.preventDefault();
+    async updateClick() {
         // Add patient address to redux state object
         if (this.state.patient) {
             this.props.set_address(this.state.patient);
@@ -97,7 +96,6 @@ class ViewPatient extends Component {
             isPatient: false,
         });
         // If address input field is not empty
-        console.log(this.state.patientAddress);
         if (this.state.patientAddress) {
             // Retrieving patient from blockchain
             try {

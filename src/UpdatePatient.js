@@ -85,11 +85,11 @@ class UpdatePatient extends Component {
             });
 
         try {
-            const tx = await this.contract.updatePatient(
+            await this.contract.updatePatient(
                 this.props.patientAddress.patientAddress,
                 patientHash,
             );
-            console.log(tx);
+
             this.props.history.push('/viewPatient');
         } catch (err) {
             console.error('Ops, some error happen:', err);

@@ -95,12 +95,22 @@ export default class Contract {
     }
 
     async getPatient(address) {
-        return await this.ehrInstance.methods
+        const patient = await this.ehrInstance.methods
             .getPatient(address)
             .call({ from: this.currentUserAddress[0] })
             .catch((err) => {
                 console.log(err);
             });
+
+        if (patient) {
+            if (patient[0].includes('0x0000000')) {
+                return undefined;
+            } else {
+                return patient;
+            }
+        } else {
+            return undefined;
+        }
     }
 
     async deletePatient(address) {
@@ -122,7 +132,7 @@ export default class Contract {
             .send({ from: this.currentUserAddress[0] })
             .then((res) => {
                 console.log(res);
-                window.alert('Patient successfully deleted');
+                window.alert('Patient successfully updated');
             })
             .catch((err) => {
                 console.log(err);

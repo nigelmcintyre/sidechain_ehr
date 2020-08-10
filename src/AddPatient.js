@@ -60,50 +60,55 @@ class AddPatient extends Component {
     }
 
     async confirmValue() {
-        let file = '';
         let patientHash = '';
         if (this.state.patientAddress) {
             // Checking if address belongs to a patient account
             const isPatient = await this.contract.getPatient(
                 this.state.patientAddress,
             );
-            console.log('patient:' + isPatient);
             // Checking if address belongs to doctor account
             const isDoctor = await this.contract.getDoctor(
                 this.state.patientAddress,
             );
             console.log('doctor:' + isDoctor);
+            if (!isPatient && !isDoctor) {
+                console.log('submitting file to IPFS');
+                let address = this.state.patientAddress;
+                let doctorAddress = this.state.doctorAddress;
+                let doctorKey = this.state.doctorKey;
 
+                const data = JSON.stringify({
+                    patientAddress: this.state.patientAddress,
+                    age: this.state.age,
+                    gender: this.state.gender,
+                    totalBilirubin: this.state.totalBilirubin,
+                    directBilirubin: this.state.directBilirubin,
+                    alkalinePhosphotase: this.state.alkalinePhosphotase,
+                    alamineAminotransferase: this.state.alamineAminotransferase,
+                    totalProteins: this.state.totalProteins,
+                    albumin: this.state.albumin,
+                    albuminGlobulinRatio: this.state.albuminGlobulinRatio,
+                });
+                // Adding patient record to IPFS
+                await ipfs.add(data).then((res) => {
+                    patientHash = res.path;
+                    console.log(patientHash);
+                    console.log('Patient uploaded to IPFS');
+                });
+
+                this.clearInput();
+                // Adding patient record to blockchain
+                console.log('Adding patient to blockchain');
+                await this.contract.newPatient(
+                    address,
+                    patientHash,
+                    doctorAddress,
+                );
+            } else {
+                window.alert('This address already belongs to an account');
+                this.clearInput();
+            }
             // If address doesn't belong to an account
-
-            console.log('submitting file to IPFS');
-            let address = this.state.patientAddress;
-            let doctorAddress = this.state.doctorAddress;
-            let doctorKey = this.state.doctorKey;
-
-            const data = JSON.stringify({
-                patientAddress: this.state.patientAddress,
-                age: this.state.age,
-                gender: this.state.gender,
-                totalBilirubin: this.state.totalBilirubin,
-                directBilirubin: this.state.directBilirubin,
-                alkalinePhosphotase: this.state.alkalinePhosphotase,
-                alamineAminotransferase: this.state.alamineAminotransferase,
-                totalProteins: this.state.totalProteins,
-                albumin: this.state.albumin,
-                albuminGlobulinRatio: this.state.albuminGlobulinRatio,
-            });
-            // Adding patient record to IPFS
-            await ipfs.add(data).then((res) => {
-                patientHash = res.path;
-                console.log(patientHash);
-                console.log('Patient uploaded to IPFS');
-            });
-
-            this.clearInput();
-            // Adding patient record to blockchain
-            console.log('Adding patient to blockchain');
-            await this.contract.newPatient(address, patientHash, doctorAddress);
         } else {
             window.alert('Please enter patient details');
             this.clearInput();

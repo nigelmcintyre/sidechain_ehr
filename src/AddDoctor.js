@@ -25,6 +25,13 @@ class AddDoctor extends Component {
         //     this.setState({ value: v._value });
         // });
     }
+    clearInput() {
+        this.setState({
+            doctorAddress: '',
+            doctorName: '',
+            doctorEmail: '',
+        });
+    }
 
     onChangeHandler(event) {
         event.preventDefault();
@@ -35,24 +42,31 @@ class AddDoctor extends Component {
     }
 
     async confirmValue() {
-        try {
-            console.log(this.state.doctorAddress);
-            // const tx = await this.contract.newDoctor(
-            //     this.state.doctorAddress,
-            //     this.state.doctorName,
-            //     this.state.doctorEmail,
-            // );
-            const tx = await this.contract.getPatient(this.state.doctorAddress);
-            console.log(tx);
+        if (this.state.doctorAddress) {
+            const isPatient = await this.contract.getPatient(
+                this.state.doctorAddress,
+            );
 
-            this.setState({
-                tx,
-                doctorAddress: '',
-                doctorName: '',
-                doctorEmail: '',
-            });
-        } catch (err) {
-            console.error('Ops, some error happen:', err);
+            console.log(isPatient);
+
+            const isDoctor = await this.contract.getDoctor(
+                this.state.doctorAddress,
+            );
+            console.log(isDoctor);
+
+            if (!isPatient && !isDoctor) {
+                let address = this.state.doctorAddress;
+                let name = this.state.doctorName;
+                let email = this.state.doctorEmail;
+                this.clearInput();
+                await this.contract.newDoctor(address, name, email);
+            } else {
+                window.alert('This address already belongs to an account');
+                this.clearInput();
+            }
+        } else {
+            window.alert('Please enter doctor details');
+            this.clearInput();
         }
     }
 
