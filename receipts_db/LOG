@@ -186,3 +186,21 @@
 10:44:25.375529 version@stat F·[1 1] S·8KiB[182B 8KiB] Sc·[0.25 0.00]
 10:44:25.385762 db@janitor F·4 G·0
 10:44:25.385807 db@open done T·11.722236ms
+12:27:15.152775 transaction@flush created L0@52 N·7 S·1KiB ":\xae\xc3..#\x9b\x89,v144":"th\x00..\x00\x8a\xf2,v149"
+12:27:15.152826 version@stat F·[2 1] S·9KiB[1KiB 8KiB] Sc·[0.50 0.00]
+12:27:15.166454 transaction@flush created L0@53 N·1 S·182B "txr..\xaa\xaco,v151":"txr..\xaa\xaco,v151"
+12:27:15.166512 version@stat F·[3 1] S·9KiB[1KiB 8KiB] Sc·[0.75 0.00]
+12:38:15.300736 transaction@flush created L0@54 N·7 S·1KiB "\n\xa2y..\x19\xd9[,v153":"th\x00..\x00\x8dm,v157"
+12:38:15.300831 version@stat F·[4 1] S·10KiB[2KiB 8KiB] Sc·[1.00 0.00]
+12:38:15.307431 table@compaction expanding L0+L1 (F·1 S·182B)+(F·1 S·8KiB) -> (F·4 S·2KiB)+(F·1 S·8KiB)
+12:38:15.307525 table@compaction L0·4 -> L1·1 S·10KiB Q·158
+12:38:15.314948 table@build created L1@55 N·82 S·9KiB "\x05\xec>..\x8e\x97\x8e,v136":"\xfe\x98\xe8..\f\x9d\x12,v72"
+12:38:15.315100 version@stat F·[0 1] S·9KiB[0B 9KiB] Sc·[0.00 0.00]
+12:38:15.317918 transaction@flush created L0@56 N·1 S·182B "txr..\xe3\xc4\x17,v159":"txr..\xe3\xc4\x17,v159"
+12:38:15.327280 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·19.673622ms
+12:38:15.327587 table@remove removed @54
+12:38:15.327750 table@remove removed @53
+12:38:15.327409 version@stat F·[1 1] S·9KiB[182B 9KiB] Sc·[0.25 0.00]
+12:38:15.328052 table@remove removed @52
+12:38:15.328364 table@remove removed @45
+12:38:15.328482 table@remove removed @44

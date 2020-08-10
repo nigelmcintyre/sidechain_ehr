@@ -34,6 +34,10 @@ class ViewPatient extends Component {
         });
     }
 
+    async deleteClick(e) {
+        e.preventDefault();
+    }
+
     async confirmValue() {
         try {
             console.log(this.state.doctorAddress);
@@ -73,22 +77,6 @@ class ViewPatient extends Component {
                             onChange={(event) => this.onChangeHandler(event)}
                             value={this.state.doctorAddress}
                         />
-                        <label>Name</label>
-                        <input
-                            type="text"
-                            name="doctorName"
-                            className="form-control"
-                            onChange={(event) => this.onChangeHandler(event)}
-                            value={this.state.doctorName}
-                        />
-                        <label>Email</label>
-                        <input
-                            type="text"
-                            name="doctorEmail"
-                            className="form-control"
-                            onChange={(event) => this.onChangeHandler(event)}
-                            value={this.state.doctorEmail}
-                        />
                     </div>
                     <button
                         type="button"
@@ -98,6 +86,104 @@ class ViewPatient extends Component {
                         Confirm
                     </button>
                 </form>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Address</td>
+                            <td>
+                                {this.state.isPatient
+                                    ? this.state.patient.patientAddress
+                                    : ''}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Age</td>
+                            <td>
+                                {this.state.isPatient
+                                    ? this.state.patient.age
+                                    : ''}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td>
+                                {this.state.isPatient
+                                    ? this.state.patient.gender
+                                    : ''}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Total Bilirubin</td>
+                            <td>
+                                {this.state.isPatient
+                                    ? this.state.patient.totalBilirubin
+                                    : ''}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Direct Bilirubin</td>
+                            <td>
+                                {this.state.isPatient
+                                    ? this.state.patient.directBilirubin
+                                    : ''}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Alkaline Phosphotase</td>
+                            <td>
+                                {this.state.isPatient
+                                    ? this.state.patient.alkalinePhosphotase
+                                    : ''}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Alamine Aminotransferase</td>
+                            <td>
+                                {this.state.isPatient
+                                    ? this.state.patient.alamineAminotransferase
+                                    : ''}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Total Proteins</td>
+                            <td>
+                                {this.state.isPatient
+                                    ? this.state.patient.totalProteins
+                                    : ''}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Albumin</td>
+                            <td>
+                                {this.state.isPatient
+                                    ? this.state.patient.albumin
+                                    : ''}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Albumin Globulin Ratio</td>
+                            <td>
+                                {this.state.isPatient
+                                    ? this.state.patient.albuminGlobulinRatio
+                                    : ''}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button
+                    type="button"
+                    className="btn btn-secondary"
+                    onClick={() => this.updateClick()}
+                >
+                    Update
+                </button>
+                <button
+                    type="button"
+                    className="btn btn-danger"
+                    onClick={() => this.deleteClick()}
+                >
+                    Delete
+                </button>
             </div>
         );
     }

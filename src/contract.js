@@ -70,10 +70,11 @@ export default class Contract {
             });
     }
 
-    async addPatient(address, hash, doctorAddress) {
+    async newPatient(address, hash, doctorAddress) {
+        console.log(doctorAddress);
         return await this.ehrInstance.methods
             .newPatient(address, hash)
-            .send({ from: doctorAddress })
+            .send({ from: this.currentUserAddress[0] })
             .then((res) => {
                 console.log(res);
                 window.alert('Patient successfully created');
@@ -87,13 +88,19 @@ export default class Contract {
     async getDoctor(address) {
         return await this.ehrInstance.methods
             .getDoctor(address)
-            .call({ from: this.currentUserAddress[0] });
+            .call({ from: this.currentUserAddress[0] })
+            .catch((err) => {
+                console.log(err);
+            });
     }
 
     async getPatient(address) {
         return await this.ehrInstance.methods
             .getPatient(address)
-            .call({ from: this.currentUserAddress[0] });
+            .call({ from: this.currentUserAddress[0] })
+            .catch((err) => {
+                console.log(err);
+            });
     }
 
     async deletePatient(address) {
