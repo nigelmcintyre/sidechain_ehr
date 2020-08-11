@@ -3979,3 +3979,2585 @@
 11:25:47.739597 table@remove removed @1153
 11:25:47.739660 table@remove removed @1152
 11:25:47.739749 table@remove removed @1151
+=============== Aug 11, 2020 (BST) ===============
+20:42:41.885100 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:42:41.886569 version@stat F·[1 1] S·186KiB[184B 186KiB] Sc·[0.25 0.00]
+20:42:41.886579 db@open opening
+20:42:41.886619 journal@recovery F·1
+20:42:41.886998 journal@recovery recovering @116
+20:42:41.887469 version@stat F·[1 1] S·186KiB[184B 186KiB] Sc·[0.25 0.00]
+20:42:41.897271 db@janitor F·4 G·0
+20:42:41.897301 db@open done T·10.714539ms
+20:43:16.199373 transaction@flush created L0@1160 N·7 S·501B "bf\x00..\x018\f,v3670":"١\a..-U:,v3664"
+20:43:16.199469 version@stat F·[2 1] S·187KiB[685B 186KiB] Sc·[0.50 0.00]
+20:43:16.212088 transaction@flush created L0@1161 N·1 S·184B "txr..\xc2\xe9\xd4,v3671":"txr..\xc2\xe9\xd4,v3671"
+20:43:16.212227 version@stat F·[3 1] S·187KiB[869B 186KiB] Sc·[0.75 0.00]
+20:43:19.300448 transaction@flush created L0@1162 N·7 S·477B "bf\x00..\x018\x0f,v3678":"\x91\xddM..\xfa\xcb\xf3,v3672"
+20:43:19.300510 version@stat F·[4 1] S·187KiB[1KiB 186KiB] Sc·[1.00 0.00]
+20:43:19.306855 table@compaction L0·4 -> L1·1 S·187KiB Q·3678
+20:43:19.314349 transaction@flush created L0@1164 N·1 S·184B "txr..T\xbb/,v3679":"txr..T\xbb/,v3679"
+20:43:19.314426 version@stat F·[5 1] S·187KiB[1KiB 186KiB] Sc·[1.25 0.00]
+20:43:19.317806 table@build created L1@1163 N·1842 S·186KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:43:19.324208 version@stat F·[1 1] S·186KiB[184B 186KiB] Sc·[0.25 0.00]
+20:43:19.330638 table@compaction committed F-4 S-1019B Ke·0 D·8 T·23.718861ms
+20:43:19.330807 table@remove removed @1162
+20:43:19.330900 table@remove removed @1161
+20:43:19.330975 table@remove removed @1160
+20:43:19.331042 table@remove removed @1157
+20:43:19.331147 table@remove removed @1156
+20:43:22.420840 transaction@flush created L0@1165 N·7 S·4KiB "Ku\xfc..\xf5\x1dk,v3681":"\x81\xfe_..\x8eG\xec,v3680"
+20:43:22.420926 version@stat F·[2 1] S·191KiB[5KiB 186KiB] Sc·[0.50 0.00]
+20:43:22.435039 transaction@flush created L0@1166 N·1 S·184B "txr..\x0eOt,v3687":"txr..\x0eOt,v3687"
+20:43:22.435074 version@stat F·[3 1] S·192KiB[5KiB 186KiB] Sc·[0.75 0.00]
+20:43:25.536062 transaction@flush created L0@1167 N·7 S·4KiB "\x1fF\xf4..\x8b\xa3\xfe,v3689":"th\x00..\x018\x15,v3693"
+20:43:25.536145 version@stat F·[4 1] S·196KiB[10KiB 186KiB] Sc·[1.00 0.00]
+20:43:25.542644 table@compaction L0·4 -> L1·1 S·196KiB Q·3694
+20:43:25.550616 transaction@flush created L0@1169 N·1 S·184B "txr.._\x80\x01,v3695":"txr.._\x80\x01,v3695"
+20:43:25.550744 version@stat F·[5 1] S·197KiB[10KiB 186KiB] Sc·[1.25 0.00]
+20:43:25.553891 table@build created L1@1168 N·1850 S·191KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:43:25.559959 version@stat F·[1 1] S·192KiB[184B 191KiB] Sc·[0.25 0.00]
+20:43:25.566240 table@compaction committed F-4 S-5KiB Ke·0 D·8 T·23.500749ms
+20:43:25.566399 table@remove removed @1167
+20:43:25.566440 table@remove removed @1166
+20:43:25.566474 table@remove removed @1165
+20:43:25.566508 table@remove removed @1164
+20:43:25.566565 table@remove removed @1163
+20:53:06.262816 transaction@flush created L0@1170 N·7 S·934B "\x1fF\xf4..\x8b\xa3\xfe,v3696":"th\x00..\x01:D,v3701"
+20:53:06.262842 version@stat F·[2 1] S·192KiB[1KiB 191KiB] Sc·[0.50 0.00]
+20:53:06.277785 transaction@flush created L0@1171 N·1 S·184B "txr..\xf9\xfc\b,v3703":"txr..\xf9\xfc\b,v3703"
+20:53:06.277821 version@stat F·[3 1] S·193KiB[1KiB 191KiB] Sc·[0.75 0.00]
+20:53:33.248640 transaction@flush created L0@1172 N·7 S·1KiB "B\xe8G..\u007fDT,v3705":"th\x00..\x01:^,v3709"
+20:53:33.248702 version@stat F·[4 1] S·194KiB[2KiB 191KiB] Sc·[1.00 0.00]
+20:53:33.255251 table@compaction expanding L0+L1 (F·2 S·1KiB)+(F·1 S·191KiB) -> (F·4 S·2KiB)+(F·1 S·191KiB)
+20:53:33.255302 table@compaction L0·4 -> L1·1 S·194KiB Q·3710
+20:53:33.262874 table@build created L1@1173 N·1858 S·193KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:53:33.262958 version@stat F·[0 1] S·193KiB[0B 193KiB] Sc·[0.00 0.00]
+20:53:33.265161 transaction@flush created L0@1174 N·1 S·184B "txr..d\xaf\xc8,v3711":"txr..d\xaf\xc8,v3711"
+20:53:33.273044 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·17.680222ms
+20:53:33.273399 table@remove removed @1172
+20:53:33.273174 version@stat F·[1 1] S·193KiB[184B 193KiB] Sc·[0.25 0.00]
+20:53:33.274144 table@remove removed @1171
+20:53:33.274397 table@remove removed @1170
+20:53:33.274520 table@remove removed @1169
+20:53:33.274748 table@remove removed @1168
+20:53:40.512768 transaction@flush created L0@1175 N·7 S·1KiB "B\xe8G..\u007fDT,v3712":"\xc2\xfe\xf1..s\x17\xfd,v3713"
+20:53:40.512836 version@stat F·[2 1] S·194KiB[1KiB 193KiB] Sc·[0.50 0.00]
+20:53:40.533089 transaction@flush created L0@1176 N·1 S·184B "txr..\x99\xc6\x1f,v3719":"txr..\x99\xc6\x1f,v3719"
+20:53:40.533171 version@stat F·[3 1] S·194KiB[1KiB 193KiB] Sc·[0.75 0.00]
+20:53:52.964687 transaction@flush created L0@1177 N·7 S·1KiB "bf\x00..\x01:q,v3726":"\xc2\xfe\xf1..s\x17\xfd,v3720"
+20:53:52.964725 version@stat F·[4 1] S·195KiB[2KiB 193KiB] Sc·[1.00 0.00]
+20:53:52.971046 table@compaction L0·4 -> L1·1 S·195KiB Q·3726
+20:53:52.977180 table@build created L1@1178 N·1866 S·194KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:53:52.977318 version@stat F·[0 1] S·194KiB[0B 194KiB] Sc·[0.00 0.00]
+20:53:52.980149 transaction@flush created L0@1179 N·1 S·184B "txr..\x8fFe,v3727":"txr..\x8fFe,v3727"
+20:53:52.992227 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.118301ms
+20:53:52.992431 table@remove removed @1177
+20:53:52.992529 table@remove removed @1176
+20:53:52.992657 table@remove removed @1175
+20:53:52.992771 table@remove removed @1174
+20:53:52.992924 table@remove removed @1173
+20:53:52.992996 version@stat F·[1 1] S·194KiB[184B 194KiB] Sc·[0.25 0.00]
+20:54:00.243025 transaction@flush created L0@1180 N·7 S·1KiB "bf\x00..\x01:x,v3734":"\xf3\\C..;\x00\xfb,v3729"
+20:54:00.243104 version@stat F·[2 1] S·195KiB[1KiB 194KiB] Sc·[0.50 0.00]
+20:54:00.258636 transaction@flush created L0@1181 N·1 S·184B "txr..Y(j,v3735":"txr..Y(j,v3735"
+20:54:00.258727 version@stat F·[3 1] S·195KiB[1KiB 194KiB] Sc·[0.75 0.00]
+20:54:10.702136 transaction@flush created L0@1182 N·7 S·1KiB "bf\x00..\x01:\x82,v3742":"\xf3\\C..;\x00\xfb,v3736"
+20:54:10.702215 version@stat F·[4 1] S·196KiB[2KiB 194KiB] Sc·[1.00 0.00]
+20:54:10.705511 table@compaction L0·4 -> L1·1 S·196KiB Q·3742
+20:54:10.714038 transaction@flush created L0@1184 N·1 S·184B "txr..:v\xbf,v3743":"txr..:v\xbf,v3743"
+20:54:10.714152 version@stat F·[5 1] S·196KiB[2KiB 194KiB] Sc·[1.25 0.00]
+20:54:10.717220 table@build created L1@1183 N·1874 S·194KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:54:10.723995 version@stat F·[1 1] S·195KiB[184B 194KiB] Sc·[0.25 0.00]
+20:54:10.730762 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·25.167624ms
+20:54:10.730953 table@remove removed @1182
+20:54:10.731054 table@remove removed @1181
+20:54:10.731152 table@remove removed @1180
+20:54:10.731238 table@remove removed @1179
+20:54:10.731408 table@remove removed @1178
+20:54:21.085737 transaction@flush created L0@1185 N·7 S·1KiB "b)p..\x97M\xd5,v3745":"\u007f,\xc9..*<\xdc,v3744"
+20:54:21.085810 version@stat F·[2 1] S·196KiB[1KiB 194KiB] Sc·[0.50 0.00]
+20:54:21.100966 transaction@flush created L0@1186 N·1 S·184B "txr..\x91\xc2[,v3751":"txr..\x91\xc2[,v3751"
+20:54:21.101061 version@stat F·[3 1] S·196KiB[1KiB 194KiB] Sc·[0.75 0.00]
+20:54:28.343828 transaction@flush created L0@1187 N·7 S·1KiB "b)p..\x97M\xd5,v3752":"\xa9\xb8\x0f..t\xbes,v3753"
+20:54:28.343912 version@stat F·[4 1] S·197KiB[2KiB 194KiB] Sc·[1.00 0.00]
+20:54:28.350240 table@compaction L0·4 -> L1·1 S·197KiB Q·3758
+20:54:28.359314 transaction@flush created L0@1189 N·1 S·184B "txr..\xe2\xcap,v3759":"txr..\xe2\xcap,v3759"
+20:54:28.359394 version@stat F·[5 1] S·197KiB[2KiB 194KiB] Sc·[1.25 0.00]
+20:54:28.366206 table@build created L1@1188 N·1882 S·196KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:54:28.366294 version@stat F·[1 1] S·196KiB[184B 196KiB] Sc·[0.25 0.00]
+20:54:28.372409 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·22.086027ms
+20:54:28.372548 table@remove removed @1187
+20:54:28.372608 table@remove removed @1186
+20:54:28.372660 table@remove removed @1185
+20:54:28.372710 table@remove removed @1184
+20:54:28.372817 table@remove removed @1183
+20:54:33.536048 transaction@flush created L0@1190 N·7 S·1KiB "bf\x00..\x01:\x98,v3766":"\xbf\u05f5..\xedh\u007f,v3761"
+20:54:33.536075 version@stat F·[2 1] S·197KiB[1KiB 196KiB] Sc·[0.50 0.00]
+20:54:33.549145 transaction@flush created L0@1191 N·1 S·184B "txr..\xc6\xe0\xe4,v3767":"txr..\xc6\xe0\xe4,v3767"
+20:54:33.549178 version@stat F·[3 1] S·197KiB[1KiB 196KiB] Sc·[0.75 0.00]
+20:54:43.914738 transaction@flush created L0@1192 N·7 S·1KiB "bf\x00..\x01:\xa2,v3774":"\xbf\u05f5..\xedh\u007f,v3768"
+20:54:43.914774 version@stat F·[4 1] S·198KiB[2KiB 196KiB] Sc·[1.00 0.00]
+20:54:43.918131 table@compaction L0·4 -> L1·1 S·198KiB Q·3774
+20:54:43.927365 transaction@flush created L0@1194 N·1 S·184B "txr..1L\xed,v3775":"txr..1L\xed,v3775"
+20:54:43.927446 version@stat F·[5 1] S·199KiB[2KiB 196KiB] Sc·[1.25 0.00]
+20:54:43.930879 table@build created L1@1193 N·1890 S·197KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:54:43.933200 version@stat F·[1 1] S·197KiB[184B 197KiB] Sc·[0.25 0.00]
+20:54:43.939678 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.457557ms
+20:54:43.939867 table@remove removed @1192
+20:54:43.940000 table@remove removed @1191
+20:54:43.940163 table@remove removed @1190
+20:54:43.940281 table@remove removed @1189
+20:54:43.940501 table@remove removed @1188
+20:54:50.133252 transaction@flush created L0@1195 N·7 S·1KiB "bf\x00..\x01:\xa8,v3782":"\xaa\xf5\xd3..\x1d\x9c\xa6,v3776"
+20:54:50.133339 version@stat F·[2 1] S·198KiB[1KiB 197KiB] Sc·[0.50 0.00]
+20:54:50.149143 transaction@flush created L0@1196 N·1 S·184B "txr..\x13\xb6\xbe,v3783":"txr..\x13\xb6\xbe,v3783"
+20:54:50.149230 version@stat F·[3 1] S·198KiB[1KiB 197KiB] Sc·[0.75 0.00]
+20:54:56.370756 transaction@flush created L0@1197 N·7 S·1KiB "bf\x00..\x01:\xae,v3790":"\xb6\xdd]..xya,v3785"
+20:54:56.370833 version@stat F·[4 1] S·199KiB[2KiB 197KiB] Sc·[1.00 0.00]
+20:54:56.374268 table@compaction L0·4 -> L1·1 S·199KiB Q·3790
+20:54:56.383190 transaction@flush created L0@1199 N·1 S·184B "txr..:tb,v3791":"txr..:tb,v3791"
+20:54:56.383283 version@stat F·[5 1] S·200KiB[2KiB 197KiB] Sc·[1.25 0.00]
+20:54:56.386395 table@build created L1@1198 N·1898 S·198KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:54:56.392776 version@stat F·[1 1] S·198KiB[184B 198KiB] Sc·[0.25 0.00]
+20:54:56.399287 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.922784ms
+20:54:56.399439 table@remove removed @1197
+20:54:56.399520 table@remove removed @1196
+20:54:56.399634 table@remove removed @1195
+20:54:56.399705 table@remove removed @1194
+20:54:56.399823 table@remove removed @1193
+20:55:01.566717 transaction@flush created L0@1200 N·7 S·1KiB "&y\x19..\x06\xa8v,v3793":"\xb6\xdd]..xya,v3792"
+20:55:01.566777 version@stat F·[2 1] S·200KiB[1KiB 198KiB] Sc·[0.50 0.00]
+20:55:01.577782 transaction@flush created L0@1201 N·1 S·184B "txr..\xa9\xff\x92,v3799":"txr..\xa9\xff\x92,v3799"
+20:55:01.577913 version@stat F·[3 1] S·200KiB[1KiB 198KiB] Sc·[0.75 0.00]
+20:55:07.810939 transaction@flush created L0@1202 N·7 S·1KiB "\x1fB6...7~,v3801":"th\x00..\x01:\xb9,v3805"
+20:55:07.810992 version@stat F·[4 1] S·201KiB[2KiB 198KiB] Sc·[1.00 0.00]
+20:55:07.814242 table@compaction L0·4 -> L1·1 S·201KiB Q·3806
+20:55:07.821606 transaction@flush created L0@1204 N·1 S·184B "txr..t\xd6\xf5,v3807":"txr..t\xd6\xf5,v3807"
+20:55:07.821648 version@stat F·[5 1] S·201KiB[2KiB 198KiB] Sc·[1.25 0.00]
+20:55:07.824966 table@build created L1@1203 N·1906 S·199KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:55:07.831031 version@stat F·[1 1] S·199KiB[184B 199KiB] Sc·[0.25 0.00]
+20:55:07.837117 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·22.813584ms
+20:55:07.837216 table@remove removed @1202
+20:55:07.837249 table@remove removed @1201
+20:55:07.837278 table@remove removed @1200
+20:55:07.837309 table@remove removed @1199
+20:55:07.837366 table@remove removed @1198
+20:55:13.001334 transaction@flush created L0@1205 N·7 S·1KiB "\x1b\xef\x99..\xdc\x10\xa8,v3809":"th\x00..\x01:\xbe,v3813"
+20:55:13.001408 version@stat F·[2 1] S·200KiB[1KiB 199KiB] Sc·[0.50 0.00]
+20:55:13.016757 transaction@flush created L0@1206 N·1 S·184B "txr..\x94\xea\x1f,v3815":"txr..\x94\xea\x1f,v3815"
+20:55:13.016858 version@stat F·[3 1] S·201KiB[1KiB 199KiB] Sc·[0.75 0.00]
+20:55:24.432741 transaction@flush created L0@1207 N·7 S·1KiB "\x1b\xef\x99..\xdc\x10\xa8,v3816":"th\x00..\x01:\xc9,v3821"
+20:55:24.432820 version@stat F·[4 1] S·202KiB[2KiB 199KiB] Sc·[1.00 0.00]
+20:55:24.439322 table@compaction expanding L0+L1 (F·2 S·2KiB)+(F·1 S·199KiB) -> (F·4 S·2KiB)+(F·1 S·199KiB)
+20:55:24.439390 table@compaction L0·4 -> L1·1 S·202KiB Q·3822
+20:55:24.449249 transaction@flush created L0@1209 N·1 S·184B "txr..\x8e\xca\xd4,v3823":"txr..\x8e\xca\xd4,v3823"
+20:55:24.449313 version@stat F·[5 1] S·202KiB[2KiB 199KiB] Sc·[1.25 0.00]
+20:55:24.452419 table@build created L1@1208 N·1914 S·200KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:55:24.458331 version@stat F·[1 1] S·200KiB[184B 200KiB] Sc·[0.25 0.00]
+20:55:24.464722 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·25.255526ms
+20:55:24.465018 table@remove removed @1207
+20:55:24.465102 table@remove removed @1206
+20:55:24.465194 table@remove removed @1205
+20:55:24.465260 table@remove removed @1204
+20:55:24.465424 table@remove removed @1203
+20:55:30.654086 transaction@flush created L0@1210 N·7 S·1KiB "bf\x00..\x01:\xcf,v3830":"\xc7\xed\xdf..*\xf9\b,v3825"
+20:55:30.654164 version@stat F·[2 1] S·201KiB[1KiB 200KiB] Sc·[0.50 0.00]
+20:55:30.668429 transaction@flush created L0@1211 N·1 S·184B "txr..N\xea\xbd,v3831":"txr..N\xea\xbd,v3831"
+20:55:30.668471 version@stat F·[3 1] S·201KiB[1KiB 200KiB] Sc·[0.75 0.00]
+20:55:35.859030 transaction@flush created L0@1212 N·7 S·1KiB "bf\x00..\x01:\xd4,v3838":"\xc7\xed\xdf..*\xf9\b,v3832"
+20:55:35.859119 version@stat F·[4 1] S·202KiB[2KiB 200KiB] Sc·[1.00 0.00]
+20:55:35.862574 table@compaction L0·4 -> L1·1 S·202KiB Q·3838
+20:55:35.871826 transaction@flush created L0@1214 N·1 S·184B "txr..\xd5\fS,v3839":"txr..\xd5\fS,v3839"
+20:55:35.871953 version@stat F·[5 1] S·202KiB[2KiB 200KiB] Sc·[1.25 0.00]
+20:55:35.874857 table@build created L1@1213 N·1922 S·201KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:55:35.880845 version@stat F·[1 1] S·201KiB[184B 201KiB] Sc·[0.25 0.00]
+20:55:35.887064 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.407459ms
+20:55:35.887226 table@remove removed @1212
+20:55:35.887316 table@remove removed @1211
+20:55:35.887431 table@remove removed @1210
+20:55:35.887524 table@remove removed @1209
+20:55:35.887713 table@remove removed @1208
+20:55:43.106505 transaction@flush created L0@1215 N·7 S·1KiB "6\xbb0..\xefΊ,v3841":"\xc0\r\xd1..\xc2\x17\xa1,v3840"
+20:55:43.106582 version@stat F·[2 1] S·202KiB[1KiB 201KiB] Sc·[0.50 0.00]
+20:55:43.118391 transaction@flush created L0@1216 N·1 S·184B "txr..\xceyB,v3847":"txr..\xceyB,v3847"
+20:55:43.118473 version@stat F·[3 1] S·202KiB[1KiB 201KiB] Sc·[0.75 0.00]
+20:56:03.847038 transaction@flush created L0@1217 N·7 S·1KiB "6\xbb0..\xefΊ,v3848":"th\x00..\x01:\xef,v3853"
+20:56:03.847105 version@stat F·[4 1] S·203KiB[2KiB 201KiB] Sc·[1.00 0.00]
+20:56:03.850488 table@compaction L0·4 -> L1·1 S·203KiB Q·3854
+20:56:03.858485 transaction@flush created L0@1219 N·1 S·184B "txr..,\xf2\xa5,v3855":"txr..,\xf2\xa5,v3855"
+20:56:03.858568 version@stat F·[5 1] S·203KiB[2KiB 201KiB] Sc·[1.25 0.00]
+20:56:03.861779 table@build created L1@1218 N·1930 S·202KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:56:03.867925 version@stat F·[1 1] S·202KiB[184B 202KiB] Sc·[0.25 0.00]
+20:56:03.873872 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·23.297355ms
+20:56:03.874013 table@remove removed @1217
+20:56:03.874086 table@remove removed @1216
+20:56:03.874141 table@remove removed @1215
+20:56:03.874192 table@remove removed @1214
+20:56:03.874294 table@remove removed @1213
+20:56:10.053065 transaction@flush created L0@1220 N·7 S·1KiB "bf\x00..\x01:\xf5,v3862":"\xaa\xb6\x02..n\x94;,v3857"
+20:56:10.053153 version@stat F·[2 1] S·203KiB[1KiB 202KiB] Sc·[0.50 0.00]
+20:56:10.068817 transaction@flush created L0@1221 N·1 S·184B "txr..m\xa8`,v3863":"txr..m\xa8`,v3863"
+20:56:10.068897 version@stat F·[3 1] S·203KiB[1KiB 202KiB] Sc·[0.75 0.00]
+20:56:20.417604 transaction@flush created L0@1222 N·7 S·1KiB "\x00\xa7V..\xaf\xdf0,v3865":"\xaa\xb6\x02..n\x94;,v3864"
+20:56:20.417694 version@stat F·[4 1] S·205KiB[2KiB 202KiB] Sc·[1.00 0.00]
+20:56:20.424172 table@compaction L0·4 -> L1·1 S·205KiB Q·3870
+20:56:20.433495 transaction@flush created L0@1224 N·1 S·184B "txr..\b\xcdR,v3871":"txr..\b\xcdR,v3871"
+20:56:20.433560 version@stat F·[5 1] S·205KiB[2KiB 202KiB] Sc·[1.25 0.00]
+20:56:20.436813 table@build created L1@1223 N·1938 S·203KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:56:20.442426 version@stat F·[1 1] S·203KiB[184B 203KiB] Sc·[0.25 0.00]
+20:56:20.448897 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.639649ms
+20:56:20.449118 table@remove removed @1222
+20:56:20.449186 table@remove removed @1221
+20:56:20.449248 table@remove removed @1220
+20:56:20.449310 table@remove removed @1219
+20:56:20.449432 table@remove removed @1218
+20:56:25.602437 transaction@flush created L0@1225 N·7 S·1KiB "\x00\xa7V..\xaf\xdf0,v3872":"th\x00..\x01;\x04,v3877"
+20:56:25.602495 version@stat F·[2 1] S·204KiB[1KiB 203KiB] Sc·[0.50 0.00]
+20:56:25.613946 transaction@flush created L0@1226 N·1 S·184B "txr..\xef#\x1b,v3879":"txr..\xef#\x1b,v3879"
+20:56:25.614090 version@stat F·[3 1] S·204KiB[1KiB 203KiB] Sc·[0.75 0.00]
+20:56:33.891670 transaction@flush created L0@1227 N·7 S·1KiB "F\xf5d..\x98!\x85,v3880":"\u007f\"0..w~m,v3881"
+20:56:33.891747 version@stat F·[4 1] S·206KiB[2KiB 203KiB] Sc·[1.00 0.00]
+20:56:33.897944 table@compaction L0·4 -> L1·1 S·206KiB Q·3886
+20:56:33.907525 transaction@flush created L0@1229 N·1 S·184B "txr..\x82wp,v3887":"txr..\x82wp,v3887"
+20:56:33.907591 version@stat F·[5 1] S·206KiB[2KiB 203KiB] Sc·[1.25 0.00]
+20:56:33.910694 table@build created L1@1228 N·1946 S·205KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:56:33.916690 version@stat F·[1 1] S·205KiB[184B 205KiB] Sc·[0.25 0.00]
+20:56:33.923008 table@compaction committed F-4 S-843B Ke·0 D·8 T·24.996331ms
+20:56:33.923129 table@remove removed @1227
+20:56:33.923189 table@remove removed @1226
+20:56:33.923243 table@remove removed @1225
+20:56:33.923297 table@remove removed @1224
+20:56:33.923401 table@remove removed @1223
+20:56:40.131496 transaction@flush created L0@1230 N·7 S·1KiB "bf\x00..\x01;\x12,v3894":"\x868\x1e..:\xce\xd1,v3889"
+20:56:40.131570 version@stat F·[2 1] S·206KiB[1KiB 205KiB] Sc·[0.50 0.00]
+20:56:40.143441 transaction@flush created L0@1231 N·1 S·184B "txr..\x99U\xbb,v3895":"txr..\x99U\xbb,v3895"
+20:56:40.143529 version@stat F·[3 1] S·206KiB[1KiB 205KiB] Sc·[0.75 0.00]
+20:56:59.846549 transaction@flush created L0@1232 N·7 S·1KiB "Kâ..\xaaz>,v3897":"\x868\x1e..:\xce\xd1,v3896"
+20:56:59.846628 version@stat F·[4 1] S·207KiB[2KiB 205KiB] Sc·[1.00 0.00]
+20:56:59.852988 table@compaction L0·4 -> L1·1 S·207KiB Q·3902
+20:56:59.865364 transaction@flush created L0@1234 N·1 S·184B "txr..KjG,v3903":"txr..KjG,v3903"
+20:56:59.865438 version@stat F·[5 1] S·207KiB[2KiB 205KiB] Sc·[1.25 0.00]
+20:56:59.868318 table@build created L1@1233 N·1954 S·206KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:56:59.874127 version@stat F·[1 1] S·206KiB[184B 206KiB] Sc·[0.25 0.00]
+20:56:59.881045 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·27.955906ms
+20:56:59.881358 table@remove removed @1232
+20:56:59.881441 table@remove removed @1231
+20:56:59.881505 table@remove removed @1230
+20:56:59.881568 table@remove removed @1229
+20:56:59.881655 table@remove removed @1228
+20:57:11.265054 transaction@flush created L0@1235 N·7 S·1KiB "Kâ..\xaaz>,v3904":"\xb1+Y..Y\xdc ,v3905"
+20:57:11.265123 version@stat F·[2 1] S·207KiB[1KiB 206KiB] Sc·[0.50 0.00]
+20:57:11.279389 transaction@flush created L0@1236 N·1 S·184B "txr..V\xd2_,v3911":"txr..V\xd2_,v3911"
+20:57:11.279445 version@stat F·[3 1] S·207KiB[1KiB 206KiB] Sc·[0.75 0.00]
+20:57:26.845773 transaction@flush created L0@1237 N·7 S·1KiB "bf\x00..\x01;?,v3918":"\xe1tt..4/>,v3913"
+20:57:26.845848 version@stat F·[4 1] S·208KiB[2KiB 206KiB] Sc·[1.00 0.00]
+20:57:26.849109 table@compaction L0·4 -> L1·1 S·208KiB Q·3918
+20:57:26.857362 transaction@flush created L0@1239 N·1 S·184B "txr..\xf6\xd0`,v3919":"txr..\xf6\xd0`,v3919"
+20:57:26.857419 version@stat F·[5 1] S·208KiB[2KiB 206KiB] Sc·[1.25 0.00]
+20:57:26.860358 table@build created L1@1238 N·1962 S·207KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:57:26.866411 version@stat F·[1 1] S·207KiB[184B 207KiB] Sc·[0.25 0.00]
+20:57:26.872612 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·23.434588ms
+20:57:26.872731 table@remove removed @1237
+20:57:26.872776 table@remove removed @1236
+20:57:26.872813 table@remove removed @1235
+20:57:26.872851 table@remove removed @1234
+20:57:26.872927 table@remove removed @1233
+20:57:46.562230 transaction@flush created L0@1240 N·7 S·1KiB "bf\x00..\x01;R,v3926":"\xe1tt..4/>,v3920"
+20:57:46.562257 version@stat F·[2 1] S·208KiB[1KiB 207KiB] Sc·[0.50 0.00]
+20:57:46.575240 transaction@flush created L0@1241 N·1 S·184B "txr..\x8c\xde\\,v3927":"txr..\x8c\xde\\,v3927"
+20:57:46.575286 version@stat F·[3 1] S·208KiB[1KiB 207KiB] Sc·[0.75 0.00]
+20:58:57.160698 transaction@flush created L0@1242 N·7 S·1KiB "bf\x00..\x01;\x96,v3934":"\xdc2\xe6..\xcc\xffq,v3928"
+20:58:57.160756 version@stat F·[4 1] S·209KiB[2KiB 207KiB] Sc·[1.00 0.00]
+20:58:57.166906 table@compaction L0·4 -> L1·1 S·209KiB Q·3934
+20:58:57.174875 transaction@flush created L0@1244 N·1 S·184B "txr..\x99{\xa2,v3935":"txr..\x99{\xa2,v3935"
+20:58:57.174916 version@stat F·[5 1] S·209KiB[2KiB 207KiB] Sc·[1.25 0.00]
+20:58:57.177873 table@build created L1@1243 N·1970 S·208KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:58:57.184091 version@stat F·[1 1] S·208KiB[184B 208KiB] Sc·[0.25 0.00]
+20:58:57.190532 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·23.559056ms
+20:58:57.190728 table@remove removed @1242
+20:58:57.190833 table@remove removed @1241
+20:58:57.190934 table@remove removed @1240
+20:58:57.191036 table@remove removed @1239
+20:58:57.191204 table@remove removed @1238
+20:59:09.631989 transaction@flush created L0@1245 N·7 S·1KiB "bf\x00..\x01;\xa2,v3942":"\xe4g\x06..Hߧ,v3937"
+20:59:09.632044 version@stat F·[2 1] S·209KiB[1KiB 208KiB] Sc·[0.50 0.00]
+20:59:09.645883 transaction@flush created L0@1246 N·1 S·184B "txr..\x89*\f,v3943":"txr..\x89*\f,v3943"
+20:59:09.645934 version@stat F·[3 1] S·209KiB[1KiB 208KiB] Sc·[0.75 0.00]
+20:59:26.233658 transaction@flush created L0@1247 N·7 S·1KiB "bf\x00..\x01;\xb2,v3950":"\xe4g\x06..Hߧ,v3944"
+20:59:26.233741 version@stat F·[4 1] S·210KiB[2KiB 208KiB] Sc·[1.00 0.00]
+20:59:26.240425 table@compaction L0·4 -> L1·1 S·210KiB Q·3950
+20:59:26.248611 transaction@flush created L0@1249 N·1 S·184B "txr..\x81%\xbb,v3951":"txr..\x81%\xbb,v3951"
+20:59:26.248722 version@stat F·[5 1] S·210KiB[2KiB 208KiB] Sc·[1.25 0.00]
+20:59:26.252132 table@build created L1@1248 N·1978 S·209KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+20:59:26.258626 version@stat F·[1 1] S·209KiB[184B 209KiB] Sc·[0.25 0.00]
+20:59:26.265257 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.734522ms
+20:59:26.265690 table@remove removed @1247
+20:59:26.265884 table@remove removed @1246
+20:59:26.266131 table@remove removed @1245
+20:59:26.266308 table@remove removed @1244
+20:59:26.266618 table@remove removed @1243
+20:59:38.674845 transaction@flush created L0@1250 N·7 S·1KiB "D5'..\x01\x9e\x0f,v3953":"\x93\x9e\xc1..\xbd\xe6e,v3952"
+20:59:38.674899 version@stat F·[2 1] S·210KiB[1KiB 209KiB] Sc·[0.50 0.00]
+20:59:38.685637 transaction@flush created L0@1251 N·1 S·184B "txr..\xe8\xce\xff,v3959":"txr..\xe8\xce\xff,v3959"
+20:59:38.685728 version@stat F·[3 1] S·210KiB[1KiB 209KiB] Sc·[0.75 0.00]
+21:00:20.176878 transaction@flush created L0@1252 N·7 S·1KiB "D5'..\x01\x9e\x0f,v3960":"th\x00..\x01;\xe6,v3965"
+21:00:20.176958 version@stat F·[4 1] S·211KiB[2KiB 209KiB] Sc·[1.00 0.00]
+21:00:20.183287 table@compaction L0·4 -> L1·1 S·211KiB Q·3966
+21:00:20.192265 transaction@flush created L0@1254 N·1 S·184B "txr..\x15\xf3\xf1,v3967":"txr..\x15\xf3\xf1,v3967"
+21:00:20.192296 version@stat F·[5 1] S·212KiB[2KiB 209KiB] Sc·[1.25 0.00]
+21:00:20.195583 table@build created L1@1253 N·1986 S·210KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:00:20.201548 version@stat F·[1 1] S·210KiB[184B 210KiB] Sc·[0.25 0.00]
+21:00:20.207708 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.346535ms
+21:00:20.207934 table@remove removed @1252
+21:00:20.208078 table@remove removed @1251
+21:00:20.208311 table@remove removed @1250
+21:00:20.208449 table@remove removed @1249
+21:00:20.208692 table@remove removed @1248
+21:00:27.439396 transaction@flush created L0@1255 N·7 S·1KiB "P\xc6\xc5..\xb31\xb3,v3969":"th\x00..\x01;\xed,v3973"
+21:00:27.439472 version@stat F·[2 1] S·211KiB[1KiB 210KiB] Sc·[0.50 0.00]
+21:00:27.453535 transaction@flush created L0@1256 N·1 S·184B "txr..\xeb\xdc\xe8,v3975":"txr..\xeb\xdc\xe8,v3975"
+21:00:27.453566 version@stat F·[3 1] S·211KiB[1KiB 210KiB] Sc·[0.75 0.00]
+21:00:33.666035 transaction@flush created L0@1257 N·7 S·1KiB "\x14\xbf!..\xc3e\xe6,v3977":"th\x00..\x01;\xf3,v3981"
+21:00:33.666120 version@stat F·[4 1] S·212KiB[2KiB 210KiB] Sc·[1.00 0.00]
+21:00:33.672776 table@compaction expanding L0+L1 (F·2 S·2KiB)+(F·1 S·210KiB) -> (F·4 S·2KiB)+(F·1 S·210KiB)
+21:00:33.672829 table@compaction L0·4 -> L1·1 S·212KiB Q·3982
+21:00:33.681516 transaction@flush created L0@1259 N·1 S·184B "txr..\rO$,v3983":"txr..\rO$,v3983"
+21:00:33.681574 version@stat F·[5 1] S·212KiB[2KiB 210KiB] Sc·[1.25 0.00]
+21:00:33.684825 table@build created L1@1258 N·1994 S·211KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:00:33.684928 version@stat F·[1 1] S·211KiB[184B 211KiB] Sc·[0.25 0.00]
+21:00:33.690952 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·18.077688ms
+21:00:33.691093 table@remove removed @1257
+21:00:33.691160 table@remove removed @1256
+21:00:33.691216 table@remove removed @1255
+21:00:33.691270 table@remove removed @1254
+21:00:33.691380 table@remove removed @1253
+21:00:51.312960 transaction@flush created L0@1260 N·7 S·1KiB "\x14\xbf!..\xc3e\xe6,v3984":"\xa82\xec..Fb\x0f,v3985"
+21:00:51.312985 version@stat F·[2 1] S·212KiB[1KiB 211KiB] Sc·[0.50 0.00]
+21:00:51.326547 transaction@flush created L0@1261 N·1 S·184B "txr..\xbb\xce\xf9,v3991":"txr..\xbb\xce\xf9,v3991"
+21:00:51.326594 version@stat F·[3 1] S·212KiB[1KiB 211KiB] Sc·[0.75 0.00]
+21:00:58.572818 transaction@flush created L0@1262 N·7 S·1KiB "bf\x00..\x01<\v,v3998":"\xa82\xec..Fb\x0f,v3992"
+21:00:58.572870 version@stat F·[4 1] S·213KiB[2KiB 211KiB] Sc·[1.00 0.00]
+21:00:58.578810 table@compaction L0·4 -> L1·1 S·213KiB Q·3998
+21:00:58.589361 transaction@flush created L0@1264 N·1 S·184B "txr..EH\xfc,v3999":"txr..EH\xfc,v3999"
+21:00:58.589468 version@stat F·[5 1] S·213KiB[2KiB 211KiB] Sc·[1.25 0.00]
+21:00:58.595321 table@build created L1@1263 N·2002 S·212KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:00:58.601440 version@stat F·[1 1] S·213KiB[184B 212KiB] Sc·[0.25 0.00]
+21:00:58.608015 table@compaction committed F-4 S-740B Ke·0 D·8 T·29.157986ms
+21:00:58.608137 table@remove removed @1262
+21:00:58.608206 table@remove removed @1261
+21:00:58.608267 table@remove removed @1260
+21:00:58.608306 table@remove removed @1259
+21:00:58.608384 table@remove removed @1258
+21:01:04.803386 transaction@flush created L0@1265 N·7 S·1KiB "bf\x00..\x01<\x11,v4006":"\x8c\v\xe0..\x1e\x1d*,v4001"
+21:01:04.803437 version@stat F·[2 1] S·214KiB[1KiB 212KiB] Sc·[0.50 0.00]
+21:01:04.816642 transaction@flush created L0@1266 N·1 S·184B "txr..;6$,v4007":"txr..;6$,v4007"
+21:01:04.816693 version@stat F·[3 1] S·214KiB[1KiB 212KiB] Sc·[0.75 0.00]
+21:01:09.992028 transaction@flush created L0@1267 N·7 S·1KiB "bf\x00..\x01<\x16,v4014":"\x9e\x92`..\x8d~\x88,v4009"
+21:01:09.992083 version@stat F·[4 1] S·215KiB[2KiB 212KiB] Sc·[1.00 0.00]
+21:01:09.998539 table@compaction L0·4 -> L1·1 S·215KiB Q·4014
+21:01:10.008071 transaction@flush created L0@1269 N·1 S·184B "txr..v=:,v4015":"txr..v=:,v4015"
+21:01:10.008145 version@stat F·[5 1] S·215KiB[2KiB 212KiB] Sc·[1.25 0.00]
+21:01:10.011199 table@build created L1@1268 N·2010 S·213KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:01:10.017351 version@stat F·[1 1] S·213KiB[184B 213KiB] Sc·[0.25 0.00]
+21:01:10.023961 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·25.344474ms
+21:01:10.024076 table@remove removed @1267
+21:01:10.024133 table@remove removed @1266
+21:01:10.024175 table@remove removed @1265
+21:01:10.024219 table@remove removed @1264
+21:01:10.024290 table@remove removed @1263
+21:01:17.249250 transaction@flush created L0@1270 N·7 S·1KiB "UQ\xe1..-\x9d\xa9,v4017":"\x9e\x92`..\x8d~\x88,v4016"
+21:01:17.249278 version@stat F·[2 1] S·214KiB[1KiB 213KiB] Sc·[0.50 0.00]
+21:01:17.263200 transaction@flush created L0@1271 N·1 S·184B "txr..}7\x83,v4023":"txr..}7\x83,v4023"
+21:01:17.263235 version@stat F·[3 1] S·214KiB[1KiB 213KiB] Sc·[0.75 0.00]
+21:01:24.531539 transaction@flush created L0@1272 N·7 S·1KiB "UQ\xe1..-\x9d\xa9,v4024":"\x95Q\x1a..\xc8\xea?,v4025"
+21:01:24.531624 version@stat F·[4 1] S·215KiB[2KiB 213KiB] Sc·[1.00 0.00]
+21:01:24.534953 table@compaction L0·4 -> L1·1 S·215KiB Q·4030
+21:01:24.543218 transaction@flush created L0@1274 N·1 S·184B "txr..\x00\x04\xa0,v4031":"txr..\x00\x04\xa0,v4031"
+21:01:24.543255 version@stat F·[5 1] S·216KiB[2KiB 213KiB] Sc·[1.25 0.00]
+21:01:24.546471 table@build created L1@1273 N·2018 S·214KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:01:24.552429 version@stat F·[1 1] S·214KiB[184B 214KiB] Sc·[0.25 0.00]
+21:01:24.558816 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·23.769881ms
+21:01:24.559098 table@remove removed @1272
+21:01:24.559183 table@remove removed @1271
+21:01:24.559243 table@remove removed @1270
+21:01:24.559303 table@remove removed @1269
+21:01:24.559440 table@remove removed @1268
+21:01:33.879091 transaction@flush created L0@1275 N·7 S·1KiB "P\x818..UNE,v4033":"\x95Q\x1a..\xc8\xea?,v4032"
+21:01:33.879158 version@stat F·[2 1] S·215KiB[1KiB 214KiB] Sc·[0.50 0.00]
+21:01:33.890732 transaction@flush created L0@1276 N·1 S·184B "txr..\x8dz_,v4039":"txr..\x8dz_,v4039"
+21:01:33.890835 version@stat F·[3 1] S·215KiB[1KiB 214KiB] Sc·[0.75 0.00]
+21:02:08.124148 transaction@flush created L0@1277 N·7 S·1KiB ",\xf7\x02..\xc3S^,v4041":"th\x00..\x01<N,v4045"
+21:02:08.124197 version@stat F·[4 1] S·217KiB[2KiB 214KiB] Sc·[1.00 0.00]
+21:02:08.133157 table@compaction L0·4 -> L1·1 S·217KiB Q·4046
+21:02:08.145564 table@build created L1@1278 N·2026 S·215KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:02:08.145630 version@stat F·[0 1] S·215KiB[0B 215KiB] Sc·[0.00 0.00]
+21:02:08.148490 transaction@flush created L0@1279 N·1 S·184B "txr..\xad\x0f\xb9,v4047":"txr..\xad\x0f\xb9,v4047"
+21:02:08.154838 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.610896ms
+21:02:08.155127 table@remove removed @1277
+21:02:08.155220 table@remove removed @1276
+21:02:08.154954 version@stat F·[1 1] S·215KiB[184B 215KiB] Sc·[0.25 0.00]
+21:02:08.155415 table@remove removed @1275
+21:02:08.155572 table@remove removed @1274
+21:02:08.155714 table@remove removed @1273
+21:02:15.381477 transaction@flush created L0@1280 N·7 S·1KiB ",\xf7\x02..\xc3S^,v4048":"th\x00..\x01<U,v4053"
+21:02:15.381546 version@stat F·[2 1] S·216KiB[1KiB 215KiB] Sc·[0.50 0.00]
+21:02:15.396795 transaction@flush created L0@1281 N·1 S·184B "txr..<\xc4\xf3,v4055":"txr..<\xc4\xf3,v4055"
+21:02:15.396874 version@stat F·[3 1] S·216KiB[1KiB 215KiB] Sc·[0.75 0.00]
+21:02:57.938389 transaction@flush created L0@1282 N·7 S·1KiB "P\xf9\x02..\xc3v\xf4,v4056":"th\x00..\x01<~,v4061"
+21:02:57.938450 version@stat F·[4 1] S·217KiB[2KiB 215KiB] Sc·[1.00 0.00]
+21:02:57.941751 table@compaction expanding L0+L1 (F·2 S·2KiB)+(F·1 S·215KiB) -> (F·4 S·2KiB)+(F·1 S·215KiB)
+21:02:57.941785 table@compaction L0·4 -> L1·1 S·217KiB Q·4062
+21:02:57.948959 table@build created L1@1283 N·2034 S·216KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:02:57.949034 version@stat F·[0 1] S·216KiB[0B 216KiB] Sc·[0.00 0.00]
+21:02:57.951969 transaction@flush created L0@1284 N·1 S·184B "txr..e\x89\x87,v4063":"txr..e\x89\x87,v4063"
+21:02:57.958256 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·16.434765ms
+21:02:57.958420 table@remove removed @1282
+21:02:57.958492 table@remove removed @1281
+21:02:57.958570 table@remove removed @1280
+21:02:57.958633 table@remove removed @1279
+21:02:57.958765 table@remove removed @1278
+21:02:57.958822 version@stat F·[1 1] S·216KiB[184B 216KiB] Sc·[0.25 0.00]
+21:03:24.936225 transaction@flush created L0@1285 N·7 S·1KiB "\t\x85<..\x9b<\xff,v4065":"th\x00..\x01<\x98,v4069"
+21:03:24.936304 version@stat F·[2 1] S·217KiB[1KiB 216KiB] Sc·[0.50 0.00]
+21:03:24.951543 transaction@flush created L0@1286 N·1 S·184B "txr..\x977S,v4071":"txr..\x977S,v4071"
+21:03:24.951606 version@stat F·[3 1] S·217KiB[1KiB 216KiB] Sc·[0.75 0.00]
+21:03:33.228829 transaction@flush created L0@1287 N·7 S·1KiB "\t\x85<..\x9b<\xff,v4072":"th\x00..\x01<\xa0,v4077"
+21:03:33.228914 version@stat F·[4 1] S·218KiB[2KiB 216KiB] Sc·[1.00 0.00]
+21:03:33.235412 table@compaction expanding L0+L1 (F·1 S·184B)+(F·1 S·216KiB) -> (F·4 S·2KiB)+(F·1 S·216KiB)
+21:03:33.235474 table@compaction L0·4 -> L1·1 S·218KiB Q·4078
+21:03:33.244162 transaction@flush created L0@1289 N·1 S·184B "txr..o\xf9H,v4079":"txr..o\xf9H,v4079"
+21:03:33.244228 version@stat F·[5 1] S·218KiB[2KiB 216KiB] Sc·[1.25 0.00]
+21:03:33.250693 table@build created L1@1288 N·2042 S·217KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:03:33.250757 version@stat F·[1 1] S·217KiB[184B 217KiB] Sc·[0.25 0.00]
+21:03:33.256713 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.203314ms
+21:03:33.256874 table@remove removed @1287
+21:03:33.256953 table@remove removed @1286
+21:03:33.257017 table@remove removed @1285
+21:03:33.257067 table@remove removed @1284
+21:03:33.257187 table@remove removed @1283
+21:03:43.625608 transaction@flush created L0@1290 N·7 S·1KiB "(@J..K\x02\x12,v4080":"th\x00..\x01<\xaa,v4085"
+21:03:43.625645 version@stat F·[2 1] S·218KiB[1KiB 217KiB] Sc·[0.50 0.00]
+21:03:43.640859 transaction@flush created L0@1291 N·1 S·184B "txr..5\r\x0e,v4087":"txr..5\r\x0e,v4087"
+21:03:43.640973 version@stat F·[3 1] S·219KiB[1KiB 217KiB] Sc·[0.75 0.00]
+21:03:56.088882 transaction@flush created L0@1292 N·7 S·1KiB "bf\x00..\x01<\xb6,v4094":"\xff\x93\xa9..G\xac\xfa,v4089"
+21:03:56.089089 version@stat F·[4 1] S·220KiB[2KiB 217KiB] Sc·[1.00 0.00]
+21:03:56.095773 table@compaction L0·4 -> L1·1 S·220KiB Q·4094
+21:03:56.106161 transaction@flush created L0@1294 N·1 S·184B "txr..M!w,v4095":"txr..M!w,v4095"
+21:03:56.106311 version@stat F·[5 1] S·220KiB[2KiB 217KiB] Sc·[1.25 0.00]
+21:03:56.109369 table@build created L1@1293 N·2050 S·219KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:03:56.116216 version@stat F·[1 1] S·219KiB[184B 219KiB] Sc·[0.25 0.00]
+21:03:56.121817 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·25.86489ms
+21:03:56.122184 table@remove removed @1292
+21:03:56.122369 table@remove removed @1291
+21:03:56.122461 table@remove removed @1290
+21:03:56.122558 table@remove removed @1289
+21:03:56.122755 table@remove removed @1288
+21:04:02.338506 transaction@flush created L0@1295 N·7 S·1KiB "bf\x00..\x01<\xbc,v4102":"\xff\x93\xa9..G\xac\xfa,v4096"
+21:04:02.338612 version@stat F·[2 1] S·220KiB[1KiB 219KiB] Sc·[0.50 0.00]
+21:04:02.349754 transaction@flush created L0@1296 N·1 S·184B "txr..\r\x04\f,v4103":"txr..\r\x04\f,v4103"
+21:04:02.349806 version@stat F·[3 1] S·220KiB[1KiB 219KiB] Sc·[0.75 0.00]
+21:04:27.217165 transaction@flush created L0@1297 N·7 S·1KiB "bf\x00..\x01<\xd4,v4110":"\x8c\xaa\"..V\xbf\xa5,v4105"
+21:04:27.217186 version@stat F·[4 1] S·221KiB[2KiB 219KiB] Sc·[1.00 0.00]
+21:04:27.223587 table@compaction L0·4 -> L1·1 S·221KiB Q·4110
+21:04:27.232692 transaction@flush created L0@1299 N·1 S·184B "txr..\xfa\x05\x86,v4111":"txr..\xfa\x05\x86,v4111"
+21:04:27.232727 version@stat F·[5 1] S·221KiB[2KiB 219KiB] Sc·[1.25 0.00]
+21:04:27.235765 table@build created L1@1298 N·2058 S·220KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:04:27.242031 version@stat F·[1 1] S·220KiB[184B 220KiB] Sc·[0.25 0.00]
+21:04:27.248312 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.651968ms
+21:04:27.248404 table@remove removed @1297
+21:04:27.248451 table@remove removed @1296
+21:04:27.248490 table@remove removed @1295
+21:04:27.248534 table@remove removed @1294
+21:04:27.248602 table@remove removed @1293
+21:04:33.453292 transaction@flush created L0@1300 N·7 S·1KiB "bf\x00..\x01<\xda,v4118":"\x96@\t..\xb2\xa7\xc3,v4113"
+21:04:33.453370 version@stat F·[2 1] S·221KiB[1KiB 220KiB] Sc·[0.50 0.00]
+21:04:33.469015 transaction@flush created L0@1301 N·1 S·184B "txr..\xf0E\x8b,v4119":"txr..\xf0E\x8b,v4119"
+21:04:33.469127 version@stat F·[3 1] S·221KiB[1KiB 220KiB] Sc·[0.75 0.00]
+21:04:40.715054 transaction@flush created L0@1302 N·7 S·1KiB "I\xa3&..\xc4`1,v4121":"\x96@\t..\xb2\xa7\xc3,v4120"
+21:04:40.715129 version@stat F·[4 1] S·222KiB[2KiB 220KiB] Sc·[1.00 0.00]
+21:04:40.718440 table@compaction L0·4 -> L1·1 S·222KiB Q·4126
+21:04:40.726788 transaction@flush created L0@1304 N·1 S·184B "txr..\x83W\xeb,v4127":"txr..\x83W\xeb,v4127"
+21:04:40.726852 version@stat F·[5 1] S·222KiB[2KiB 220KiB] Sc·[1.25 0.00]
+21:04:40.733672 table@build created L1@1303 N·2066 S·220KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:04:40.733838 version@stat F·[1 1] S·221KiB[184B 220KiB] Sc·[0.25 0.00]
+21:04:40.740492 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.91962ms
+21:04:40.740890 table@remove removed @1302
+21:04:40.741016 table@remove removed @1301
+21:04:40.741113 table@remove removed @1300
+21:04:40.741193 table@remove removed @1299
+21:04:40.741406 table@remove removed @1298
+21:04:45.896848 transaction@flush created L0@1305 N·7 S·1KiB "7\x00\x8f..!/n,v4129":"th\x00..\x01<\xe6,v4133"
+21:04:45.896938 version@stat F·[2 1] S·222KiB[1KiB 220KiB] Sc·[0.50 0.00]
+21:04:45.912860 transaction@flush created L0@1306 N·1 S·184B "txr..\xdb\x11\xf9,v4135":"txr..\xdb\x11\xf9,v4135"
+21:04:45.912948 version@stat F·[3 1] S·222KiB[1KiB 220KiB] Sc·[0.75 0.00]
+21:04:52.117342 transaction@flush created L0@1307 N·7 S·1KiB "\x00Z\xa2..\xd0MT,v4137":"th\x00..\x01<\xec,v4141"
+21:04:52.117403 version@stat F·[4 1] S·223KiB[2KiB 220KiB] Sc·[1.00 0.00]
+21:04:52.123696 table@compaction expanding L0+L1 (F·2 S·2KiB)+(F·1 S·220KiB) -> (F·4 S·2KiB)+(F·1 S·220KiB)
+21:04:52.123761 table@compaction L0·4 -> L1·1 S·223KiB Q·4142
+21:04:52.132654 transaction@flush created L0@1309 N·1 S·184B "txr..\xab\x195,v4143":"txr..\xab\x195,v4143"
+21:04:52.132752 version@stat F·[5 1] S·223KiB[2KiB 220KiB] Sc·[1.25 0.00]
+21:04:52.139505 table@build created L1@1308 N·2074 S·221KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:04:52.139625 version@stat F·[1 1] S·221KiB[184B 221KiB] Sc·[0.25 0.00]
+21:04:52.145820 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·22.009835ms
+21:04:52.145956 table@remove removed @1307
+21:04:52.146002 table@remove removed @1306
+21:04:52.146053 table@remove removed @1305
+21:04:52.146099 table@remove removed @1304
+21:04:52.146178 table@remove removed @1303
+21:05:00.441710 transaction@flush created L0@1310 N·7 S·1KiB "\x00Z\xa2..\xd0MT,v4144":"th\x00..\x01<\xf4,v4149"
+21:05:00.441823 version@stat F·[2 1] S·222KiB[1KiB 221KiB] Sc·[0.50 0.00]
+21:05:00.456913 transaction@flush created L0@1311 N·1 S·184B "txr.. \xb3\xac,v4151":"txr.. \xb3\xac,v4151"
+21:05:00.457042 version@stat F·[3 1] S·223KiB[1KiB 221KiB] Sc·[0.75 0.00]
+21:05:06.664311 transaction@flush created L0@1312 N·7 S·1KiB "\x10qV..\x91U\xfe,v4152":"\xd6V\xf1..+^\x82,v4153"
+21:05:06.664387 version@stat F·[4 1] S·224KiB[2KiB 221KiB] Sc·[1.00 0.00]
+21:05:06.670902 table@compaction L0·4 -> L1·1 S·224KiB Q·4158
+21:05:06.680305 transaction@flush created L0@1314 N·1 S·184B "txr..\bs\x8e,v4159":"txr..\bs\x8e,v4159"
+21:05:06.680382 version@stat F·[5 1] S·224KiB[2KiB 221KiB] Sc·[1.25 0.00]
+21:05:06.690193 table@build created L1@1313 N·2082 S·223KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:05:06.690498 version@stat F·[1 1] S·223KiB[184B 223KiB] Sc·[0.25 0.00]
+21:05:06.698873 table@compaction committed F-4 S-896B Ke·0 D·8 T·27.857297ms
+21:05:06.698986 table@remove removed @1312
+21:05:06.699042 table@remove removed @1311
+21:05:06.699101 table@remove removed @1310
+21:05:06.699153 table@remove removed @1309
+21:05:06.699256 table@remove removed @1308
+21:05:12.906504 transaction@flush created L0@1315 N·7 S·1KiB "7\x88\xbe..\x9c\x00\x19,v4161":"\xd6V\xf1..+^\x82,v4160"
+21:05:12.906584 version@stat F·[2 1] S·224KiB[1KiB 223KiB] Sc·[0.50 0.00]
+21:05:12.918356 transaction@flush created L0@1316 N·1 S·184B "txr..e\x8d\x8f,v4167":"txr..e\x8d\x8f,v4167"
+21:05:12.918431 version@stat F·[3 1] S·224KiB[1KiB 223KiB] Sc·[0.75 0.00]
+21:05:23.281714 transaction@flush created L0@1317 N·7 S·1KiB "7\x88\xbe..\x9c\x00\x19,v4168":"ߠ\a..\xb7\f\xb2,v4169"
+21:05:23.281792 version@stat F·[4 1] S·225KiB[2KiB 223KiB] Sc·[1.00 0.00]
+21:05:23.288137 table@compaction L0·4 -> L1·1 S·225KiB Q·4174
+21:05:23.296910 transaction@flush created L0@1319 N·1 S·184B "txr..\x89\x82\xf3,v4175":"txr..\x89\x82\xf3,v4175"
+21:05:23.296969 version@stat F·[5 1] S·225KiB[2KiB 223KiB] Sc·[1.25 0.00]
+21:05:23.303783 table@build created L1@1318 N·2090 S·224KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:05:23.303947 version@stat F·[1 1] S·224KiB[184B 224KiB] Sc·[0.25 0.00]
+21:05:23.310525 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·22.311325ms
+21:05:23.310725 table@remove removed @1317
+21:05:23.310835 table@remove removed @1316
+21:05:23.310907 table@remove removed @1315
+21:05:23.310967 table@remove removed @1314
+21:05:23.311076 table@remove removed @1313
+21:05:35.734019 transaction@flush created L0@1320 N·7 S·1KiB "bf\x00..\x01=\x16,v4182":"ߠ\a..\xb7\f\xb2,v4176"
+21:05:35.734102 version@stat F·[2 1] S·225KiB[1KiB 224KiB] Sc·[0.50 0.00]
+21:05:35.745840 transaction@flush created L0@1321 N·1 S·184B "txr..DD<,v4183":"txr..DD<,v4183"
+21:05:35.745919 version@stat F·[3 1] S·225KiB[1KiB 224KiB] Sc·[0.75 0.00]
+21:05:43.001680 transaction@flush created L0@1322 N·7 S·1KiB "bf\x00..\x01=\x1d,v4190":"\x82\xa0P..\xdc\x04:,v4185"
+21:05:43.001760 version@stat F·[4 1] S·226KiB[2KiB 224KiB] Sc·[1.00 0.00]
+21:05:43.008286 table@compaction L0·4 -> L1·1 S·226KiB Q·4190
+21:05:43.017165 transaction@flush created L0@1324 N·1 S·184B "txr..\x9c\xd9A,v4191":"txr..\x9c\xd9A,v4191"
+21:05:43.017198 version@stat F·[5 1] S·226KiB[2KiB 224KiB] Sc·[1.25 0.00]
+21:05:43.020442 table@build created L1@1323 N·2098 S·225KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:05:43.026782 version@stat F·[1 1] S·225KiB[184B 225KiB] Sc·[0.25 0.00]
+21:05:43.033631 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·25.275708ms
+21:05:43.033756 table@remove removed @1322
+21:05:43.033792 table@remove removed @1321
+21:05:43.033821 table@remove removed @1320
+21:05:43.033850 table@remove removed @1319
+21:05:43.033911 table@remove removed @1318
+21:05:49.222742 transaction@flush created L0@1325 N·7 S·1KiB "bf\x00..\x01=#,v4198":"\x9dz\x9b..y\x8b\x9d,v4193"
+21:05:49.222817 version@stat F·[2 1] S·226KiB[1KiB 225KiB] Sc·[0.50 0.00]
+21:05:49.234686 transaction@flush created L0@1326 N·1 S·184B "txr..%\xd4L,v4199":"txr..%\xd4L,v4199"
+21:05:49.234777 version@stat F·[3 1] S·227KiB[1KiB 225KiB] Sc·[0.75 0.00]
+21:05:55.450673 transaction@flush created L0@1327 N·7 S·1KiB "bf\x00..\x01=),v4206":"\xefeK..\xbe\xa9\x96,v4201"
+21:05:55.450766 version@stat F·[4 1] S·228KiB[2KiB 225KiB] Sc·[1.00 0.00]
+21:05:55.454224 table@compaction L0·4 -> L1·1 S·228KiB Q·4206
+21:05:55.463055 transaction@flush created L0@1329 N·1 S·184B "txr..\x8dC\xc2,v4207":"txr..\x8dC\xc2,v4207"
+21:05:55.463087 version@stat F·[5 1] S·228KiB[2KiB 225KiB] Sc·[1.25 0.00]
+21:05:55.466242 table@build created L1@1328 N·2106 S·226KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:05:55.472668 version@stat F·[1 1] S·226KiB[184B 226KiB] Sc·[0.25 0.00]
+21:05:55.479622 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·25.298495ms
+21:05:55.479909 table@remove removed @1327
+21:05:55.480062 table@remove removed @1326
+21:05:55.480234 table@remove removed @1325
+21:05:55.480344 table@remove removed @1324
+21:05:55.480570 table@remove removed @1323
+21:06:01.694614 transaction@flush created L0@1330 N·7 S·1KiB "bf\x00..\x01=/,v4214":"\xefeK..\xbe\xa9\x96,v4208"
+21:06:01.694752 version@stat F·[2 1] S·227KiB[1KiB 226KiB] Sc·[0.50 0.00]
+21:06:01.706737 transaction@flush created L0@1331 N·1 S·184B "txr..@f\xa8,v4215":"txr..@f\xa8,v4215"
+21:06:01.706872 version@stat F·[3 1] S·227KiB[1KiB 226KiB] Sc·[0.75 0.00]
+21:06:15.185460 transaction@flush created L0@1332 N·7 S·1KiB "\x15<\v..\x1bH\x97,v4217":"\x85'\xf3..\x83\xbb\x16,v4216"
+21:06:15.185523 version@stat F·[4 1] S·229KiB[2KiB 226KiB] Sc·[1.00 0.00]
+21:06:15.188732 table@compaction L0·4 -> L1·1 S·229KiB Q·4222
+21:06:15.201377 table@build created L1@1333 N·2114 S·227KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:06:15.201439 version@stat F·[0 1] S·227KiB[0B 227KiB] Sc·[0.00 0.00]
+21:06:15.204396 transaction@flush created L0@1334 N·1 S·184B "txr..]!>,v4223":"txr..]!>,v4223"
+21:06:15.210743 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.958422ms
+21:06:15.210770 version@stat F·[1 1] S·227KiB[184B 227KiB] Sc·[0.25 0.00]
+21:06:15.210937 table@remove removed @1332
+21:06:15.210974 table@remove removed @1331
+21:06:15.211009 table@remove removed @1330
+21:06:15.211036 table@remove removed @1329
+21:06:15.211102 table@remove removed @1328
+21:06:21.416809 transaction@flush created L0@1335 N·7 S·1KiB "\x15<\v..\x1bH\x97,v4224":"\xcb3\x89..-̸,v4225"
+21:06:21.416889 version@stat F·[2 1] S·228KiB[1KiB 227KiB] Sc·[0.50 0.00]
+21:06:21.432451 transaction@flush created L0@1336 N·1 S·184B "txr..\xce9\x17,v4231":"txr..\xce9\x17,v4231"
+21:06:21.432544 version@stat F·[3 1] S·229KiB[1KiB 227KiB] Sc·[0.75 0.00]
+21:06:31.787368 transaction@flush created L0@1337 N·7 S·1KiB "bf\x00..\x01=L,v4238":"\xcb3\x89..-̸,v4232"
+21:06:31.787437 version@stat F·[4 1] S·230KiB[2KiB 227KiB] Sc·[1.00 0.00]
+21:06:31.793520 table@compaction L0·4 -> L1·1 S·230KiB Q·4238
+21:06:31.802071 transaction@flush created L0@1339 N·1 S·184B "txr..%\n\xcd,v4239":"txr..%\n\xcd,v4239"
+21:06:31.802130 version@stat F·[5 1] S·230KiB[2KiB 227KiB] Sc·[1.25 0.00]
+21:06:31.805062 table@build created L1@1338 N·2122 S·228KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:06:31.811215 version@stat F·[1 1] S·228KiB[184B 228KiB] Sc·[0.25 0.00]
+21:06:31.817413 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·23.83634ms
+21:06:31.817512 table@remove removed @1337
+21:06:31.817548 table@remove removed @1336
+21:06:31.817589 table@remove removed @1335
+21:06:31.817616 table@remove removed @1334
+21:06:31.817670 table@remove removed @1333
+21:06:39.057462 transaction@flush created L0@1340 N·7 S·1KiB "bf\x00..\x01=S,v4246":"\x9a\xe3\xde..J\x1a\xf1,v4241"
+21:06:39.057544 version@stat F·[2 1] S·229KiB[1KiB 228KiB] Sc·[0.50 0.00]
+21:06:39.072873 transaction@flush created L0@1341 N·1 S·184B "txr..sџ,v4247":"txr..sџ,v4247"
+21:06:39.072958 version@stat F·[3 1] S·230KiB[1KiB 228KiB] Sc·[0.75 0.00]
+21:06:46.328370 transaction@flush created L0@1342 N·7 S·1KiB "bf\x00..\x01=Z,v4254":"\x9a\xe3\xde..J\x1a\xf1,v4248"
+21:06:46.328461 version@stat F·[4 1] S·231KiB[2KiB 228KiB] Sc·[1.00 0.00]
+21:06:46.335089 table@compaction L0·4 -> L1·1 S·231KiB Q·4254
+21:06:46.343572 transaction@flush created L0@1344 N·1 S·184B "txr..Y\xa7\xad,v4255":"txr..Y\xa7\xad,v4255"
+21:06:46.343650 version@stat F·[5 1] S·231KiB[2KiB 228KiB] Sc·[1.25 0.00]
+21:06:46.346868 table@build created L1@1343 N·2130 S·229KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:06:46.353134 version@stat F·[1 1] S·229KiB[184B 229KiB] Sc·[0.25 0.00]
+21:06:46.359556 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.364964ms
+21:06:46.359824 table@remove removed @1342
+21:06:46.359908 table@remove removed @1341
+21:06:46.359969 table@remove removed @1340
+21:06:46.360035 table@remove removed @1339
+21:06:46.360187 table@remove removed @1338
+21:06:53.580500 transaction@flush created L0@1345 N·7 S·1KiB "bf\x00..\x01=a,v4262":"\xeb\xdcD..0\xb0\x1d,v4257"
+21:06:53.580602 version@stat F·[2 1] S·230KiB[1KiB 229KiB] Sc·[0.50 0.00]
+21:06:53.596298 transaction@flush created L0@1346 N·1 S·184B "txr..\xc4<\x96,v4263":"txr..\xc4<\x96,v4263"
+21:06:53.596385 version@stat F·[3 1] S·231KiB[1KiB 229KiB] Sc·[0.75 0.00]
+21:07:00.849686 transaction@flush created L0@1347 N·7 S·1KiB "9R\xde..\xd4\xff ,v4265":"\xeb\xdcD..0\xb0\x1d,v4264"
+21:07:00.849762 version@stat F·[4 1] S·232KiB[2KiB 229KiB] Sc·[1.00 0.00]
+21:07:00.856264 table@compaction L0·4 -> L1·1 S·232KiB Q·4270
+21:07:00.865207 transaction@flush created L0@1349 N·1 S·184B "txr..\n@Z,v4271":"txr..\n@Z,v4271"
+21:07:00.865282 version@stat F·[5 1] S·232KiB[2KiB 229KiB] Sc·[1.25 0.00]
+21:07:00.875342 table@build created L1@1348 N·2138 S·230KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:07:00.875436 version@stat F·[1 1] S·230KiB[184B 230KiB] Sc·[0.25 0.00]
+21:07:00.881977 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·25.632728ms
+21:07:00.882105 table@remove removed @1347
+21:07:00.882149 table@remove removed @1346
+21:07:00.882193 table@remove removed @1345
+21:07:00.882253 table@remove removed @1344
+21:07:00.882339 table@remove removed @1343
+21:07:07.069657 transaction@flush created L0@1350 N·7 S·1KiB "8˟..\x84\x13\xc2,v4273":"th\x00..\x01=n,v4277"
+21:07:07.069740 version@stat F·[2 1] S·231KiB[1KiB 230KiB] Sc·[0.50 0.00]
+21:07:07.084653 transaction@flush created L0@1351 N·1 S·184B "txr..j~\xc4,v4279":"txr..j~\xc4,v4279"
+21:07:07.084758 version@stat F·[3 1] S·231KiB[1KiB 230KiB] Sc·[0.75 0.00]
+21:07:13.329542 transaction@flush created L0@1352 N·7 S·1KiB "8˟..\x84\x13\xc2,v4280":"\xd7S\x10...\x1fT,v4281"
+21:07:13.329596 version@stat F·[4 1] S·232KiB[2KiB 230KiB] Sc·[1.00 0.00]
+21:07:13.335657 table@compaction L0·4 -> L1·1 S·232KiB Q·4286
+21:07:13.343342 table@build created L1@1353 N·2146 S·231KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:07:13.343402 version@stat F·[0 1] S·231KiB[0B 231KiB] Sc·[0.00 0.00]
+21:07:13.346325 transaction@flush created L0@1354 N·1 S·184B "txr..\aN\xf9,v4287":"txr..\aN\xf9,v4287"
+21:07:13.352484 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·16.764089ms
+21:07:13.352674 table@remove removed @1352
+21:07:13.352564 version@stat F·[1 1] S·231KiB[184B 231KiB] Sc·[0.25 0.00]
+21:07:13.353189 table@remove removed @1351
+21:07:13.353352 table@remove removed @1350
+21:07:13.353481 table@remove removed @1349
+21:07:13.353736 table@remove removed @1348
+21:07:22.672769 transaction@flush created L0@1355 N·7 S·1KiB "E\xa4\u007f..\x95\x98\xa1,v4289":"\xd7S\x10...\x1fT,v4288"
+21:07:22.672813 version@stat F·[2 1] S·232KiB[1KiB 231KiB] Sc·[0.50 0.00]
+21:07:22.686338 transaction@flush created L0@1356 N·1 S·184B "txr..\\\xf1/,v4295":"txr..\\\xf1/,v4295"
+21:07:22.686371 version@stat F·[3 1] S·232KiB[1KiB 231KiB] Sc·[0.75 0.00]
+21:07:28.889798 transaction@flush created L0@1357 N·7 S·1KiB "E\xa4\u007f..\x95\x98\xa1,v4296":"th\x00..\x01=\x83,v4301"
+21:07:28.889887 version@stat F·[4 1] S·234KiB[2KiB 231KiB] Sc·[1.00 0.00]
+21:07:28.896387 table@compaction L0·4 -> L1·1 S·234KiB Q·4302
+21:07:28.905163 transaction@flush created L0@1359 N·1 S·184B "txr..\xa7\x9f\xc6,v4303":"txr..\xa7\x9f\xc6,v4303"
+21:07:28.905217 version@stat F·[5 1] S·234KiB[2KiB 231KiB] Sc·[1.25 0.00]
+21:07:28.908683 table@build created L1@1358 N·2154 S·232KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:07:28.915044 version@stat F·[1 1] S·232KiB[184B 232KiB] Sc·[0.25 0.00]
+21:07:28.921157 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.684649ms
+21:07:28.921314 table@remove removed @1357
+21:07:28.921406 table@remove removed @1356
+21:07:28.921489 table@remove removed @1355
+21:07:28.921573 table@remove removed @1354
+21:07:28.921756 table@remove removed @1353
+21:07:43.423687 transaction@flush created L0@1360 N·7 S·1KiB ",G\x8c..\x0f\x90{,v4305":"th\x00..\x01=\x91,v4309"
+21:07:43.423767 version@stat F·[2 1] S·233KiB[1KiB 232KiB] Sc·[0.50 0.00]
+21:07:43.439122 transaction@flush created L0@1361 N·1 S·184B "txr..\xc1\xddL,v4311":"txr..\xc1\xddL,v4311"
+21:07:43.439194 version@stat F·[3 1] S·233KiB[1KiB 232KiB] Sc·[0.75 0.00]
+21:07:52.773666 transaction@flush created L0@1362 N·7 S·1KiB ",G\x8c..\x0f\x90{,v4312":"\xa3\xc1\xd5..c\x17<,v4313"
+21:07:52.773747 version@stat F·[4 1] S·234KiB[2KiB 232KiB] Sc·[1.00 0.00]
+21:07:52.780371 table@compaction L0·4 -> L1·1 S·234KiB Q·4318
+21:07:52.789045 transaction@flush created L0@1364 N·1 S·184B "txr..b3\x89,v4319":"txr..b3\x89,v4319"
+21:07:52.789128 version@stat F·[5 1] S·234KiB[2KiB 232KiB] Sc·[1.25 0.00]
+21:07:52.798952 table@build created L1@1363 N·2162 S·233KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:07:52.799037 version@stat F·[1 1] S·233KiB[184B 233KiB] Sc·[0.25 0.00]
+21:07:52.808088 table@compaction committed F-4 S-907B Ke·0 D·8 T·27.608599ms
+21:07:52.808473 table@remove removed @1362
+21:07:52.808593 table@remove removed @1361
+21:07:52.808689 table@remove removed @1360
+21:07:52.808812 table@remove removed @1359
+21:07:52.808982 table@remove removed @1358
+21:07:58.993924 transaction@flush created L0@1365 N·7 S·1KiB "bf\x00..\x01=\xa0,v4326":"\xd4Q\u007f..\xc8ѿ,v4321"
+21:07:58.994022 version@stat F·[2 1] S·234KiB[1KiB 233KiB] Sc·[0.50 0.00]
+21:07:59.009504 transaction@flush created L0@1366 N·1 S·184B "txr..\x01\xbb\xa1,v4327":"txr..\x01\xbb\xa1,v4327"
+21:07:59.009573 version@stat F·[3 1] S·235KiB[1KiB 233KiB] Sc·[0.75 0.00]
+21:08:14.560023 transaction@flush created L0@1367 N·7 S·1KiB "ZW\u007f..\xff\u0083,v4329":"\xd4Q\u007f..\xc8ѿ,v4328"
+21:08:14.560129 version@stat F·[4 1] S·236KiB[2KiB 233KiB] Sc·[1.00 0.00]
+21:08:14.566551 table@compaction L0·4 -> L1·1 S·236KiB Q·4334
+21:08:14.575672 transaction@flush created L0@1369 N·1 S·184B "txr..\xf3ӑ,v4335":"txr..\xf3ӑ,v4335"
+21:08:14.575765 version@stat F·[5 1] S·236KiB[2KiB 233KiB] Sc·[1.25 0.00]
+21:08:14.578842 table@build created L1@1368 N·2170 S·234KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:08:14.584935 version@stat F·[1 1] S·234KiB[184B 234KiB] Sc·[0.25 0.00]
+21:08:14.591110 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.46334ms
+21:08:14.591397 table@remove removed @1367
+21:08:14.591466 table@remove removed @1366
+21:08:14.591533 table@remove removed @1365
+21:08:14.591610 table@remove removed @1364
+21:08:14.591825 table@remove removed @1363
+21:08:34.280677 transaction@flush created L0@1370 N·7 S·1KiB "\x16H6..{\xfb;,v4337":"th\x00..\x01=\xc2,v4341"
+21:08:34.280754 version@stat F·[2 1] S·235KiB[1KiB 234KiB] Sc·[0.50 0.00]
+21:08:34.296771 transaction@flush created L0@1371 N·1 S·184B "txr..\xafD\x1d,v4343":"txr..\xafD\x1d,v4343"
+21:08:34.296850 version@stat F·[3 1] S·235KiB[1KiB 234KiB] Sc·[0.75 0.00]
+21:08:41.541219 transaction@flush created L0@1372 N·7 S·1KiB "\x16H6..{\xfb;,v4344":"th\x00..\x01=\xc9,v4349"
+21:08:41.541295 version@stat F·[4 1] S·237KiB[2KiB 234KiB] Sc·[1.00 0.00]
+21:08:41.547711 table@compaction expanding L0+L1 (F·2 S·2KiB)+(F·1 S·234KiB) -> (F·4 S·2KiB)+(F·1 S·234KiB)
+21:08:41.547782 table@compaction L0·4 -> L1·1 S·237KiB Q·4350
+21:08:41.556311 transaction@flush created L0@1374 N·1 S·184B "txr..\xee\xb6*,v4351":"txr..\xee\xb6*,v4351"
+21:08:41.556349 version@stat F·[5 1] S·237KiB[2KiB 234KiB] Sc·[1.25 0.00]
+21:08:41.559748 table@build created L1@1373 N·2178 S·235KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:08:41.565851 version@stat F·[1 1] S·235KiB[184B 235KiB] Sc·[0.25 0.00]
+21:08:41.572015 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.182558ms
+21:08:41.572224 table@remove removed @1372
+21:08:41.572330 table@remove removed @1371
+21:08:41.572412 table@remove removed @1370
+21:08:41.572482 table@remove removed @1369
+21:08:41.572647 table@remove removed @1368
+21:08:47.759640 transaction@flush created L0@1375 N·7 S·1KiB ")\xcd~..\t\xf7\x86,v4352":"\xf4\x01\xf0..\"\x83\xf7,v4353"
+21:08:47.759682 version@stat F·[2 1] S·236KiB[1KiB 235KiB] Sc·[0.50 0.00]
+21:08:47.773488 transaction@flush created L0@1376 N·1 S·184B "txr..\xbd\x1a\x12,v4359":"txr..\xbd\x1a\x12,v4359"
+21:08:47.773531 version@stat F·[3 1] S·236KiB[1KiB 235KiB] Sc·[0.75 0.00]
+21:08:58.141136 transaction@flush created L0@1377 N·7 S·1KiB "/\x99\x91..\x97ң,v4361":"\xf4\x01\xf0..\"\x83\xf7,v4360"
+21:08:58.141214 version@stat F·[4 1] S·237KiB[2KiB 235KiB] Sc·[1.00 0.00]
+21:08:58.147471 table@compaction L0·4 -> L1·1 S·237KiB Q·4366
+21:08:58.160108 transaction@flush created L0@1379 N·1 S·184B "txr..\x1f-\f,v4367":"txr..\x1f-\f,v4367"
+21:08:58.160151 version@stat F·[5 1] S·238KiB[2KiB 235KiB] Sc·[1.25 0.00]
+21:08:58.163370 table@build created L1@1378 N·2186 S·236KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:08:58.169691 version@stat F·[1 1] S·236KiB[184B 236KiB] Sc·[0.25 0.00]
+21:08:58.176656 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·29.064445ms
+21:08:58.177134 table@remove removed @1377
+21:08:58.177339 table@remove removed @1376
+21:08:58.177521 table@remove removed @1375
+21:08:58.177772 table@remove removed @1374
+21:08:58.178141 table@remove removed @1373
+21:09:05.416249 transaction@flush created L0@1380 N·7 S·1KiB "/\x99\x91..\x97ң,v4368":"\xc2j\xbb..\x9c6t,v4369"
+21:09:05.416319 version@stat F·[2 1] S·237KiB[1KiB 236KiB] Sc·[0.50 0.00]
+21:09:05.430146 transaction@flush created L0@1381 N·1 S·184B "txr..\x14\xeb\xec,v4375":"txr..\x14\xeb\xec,v4375"
+21:09:05.430224 version@stat F·[3 1] S·237KiB[1KiB 236KiB] Sc·[0.75 0.00]
+21:09:12.696285 transaction@flush created L0@1382 N·7 S·1KiB "Q\xf1\xa6..\v0b,v4377":"\xc2j\xbb..\x9c6t,v4376"
+21:09:12.696409 version@stat F·[4 1] S·238KiB[2KiB 236KiB] Sc·[1.00 0.00]
+21:09:12.702448 table@compaction L0·4 -> L1·1 S·238KiB Q·4382
+21:09:12.710099 transaction@flush created L0@1384 N·1 S·184B "txr..\xf6\xc9\x1c,v4383":"txr..\xf6\xc9\x1c,v4383"
+21:09:12.710230 version@stat F·[5 1] S·238KiB[2KiB 236KiB] Sc·[1.25 0.00]
+21:09:12.713367 table@build created L1@1383 N·2194 S·237KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:09:12.719521 version@stat F·[1 1] S·237KiB[184B 237KiB] Sc·[0.25 0.00]
+21:09:12.725199 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·22.657048ms
+21:09:12.725516 table@remove removed @1382
+21:09:12.725608 table@remove removed @1381
+21:09:12.725672 table@remove removed @1380
+21:09:12.725741 table@remove removed @1379
+21:09:12.725916 table@remove removed @1378
+21:09:22.019228 transaction@flush created L0@1385 N·7 S·1KiB "$\xe6\x89..\x05\xa8\x03,v4385":"th\x00..\x01=\xf0,v4389"
+21:09:22.019290 version@stat F·[2 1] S·238KiB[1KiB 237KiB] Sc·[0.50 0.00]
+21:09:22.031284 transaction@flush created L0@1386 N·1 S·184B "txr..\x97A\xdf,v4391":"txr..\x97A\xdf,v4391"
+21:09:22.031371 version@stat F·[3 1] S·238KiB[1KiB 237KiB] Sc·[0.75 0.00]
+21:09:28.258530 transaction@flush created L0@1387 N·7 S·1KiB "$\xe6\x89..\x05\xa8\x03,v4392":"th\x00..\x01=\xf6,v4397"
+21:09:28.258604 version@stat F·[4 1] S·239KiB[2KiB 237KiB] Sc·[1.00 0.00]
+21:09:28.262144 table@compaction expanding L0+L1 (F·2 S·2KiB)+(F·1 S·237KiB) -> (F·4 S·2KiB)+(F·1 S·237KiB)
+21:09:28.262222 table@compaction L0·4 -> L1·1 S·239KiB Q·4398
+21:09:28.270447 transaction@flush created L0@1389 N·1 S·184B "txr..R\xa1\x19,v4399":"txr..R\xa1\x19,v4399"
+21:09:28.270526 version@stat F·[5 1] S·239KiB[2KiB 237KiB] Sc·[1.25 0.00]
+21:09:28.277193 table@build created L1@1388 N·2202 S·237KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:09:28.277292 version@stat F·[1 1] S·238KiB[184B 237KiB] Sc·[0.25 0.00]
+21:09:28.285331 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·23.055555ms
+21:09:28.285514 table@remove removed @1387
+21:09:28.285622 table@remove removed @1386
+21:09:28.285702 table@remove removed @1385
+21:09:28.285785 table@remove removed @1384
+21:09:28.285993 table@remove removed @1383
+21:09:34.481018 transaction@flush created L0@1390 N·7 S·1KiB "P\xa3;..\xb8m\xac,v4401":"th\x00..\x01=\xfc,v4405"
+21:09:34.481094 version@stat F·[2 1] S·239KiB[1KiB 237KiB] Sc·[0.50 0.00]
+21:09:34.498492 transaction@flush created L0@1391 N·1 S·184B "txr..9^m,v4407":"txr..9^m,v4407"
+21:09:34.498572 version@stat F·[3 1] S·239KiB[1KiB 237KiB] Sc·[0.75 0.00]
+21:09:41.736470 transaction@flush created L0@1392 N·7 S·1KiB "P\xa3;..\xb8m\xac,v4408":"\x8f\xad,..\xb7\xfd\x05,v4409"
+21:09:41.736560 version@stat F·[4 1] S·240KiB[2KiB 237KiB] Sc·[1.00 0.00]
+21:09:41.743254 table@compaction L0·4 -> L1·1 S·240KiB Q·4414
+21:09:41.751325 transaction@flush created L0@1394 N·1 S·184B "txr..\xc8\xf9\xfc,v4415":"txr..\xc8\xf9\xfc,v4415"
+21:09:41.751408 version@stat F·[5 1] S·240KiB[2KiB 237KiB] Sc·[1.25 0.00]
+21:09:41.758242 table@build created L1@1393 N·2210 S·239KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:09:41.758366 version@stat F·[1 1] S·239KiB[184B 239KiB] Sc·[0.25 0.00]
+21:09:41.765717 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·22.363393ms
+21:09:41.766064 table@remove removed @1392
+21:09:41.766258 table@remove removed @1391
+21:09:41.766399 table@remove removed @1390
+21:09:41.766517 table@remove removed @1389
+21:09:41.766791 table@remove removed @1388
+21:09:50.053100 transaction@flush created L0@1395 N·7 S·1KiB "&\x92\xa9..WJ\x01,v4417":"\x8f\xad,..\xb7\xfd\x05,v4416"
+21:09:50.053188 version@stat F·[2 1] S·240KiB[1KiB 239KiB] Sc·[0.50 0.00]
+21:09:50.067933 transaction@flush created L0@1396 N·1 S·184B "txr..\x8a\xf5\xae,v4423":"txr..\x8a\xf5\xae,v4423"
+21:09:50.068000 version@stat F·[3 1] S·240KiB[1KiB 239KiB] Sc·[0.75 0.00]
+21:09:59.401197 transaction@flush created L0@1397 N·7 S·1KiB "&\x92\xa9..WJ\x01,v4424":"th\x00..\x01>\x14,v4429"
+21:09:59.401246 version@stat F·[4 1] S·241KiB[2KiB 239KiB] Sc·[1.00 0.00]
+21:09:59.407847 table@compaction L0·4 -> L1·1 S·241KiB Q·4430
+21:09:59.415986 transaction@flush created L0@1399 N·1 S·184B "txr..T\xc0\a,v4431":"txr..T\xc0\a,v4431"
+21:09:59.416062 version@stat F·[5 1] S·241KiB[2KiB 239KiB] Sc·[1.25 0.00]
+21:09:59.423108 table@build created L1@1398 N·2218 S·240KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:09:59.423167 version@stat F·[1 1] S·240KiB[184B 240KiB] Sc·[0.25 0.00]
+21:09:59.429340 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.417136ms
+21:09:59.429594 table@remove removed @1397
+21:09:59.429680 table@remove removed @1396
+21:09:59.429748 table@remove removed @1395
+21:09:59.429815 table@remove removed @1394
+21:09:59.429983 table@remove removed @1393
+21:10:09.785288 transaction@flush created L0@1400 N·7 S·1KiB "6Y?..\xcd\xca\xf1,v4432":"\xaf_\xa4..\xff3\xa0,v4433"
+21:10:09.785386 version@stat F·[2 1] S·241KiB[1KiB 240KiB] Sc·[0.50 0.00]
+21:10:09.801069 transaction@flush created L0@1401 N·1 S·184B "txr..\xfc\xea\xb6,v4439":"txr..\xfc\xea\xb6,v4439"
+21:10:09.801149 version@stat F·[3 1] S·241KiB[1KiB 240KiB] Sc·[0.75 0.00]
+21:10:14.972220 transaction@flush created L0@1402 N·7 S·1KiB "bf\x00..\x01>#,v4446":"\xdfq$..\xca\xe4/,v4441"
+21:10:14.972296 version@stat F·[4 1] S·242KiB[2KiB 240KiB] Sc·[1.00 0.00]
+21:10:14.978867 table@compaction L0·4 -> L1·1 S·242KiB Q·4446
+21:10:14.988137 transaction@flush created L0@1404 N·1 S·184B "txr..\x82\x11\xb7,v4447":"txr..\x82\x11\xb7,v4447"
+21:10:14.988216 version@stat F·[5 1] S·243KiB[2KiB 240KiB] Sc·[1.25 0.00]
+21:10:14.998233 table@build created L1@1403 N·2226 S·241KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:10:14.998489 version@stat F·[1 1] S·241KiB[184B 241KiB] Sc·[0.25 0.00]
+21:10:15.007596 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·28.560933ms
+21:10:15.007840 table@remove removed @1402
+21:10:15.007933 table@remove removed @1401
+21:10:15.008015 table@remove removed @1400
+21:10:15.008120 table@remove removed @1399
+21:10:15.008386 table@remove removed @1398
+21:10:24.313550 transaction@flush created L0@1405 N·7 S·1KiB "bf\x00..\x01>,,v4454":"\xdfq$..\xca\xe4/,v4448"
+21:10:24.313635 version@stat F·[2 1] S·242KiB[1KiB 241KiB] Sc·[0.50 0.00]
+21:10:24.324556 transaction@flush created L0@1406 N·1 S·184B "txr..q\x18\xf3,v4455":"txr..q\x18\xf3,v4455"
+21:10:24.324622 version@stat F·[3 1] S·242KiB[1KiB 241KiB] Sc·[0.75 0.00]
+21:10:30.553385 transaction@flush created L0@1407 N·7 S·1KiB "\x03\xa4%..X\x9f\x1f,v4457":"\xb3m/..\xe3\xaa5,v4456"
+21:10:30.553489 version@stat F·[4 1] S·243KiB[2KiB 241KiB] Sc·[1.00 0.00]
+21:10:30.559678 table@compaction L0·4 -> L1·1 S·243KiB Q·4462
+21:10:30.568066 transaction@flush created L0@1409 N·1 S·184B "txr..\xd0\xfe\xd2,v4463":"txr..\xd0\xfe\xd2,v4463"
+21:10:30.568105 version@stat F·[5 1] S·244KiB[2KiB 241KiB] Sc·[1.25 0.00]
+21:10:30.571494 table@build created L1@1408 N·2234 S·242KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:10:30.577816 version@stat F·[1 1] S·242KiB[184B 242KiB] Sc·[0.25 0.00]
+21:10:30.581289 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.541ms
+21:10:30.581531 table@remove removed @1407
+21:10:30.581608 table@remove removed @1406
+21:10:30.581669 table@remove removed @1405
+21:10:30.581731 table@remove removed @1404
+21:10:30.581865 table@remove removed @1403
+21:10:41.949719 transaction@flush created L0@1410 N·7 S·1KiB "\x03\xa4%..X\x9f\x1f,v4464":"\xcdֆ..x8\xa1,v4465"
+21:10:41.949801 version@stat F·[2 1] S·243KiB[1KiB 242KiB] Sc·[0.50 0.00]
+21:10:41.964999 transaction@flush created L0@1411 N·1 S·184B "txr..\x93a/,v4471":"txr..\x93a/,v4471"
+21:10:41.965077 version@stat F·[3 1] S·243KiB[1KiB 242KiB] Sc·[0.75 0.00]
+21:10:51.300428 transaction@flush created L0@1412 N·7 S·1KiB "\"B\xe0..\xacW\x8b,v4473":"\xcdֆ..x8\xa1,v4472"
+21:10:51.300506 version@stat F·[4 1] S·244KiB[2KiB 242KiB] Sc·[1.00 0.00]
+21:10:51.307010 table@compaction L0·4 -> L1·1 S·244KiB Q·4478
+21:10:51.315584 transaction@flush created L0@1414 N·1 S·184B "txr..\xa9\x1c\xca,v4479":"txr..\xa9\x1c\xca,v4479"
+21:10:51.315662 version@stat F·[5 1] S·245KiB[2KiB 242KiB] Sc·[1.25 0.00]
+21:10:51.326060 table@build created L1@1413 N·2242 S·243KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:10:51.326154 version@stat F·[1 1] S·243KiB[184B 243KiB] Sc·[0.25 0.00]
+21:10:51.335334 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·28.238088ms
+21:10:51.335526 table@remove removed @1412
+21:10:51.335587 table@remove removed @1411
+21:10:51.335650 table@remove removed @1410
+21:10:51.335710 table@remove removed @1409
+21:10:51.335831 table@remove removed @1408
+21:17:03.293692 transaction@flush created L0@1415 N·7 S·899B "\"B\xe0..\xacW\x8b,v4480":"\xb0\xb7\xa3..\xafh\x84,v4481"
+21:17:03.293727 version@stat F·[2 1] S·244KiB[1KiB 243KiB] Sc·[0.50 0.00]
+21:17:03.307392 transaction@flush created L0@1416 N·1 S·184B "txr..\"\xbf4,v4487":"txr..\"\xbf4,v4487"
+21:17:03.307494 version@stat F·[3 1] S·244KiB[1KiB 243KiB] Sc·[0.75 0.00]
+21:17:08.482852 transaction@flush created L0@1417 N·7 S·502B "bf\x00..\x01?\xb1,v4494":"\xb0\xb7\xa3..\xafh\x84,v4488"
+21:17:08.482927 version@stat F·[4 1] S·245KiB[1KiB 243KiB] Sc·[1.00 0.00]
+21:17:08.486349 table@compaction L0·4 -> L1·1 S·245KiB Q·4494
+21:17:08.496111 transaction@flush created L0@1419 N·1 S·184B "txr..=\x18\xb6,v4495":"txr..=\x18\xb6,v4495"
+21:17:08.496173 version@stat F·[5 1] S·245KiB[1KiB 243KiB] Sc·[1.25 0.00]
+21:17:08.499137 table@build created L1@1418 N·2250 S·243KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:17:08.505550 version@stat F·[1 1] S·243KiB[184B 243KiB] Sc·[0.25 0.00]
+21:17:08.512371 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·25.927463ms
+21:17:08.512534 table@remove removed @1417
+21:17:08.512622 table@remove removed @1416
+21:17:08.512711 table@remove removed @1415
+21:17:08.512779 table@remove removed @1414
+21:17:08.512918 table@remove removed @1413
+21:17:13.665017 transaction@flush created L0@1420 N·7 S·504B "bf\x00..\x01?\xb6,v4502":"\xcb%L..zo\xcb,v4497"
+21:17:13.665089 version@stat F·[2 1] S·244KiB[688B 243KiB] Sc·[0.50 0.00]
+21:17:13.681153 transaction@flush created L0@1421 N·1 S·184B "txr..\xc0,},v4503":"txr..\xc0,},v4503"
+21:17:13.681250 version@stat F·[3 1] S·244KiB[872B 243KiB] Sc·[0.75 0.00]
+21:17:18.862764 transaction@flush created L0@1422 N·7 S·480B "\x15\xfa\xcd..=\x13\x85,v4505":"\xcb%L..zo\xcb,v4504"
+21:17:18.862824 version@stat F·[4 1] S·245KiB[1KiB 243KiB] Sc·[1.00 0.00]
+21:17:18.865940 table@compaction L0·4 -> L1·1 S·245KiB Q·4510
+21:17:18.873597 transaction@flush created L0@1424 N·1 S·184B "txr..5^B,v4511":"txr..5^B,v4511"
+21:17:18.873668 version@stat F·[5 1] S·245KiB[1KiB 243KiB] Sc·[1.25 0.00]
+21:17:18.873729 table@build created L1@1423 N·2258 S·244KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:17:18.877119 version@stat F·[1 1] S·244KiB[184B 244KiB] Sc·[0.25 0.00]
+21:17:18.883612 table@compaction committed F-4 S-745B Ke·0 D·8 T·17.600384ms
+21:17:18.883939 table@remove removed @1422
+21:17:18.884045 table@remove removed @1421
+21:17:18.884183 table@remove removed @1420
+21:17:18.884285 table@remove removed @1419
+21:17:18.884427 table@remove removed @1418
+21:17:24.052088 transaction@flush created L0@1425 N·7 S·482B "\x15\xfa\xcd..=\x13\x85,v4512":"th\x00..\x01?\xc0,v4517"
+21:17:24.052148 version@stat F·[2 1] S·245KiB[666B 244KiB] Sc·[0.50 0.00]
+21:17:24.067489 transaction@flush created L0@1426 N·1 S·184B "txr..\x9dԛ,v4519":"txr..\x9dԛ,v4519"
+21:17:24.067554 version@stat F·[3 1] S·245KiB[850B 244KiB] Sc·[0.75 0.00]
+21:17:29.242135 transaction@flush created L0@1427 N·7 S·493B "[Ex..sP\xea,v4520":"\xbe\xa5\xf4..\xff\xf5y,v4521"
+21:17:29.242183 version@stat F·[4 1] S·245KiB[1KiB 244KiB] Sc·[1.00 0.00]
+21:17:29.245413 table@compaction L0·4 -> L1·1 S·245KiB Q·4526
+21:17:29.253096 transaction@flush created L0@1429 N·1 S·184B "txr..\xe9\xf4F,v4527":"txr..\xe9\xf4F,v4527"
+21:17:29.253227 version@stat F·[5 1] S·245KiB[1KiB 244KiB] Sc·[1.25 0.00]
+21:17:29.256462 table@build created L1@1428 N·2266 S·245KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:17:29.262597 version@stat F·[1 1] S·245KiB[184B 245KiB] Sc·[0.25 0.00]
+21:17:29.268890 table@compaction committed F-4 S-660B Ke·0 D·8 T·23.38242ms
+21:17:29.269315 table@remove removed @1427
+21:17:29.269538 table@remove removed @1426
+21:17:29.269689 table@remove removed @1425
+21:17:29.269924 table@remove removed @1424
+21:17:29.270206 table@remove removed @1423
+21:17:34.443632 transaction@flush created L0@1430 N·7 S·473B "bf\x00..\x01?\xca,v4534":"\xbe\xa5\xf4..\xff\xf5y,v4528"
+21:17:34.443696 version@stat F·[2 1] S·245KiB[657B 245KiB] Sc·[0.50 0.00]
+21:17:34.455648 transaction@flush created L0@1431 N·1 S·184B "txr..\xd0a\x9c,v4535":"txr..\xd0a\x9c,v4535"
+21:17:34.455747 version@stat F·[3 1] S·245KiB[841B 245KiB] Sc·[0.75 0.00]
+21:17:39.630170 transaction@flush created L0@1432 N·7 S·480B "B\xe0\xa1..\xbb\xa3u,v4537":"\x91\x8e:..\x01\x93u,v4536"
+21:17:39.630239 version@stat F·[4 1] S·246KiB[1KiB 245KiB] Sc·[1.00 0.00]
+21:17:39.633527 table@compaction L0·4 -> L1·1 S·246KiB Q·4542
+21:17:39.641984 transaction@flush created L0@1434 N·1 S·184B "txr..*?),v4543":"txr..*?),v4543"
+21:17:39.642081 version@stat F·[5 1] S·246KiB[1KiB 245KiB] Sc·[1.25 0.00]
+21:17:39.645286 table@build created L1@1433 N·2274 S·245KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:17:39.651612 version@stat F·[1 1] S·245KiB[184B 245KiB] Sc·[0.25 0.00]
+21:17:39.658263 table@compaction committed F-4 S-836B Ke·0 D·8 T·24.630427ms
+21:17:39.658495 table@remove removed @1432
+21:17:39.658642 table@remove removed @1431
+21:17:39.658775 table@remove removed @1430
+21:17:39.658902 table@remove removed @1429
+21:17:39.659172 table@remove removed @1428
+21:17:44.811470 transaction@flush created L0@1435 N·7 S·481B "B\xe0\xa1..\xbb\xa3u,v4544":"th\x00..\x01?\xd4,v4549"
+21:17:44.811523 version@stat F·[2 1] S·246KiB[665B 245KiB] Sc·[0.50 0.00]
+21:17:44.825900 transaction@flush created L0@1436 N·1 S·184B "txr..\x8bV\x03,v4551":"txr..\x8bV\x03,v4551"
+21:17:44.826004 version@stat F·[3 1] S·246KiB[849B 245KiB] Sc·[0.75 0.00]
+21:17:48.970831 transaction@flush created L0@1437 N·7 S·484B "[=\x8a..\xfbޡ,v4552":"th\x00..\x01?\xd8,v4557"
+21:17:48.970869 version@stat F·[4 1] S·246KiB[1KiB 245KiB] Sc·[1.00 0.00]
+21:17:48.974145 table@compaction expanding L0+L1 (F·2 S·965B)+(F·1 S·245KiB) -> (F·4 S·1KiB)+(F·1 S·245KiB)
+21:17:48.974207 table@compaction L0·4 -> L1·1 S·246KiB Q·4558
+21:17:48.982799 transaction@flush created L0@1439 N·1 S·184B "txr..\x91\x82\xb5,v4559":"txr..\x91\x82\xb5,v4559"
+21:17:48.982872 version@stat F·[5 1] S·247KiB[1KiB 245KiB] Sc·[1.25 0.00]
+21:17:48.986039 table@build created L1@1438 N·2282 S·246KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:17:48.992680 version@stat F·[1 1] S·246KiB[184B 246KiB] Sc·[0.25 0.00]
+21:17:48.999506 table@compaction committed F-4 S-612B Ke·0 D·8 T·25.250803ms
+21:17:48.999881 table@remove removed @1437
+21:17:49.000005 table@remove removed @1436
+21:17:49.000150 table@remove removed @1435
+21:17:49.000254 table@remove removed @1434
+21:17:49.000473 table@remove removed @1433
+21:17:54.163011 transaction@flush created L0@1440 N·7 S·503B "bf\x00..\x01?\xdd,v4566":"\xdaR\xa0..vj;,v4561"
+21:17:54.163065 version@stat F·[2 1] S·246KiB[687B 246KiB] Sc·[0.50 0.00]
+21:17:54.173912 transaction@flush created L0@1441 N·1 S·184B "txr..\xd6!X,v4567":"txr..\xd6!X,v4567"
+21:17:54.173966 version@stat F·[3 1] S·247KiB[871B 246KiB] Sc·[0.75 0.00]
+21:17:59.348728 transaction@flush created L0@1442 N·7 S·471B "bf\x00..\x01?\xe2,v4574":"\xe9\x93\v..5k=,v4569"
+21:17:59.348810 version@stat F·[4 1] S·247KiB[1KiB 246KiB] Sc·[1.00 0.00]
+21:17:59.355027 table@compaction L0·4 -> L1·1 S·247KiB Q·4574
+21:17:59.363380 transaction@flush created L0@1444 N·1 S·184B "txr..\xda$\x8a,v4575":"txr..\xda$\x8a,v4575"
+21:17:59.363476 version@stat F·[5 1] S·247KiB[1KiB 246KiB] Sc·[1.25 0.00]
+21:17:59.370142 table@build created L1@1443 N·2290 S·246KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:17:59.370246 version@stat F·[1 1] S·246KiB[184B 246KiB] Sc·[0.25 0.00]
+21:17:59.376606 table@compaction committed F-4 S-793B Ke·0 D·8 T·21.488589ms
+21:17:59.376973 table@remove removed @1442
+21:17:59.377078 table@remove removed @1441
+21:17:59.377158 table@remove removed @1440
+21:17:59.377239 table@remove removed @1439
+21:17:59.377438 table@remove removed @1438
+21:18:04.531998 transaction@flush created L0@1445 N·7 S·473B "bf\x00..\x01?\xe7,v4582":"\xe9\x93\v..5k=,v4576"
+21:18:04.532051 version@stat F·[2 1] S·247KiB[657B 246KiB] Sc·[0.50 0.00]
+21:18:04.559288 transaction@flush created L0@1446 N·1 S·184B "txr..\xd9;\xaa,v4583":"txr..\xd9;\xaa,v4583"
+21:18:04.559336 version@stat F·[3 1] S·247KiB[841B 246KiB] Sc·[0.75 0.00]
+21:18:09.724714 transaction@flush created L0@1447 N·7 S·480B "Z[:..\xf7\x92\xe8,v4585":"\xe1w\x05..o\xb3\f,v4584"
+21:18:09.724794 version@stat F·[4 1] S·248KiB[1KiB 246KiB] Sc·[1.00 0.00]
+21:18:09.728300 table@compaction L0·4 -> L1·1 S·248KiB Q·4590
+21:18:09.736540 transaction@flush created L0@1449 N·1 S·184B "txr..\x9aG\xf0,v4591":"txr..\x9aG\xf0,v4591"
+21:18:09.736612 version@stat F·[5 1] S·248KiB[1KiB 246KiB] Sc·[1.25 0.00]
+21:18:09.739916 table@build created L1@1448 N·2298 S·247KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:18:09.746249 version@stat F·[1 1] S·247KiB[184B 247KiB] Sc·[0.25 0.00]
+21:18:09.749580 table@compaction committed F-4 S-559B Ke·0 D·8 T·21.211242ms
+21:18:09.749671 table@remove removed @1447
+21:18:09.749712 table@remove removed @1446
+21:18:09.749764 table@remove removed @1445
+21:18:09.749818 table@remove removed @1444
+21:18:09.749931 table@remove removed @1443
+21:18:14.917449 transaction@flush created L0@1450 N·7 S·486B "\x06\x82\xea..\xef\xb7\xf1,v4593":"th\x00..\x01?\xf1,v4597"
+21:18:14.917523 version@stat F·[2 1] S·248KiB[670B 247KiB] Sc·[0.50 0.00]
+21:18:14.933144 transaction@flush created L0@1451 N·1 S·184B "txr..w\xd1[,v4599":"txr..w\xd1[,v4599"
+21:18:14.933213 version@stat F·[3 1] S·248KiB[854B 247KiB] Sc·[0.75 0.00]
+21:18:20.107569 transaction@flush created L0@1452 N·7 S·482B "\x06\x82\xea..\xef\xb7\xf1,v4600":"th\x00..\x01?\xf6,v4605"
+21:18:20.107634 version@stat F·[4 1] S·248KiB[1KiB 247KiB] Sc·[1.00 0.00]
+21:18:20.114145 table@compaction expanding L0+L1 (F·2 S·968B)+(F·1 S·247KiB) -> (F·4 S·1KiB)+(F·1 S·247KiB)
+21:18:20.114221 table@compaction L0·4 -> L1·1 S·248KiB Q·4606
+21:18:20.123569 transaction@flush created L0@1454 N·1 S·184B "txr..\x97\x13\xa1,v4607":"txr..\x97\x13\xa1,v4607"
+21:18:20.123645 version@stat F·[5 1] S·249KiB[1KiB 247KiB] Sc·[1.25 0.00]
+21:18:20.131040 table@build created L1@1453 N·2306 S·247KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:18:20.131227 version@stat F·[1 1] S·248KiB[184B 247KiB] Sc·[0.25 0.00]
+21:18:20.137602 table@compaction committed F-4 S-1009B Ke·0 D·8 T·23.304189ms
+21:18:20.138006 table@remove removed @1452
+21:18:20.138147 table@remove removed @1451
+21:18:20.138263 table@remove removed @1450
+21:18:20.138404 table@remove removed @1449
+21:18:20.138596 table@remove removed @1448
+21:18:25.293822 transaction@flush created L0@1455 N·7 S·484B "Kg\x88..\xd4~L,v4608":"\xa1~\xd5..\xbb\x05\xbf,v4609"
+21:18:25.293877 version@stat F·[2 1] S·248KiB[668B 247KiB] Sc·[0.50 0.00]
+21:18:25.309433 transaction@flush created L0@1456 N·1 S·184B "txr..\xbc\fA,v4615":"txr..\xbc\fA,v4615"
+21:18:25.309520 version@stat F·[3 1] S·248KiB[852B 247KiB] Sc·[0.75 0.00]
+21:18:30.492549 transaction@flush created L0@1457 N·7 S·482B "M\xe8\x18..pU\x06,v4617":"\xa1~\xd5..\xbb\x05\xbf,v4616"
+21:18:30.492623 version@stat F·[4 1] S·249KiB[1KiB 247KiB] Sc·[1.00 0.00]
+21:18:30.499124 table@compaction L0·4 -> L1·1 S·249KiB Q·4622
+21:18:30.508647 transaction@flush created L0@1459 N·1 S·184B "txr..\xc3\x14m,v4623":"txr..\xc3\x14m,v4623"
+21:18:30.508754 version@stat F·[5 1] S·249KiB[1KiB 247KiB] Sc·[1.25 0.00]
+21:18:30.512032 table@build created L1@1458 N·2314 S·248KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:18:30.517921 version@stat F·[1 1] S·248KiB[184B 248KiB] Sc·[0.25 0.00]
+21:18:30.524514 table@compaction committed F-4 S-658B Ke·0 D·8 T·25.288932ms
+21:18:30.524762 table@remove removed @1457
+21:18:30.524861 table@remove removed @1456
+21:18:30.524938 table@remove removed @1455
+21:18:30.525046 table@remove removed @1454
+21:18:30.525159 table@remove removed @1453
+21:18:35.682120 transaction@flush created L0@1460 N·7 S·485B "M\xe8\x18..pU\x06,v4624":"\xf17\xf2..\xf4%g,v4625"
+21:18:35.682193 version@stat F·[2 1] S·249KiB[669B 248KiB] Sc·[0.50 0.00]
+21:18:35.693908 transaction@flush created L0@1461 N·1 S·184B "txr..Ñ\xae,v4631":"txr..Ñ\xae,v4631"
+21:18:35.693990 version@stat F·[3 1] S·249KiB[853B 248KiB] Sc·[0.75 0.00]
+21:18:40.882392 transaction@flush created L0@1462 N·7 S·484B "EnJ..5\xca\xfb,v4633":"\xf17\xf2..\xf4%g,v4632"
+21:18:40.882466 version@stat F·[4 1] S·249KiB[1KiB 248KiB] Sc·[1.00 0.00]
+21:18:40.885968 table@compaction L0·4 -> L1·1 S·249KiB Q·4638
+21:18:40.894792 transaction@flush created L0@1464 N·1 S·184B "txr..\xc6\xd6\xf9,v4639":"txr..\xc6\xd6\xf9,v4639"
+21:18:40.894888 version@stat F·[5 1] S·249KiB[1KiB 248KiB] Sc·[1.25 0.00]
+21:18:40.898283 table@build created L1@1463 N·2322 S·248KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:18:40.904950 version@stat F·[1 1] S·249KiB[184B 248KiB] Sc·[0.25 0.00]
+21:18:40.911884 table@compaction committed F-4 S-924B Ke·0 D·8 T·25.81975ms
+21:18:40.912233 table@remove removed @1462
+21:18:40.912359 table@remove removed @1461
+21:18:40.912453 table@remove removed @1460
+21:18:40.912541 table@remove removed @1459
+21:18:40.912695 table@remove removed @1458
+21:18:46.080879 transaction@flush created L0@1465 N·7 S·488B "EnJ..5\xca\xfb,v4640":"u<P..\xcf\xfa\xf8,v4641"
+21:18:46.080965 version@stat F·[2 1] S·249KiB[672B 248KiB] Sc·[0.50 0.00]
+21:18:46.097067 transaction@flush created L0@1466 N·1 S·184B "txr..\xfc\x06G,v4647":"txr..\xfc\x06G,v4647"
+21:18:46.097149 version@stat F·[3 1] S·249KiB[856B 248KiB] Sc·[0.75 0.00]
+21:18:51.282169 transaction@flush created L0@1467 N·7 S·471B "bf\x00..\x01@\x14,v4654":"\x88$\xdb..\u007f[b,v4649"
+21:18:51.282252 version@stat F·[4 1] S·250KiB[1KiB 248KiB] Sc·[1.00 0.00]
+21:18:51.285762 table@compaction L0·4 -> L1·1 S·250KiB Q·4654
+21:18:51.295011 transaction@flush created L0@1469 N·1 S·184B "txr..\xfc\x9a\xf1,v4655":"txr..\xfc\x9a\xf1,v4655"
+21:18:51.295153 version@stat F·[5 1] S·250KiB[1KiB 248KiB] Sc·[1.25 0.00]
+21:18:51.298347 table@build created L1@1468 N·2330 S·249KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:18:51.305116 version@stat F·[1 1] S·249KiB[184B 249KiB] Sc·[0.25 0.00]
+21:18:51.311488 table@compaction committed F-4 S-891B Ke·0 D·8 T·25.635888ms
+21:18:51.311799 table@remove removed @1467
+21:18:51.311891 table@remove removed @1466
+21:18:51.311946 table@remove removed @1465
+21:18:51.311997 table@remove removed @1464
+21:18:51.312171 table@remove removed @1463
+21:18:56.463366 transaction@flush created L0@1470 N·7 S·471B "bf\x00..\x01@\x19,v4662":"\xbe\x90b..\xb1\x8d\xda,v4657"
+21:18:56.463444 version@stat F·[2 1] S·249KiB[655B 249KiB] Sc·[0.50 0.00]
+21:18:56.474782 transaction@flush created L0@1471 N·1 S·184B "txr..\xbb\xc0\xd0,v4663":"txr..\xbb\xc0\xd0,v4663"
+21:18:56.474850 version@stat F·[3 1] S·250KiB[839B 249KiB] Sc·[0.75 0.00]
+21:19:01.644458 transaction@flush created L0@1472 N·7 S·482B "\x1b\x1f\x83..\f\x8f\r,v4665":"\xbe\x90b..\xb1\x8d\xda,v4664"
+21:19:01.644533 version@stat F·[4 1] S·250KiB[1KiB 249KiB] Sc·[1.00 0.00]
+21:19:01.650978 table@compaction L0·4 -> L1·1 S·250KiB Q·4670
+21:19:01.660155 transaction@flush created L0@1474 N·1 S·184B "txr..k}G,v4671":"txr..k}G,v4671"
+21:19:01.660273 version@stat F·[5 1] S·250KiB[1KiB 249KiB] Sc·[1.25 0.00]
+21:19:01.663474 table@build created L1@1473 N·2338 S·249KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:19:01.669588 version@stat F·[1 1] S·249KiB[184B 249KiB] Sc·[0.25 0.00]
+21:19:01.676029 table@compaction committed F-4 S-826B Ke·0 D·8 T·24.916263ms
+21:19:01.676502 table@remove removed @1472
+21:19:01.676635 table@remove removed @1471
+21:19:01.676725 table@remove removed @1470
+21:19:01.676825 table@remove removed @1469
+21:19:01.677035 table@remove removed @1468
+21:19:06.830668 transaction@flush created L0@1475 N·7 S·486B "\x1b\x1f\x83..\f\x8f\r,v4672":"\x97q\x0f..M\xc6\xd7,v4673"
+21:19:06.830748 version@stat F·[2 1] S·250KiB[670B 249KiB] Sc·[0.50 0.00]
+21:19:06.842576 transaction@flush created L0@1476 N·1 S·184B "txr..\x18aO,v4679":"txr..\x18aO,v4679"
+21:19:06.842646 version@stat F·[3 1] S·250KiB[854B 249KiB] Sc·[0.75 0.00]
+21:19:12.017132 transaction@flush created L0@1477 N·7 S·482B "a\xad\xdf..\x8eZ\xcf,v4681":"\x97q\x0f..M\xc6\xd7,v4680"
+21:19:12.017212 version@stat F·[4 1] S·251KiB[1KiB 249KiB] Sc·[1.00 0.00]
+21:19:12.023639 table@compaction L0·4 -> L1·1 S·251KiB Q·4686
+21:19:12.031702 transaction@flush created L0@1479 N·1 S·184B "txr..F\xad\xd4,v4687":"txr..F\xad\xd4,v4687"
+21:19:12.031779 version@stat F·[5 1] S·251KiB[1KiB 249KiB] Sc·[1.25 0.00]
+21:19:12.039273 table@build created L1@1478 N·2346 S·250KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:19:12.039472 version@stat F·[1 1] S·250KiB[184B 250KiB] Sc·[0.25 0.00]
+21:19:12.046103 table@compaction committed F-4 S-761B Ke·0 D·8 T·22.391385ms
+21:19:12.046354 table@remove removed @1477
+21:19:12.046503 table@remove removed @1476
+21:19:12.046644 table@remove removed @1475
+21:19:12.046772 table@remove removed @1474
+21:19:12.047033 table@remove removed @1473
+21:19:16.158939 transaction@flush created L0@1480 N·7 S·487B "1\x19r..y\x85\b,v4689":"th\x00..\x01@,,v4693"
+21:19:16.159082 version@stat F·[2 1] S·251KiB[671B 250KiB] Sc·[0.50 0.00]
+21:19:16.172704 transaction@flush created L0@1481 N·1 S·184B "txr..\x1a\xeb\xa2,v4695":"txr..\x1a\xeb\xa2,v4695"
+21:19:16.172802 version@stat F·[3 1] S·251KiB[855B 250KiB] Sc·[0.75 0.00]
+21:19:21.348005 transaction@flush created L0@1482 N·7 S·484B "1\x19r..y\x85\b,v4696":"th\x00..\x01@1,v4701"
+21:19:21.348091 version@stat F·[4 1] S·251KiB[1KiB 250KiB] Sc·[1.00 0.00]
+21:19:21.354316 table@compaction expanding L0+L1 (F·2 S·971B)+(F·1 S·250KiB) -> (F·4 S·1KiB)+(F·1 S·250KiB)
+21:19:21.354371 table@compaction L0·4 -> L1·1 S·251KiB Q·4702
+21:19:21.363071 transaction@flush created L0@1484 N·1 S·184B "txr..\xa6w\xd2,v4703":"txr..\xa6w\xd2,v4703"
+21:19:21.363183 version@stat F·[5 1] S·251KiB[1KiB 250KiB] Sc·[1.25 0.00]
+21:19:21.369488 table@build created L1@1483 N·2354 S·250KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:19:21.369563 version@stat F·[1 1] S·250KiB[184B 250KiB] Sc·[0.25 0.00]
+21:19:21.375817 table@compaction committed F-4 S-956B Ke·0 D·8 T·21.405515ms
+21:19:21.376053 table@remove removed @1482
+21:19:21.376204 table@remove removed @1481
+21:19:21.376288 table@remove removed @1480
+21:19:21.376348 table@remove removed @1479
+21:19:21.376476 table@remove removed @1478
+21:19:26.540059 transaction@flush created L0@1485 N·7 S·486B "I\xe6b..\xf9\x14\xb5,v4704":"th\x00..\x01@6,v4709"
+21:19:26.540157 version@stat F·[2 1] S·251KiB[670B 250KiB] Sc·[0.50 0.00]
+21:19:26.554653 transaction@flush created L0@1486 N·1 S·184B "txr..=\xa9u,v4711":"txr..=\xa9u,v4711"
+21:19:26.554732 version@stat F·[3 1] S·251KiB[854B 250KiB] Sc·[0.75 0.00]
+21:19:33.830652 transaction@flush created L0@1487 N·7 S·484B "P\xb8K..\xfeQ\xc4,v4712":"\xc2gz..\x8a6\xbe,v4713"
+21:19:33.830701 version@stat F·[4 1] S·252KiB[1KiB 250KiB] Sc·[1.00 0.00]
+21:19:33.834034 table@compaction L0·4 -> L1·1 S·252KiB Q·4718
+21:19:33.843397 transaction@flush created L0@1489 N·1 S·184B "txr..7\x14I,v4719":"txr..7\x14I,v4719"
+21:19:33.843522 version@stat F·[5 1] S·252KiB[1KiB 250KiB] Sc·[1.25 0.00]
+21:19:33.849816 table@build created L1@1488 N·2362 S·251KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:19:33.856232 version@stat F·[1 1] S·251KiB[184B 251KiB] Sc·[0.25 0.00]
+21:19:33.862307 table@compaction committed F-4 S-974B Ke·0 D·8 T·28.171728ms
+21:19:33.862529 table@remove removed @1487
+21:19:33.862615 table@remove removed @1486
+21:19:33.862675 table@remove removed @1485
+21:19:33.862736 table@remove removed @1484
+21:19:33.862873 table@remove removed @1483
+21:19:39.029495 transaction@flush created L0@1490 N·7 S·471B "bf\x00..\x01@B,v4726":"\xf9\xfc\xc7..\x05ȷ,v4721"
+21:19:39.029562 version@stat F·[2 1] S·251KiB[655B 251KiB] Sc·[0.50 0.00]
+21:19:39.043931 transaction@flush created L0@1491 N·1 S·184B "txr..\xc18`,v4727":"txr..\xc18`,v4727"
+21:19:39.044012 version@stat F·[3 1] S·251KiB[839B 251KiB] Sc·[0.75 0.00]
+21:19:43.184691 transaction@flush created L0@1492 N·7 S·473B "bf\x00..\x01@F,v4734":"\xf9\xfc\xc7..\x05ȷ,v4728"
+21:19:43.184811 version@stat F·[4 1] S·252KiB[1KiB 251KiB] Sc·[1.00 0.00]
+21:19:43.191366 table@compaction L0·4 -> L1·1 S·252KiB Q·4734
+21:19:43.201578 transaction@flush created L0@1494 N·1 S·184B "txr..r;~,v4735":"txr..r;~,v4735"
+21:19:43.201719 version@stat F·[5 1] S·252KiB[1KiB 251KiB] Sc·[1.25 0.00]
+21:19:43.204864 table@build created L1@1493 N·2370 S·251KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:19:43.211249 version@stat F·[1 1] S·251KiB[184B 251KiB] Sc·[0.25 0.00]
+21:19:43.217900 table@compaction committed F-4 S-672B Ke·0 D·8 T·26.371883ms
+21:19:43.218143 table@remove removed @1492
+21:19:43.218237 table@remove removed @1491
+21:19:43.218286 table@remove removed @1490
+21:19:43.218336 table@remove removed @1489
+21:19:43.218467 table@remove removed @1488
+21:19:48.363420 transaction@flush created L0@1495 N·7 S·482B "\a\x06\xa6..\x1equ,v4737":"\u008fo..\x8b\x87\x19,v4736"
+21:19:48.363476 version@stat F·[2 1] S·252KiB[666B 251KiB] Sc·[0.50 0.00]
+21:19:48.378549 transaction@flush created L0@1496 N·1 S·184B "txr..\u0603\x18,v4743":"txr..\u0603\x18,v4743"
+21:19:48.378672 version@stat F·[3 1] S·252KiB[850B 251KiB] Sc·[0.75 0.00]
+21:19:53.556656 transaction@flush created L0@1497 N·7 S·486B "\a\x06\xa6..\x1equ,v4744":"th\x00..\x01@P,v4749"
+21:19:53.556730 version@stat F·[4 1] S·253KiB[1KiB 251KiB] Sc·[1.00 0.00]
+21:19:53.563098 table@compaction L0·4 -> L1·1 S·253KiB Q·4750
+21:19:53.571750 transaction@flush created L0@1499 N·1 S·184B "txr..\x8d\xf5\xcf,v4751":"txr..\x8d\xf5\xcf,v4751"
+21:19:53.571811 version@stat F·[5 1] S·253KiB[1KiB 251KiB] Sc·[1.25 0.00]
+21:19:53.579086 table@build created L1@1498 N·2378 S·252KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:19:53.579238 version@stat F·[1 1] S·252KiB[184B 252KiB] Sc·[0.25 0.00]
+21:19:53.585885 table@compaction committed F-4 S-558B Ke·0 D·8 T·22.69109ms
+21:19:53.586135 table@remove removed @1497
+21:19:53.586202 table@remove removed @1496
+21:19:53.586254 table@remove removed @1495
+21:19:53.586322 table@remove removed @1494
+21:19:53.586462 table@remove removed @1493
+21:19:58.754147 transaction@flush created L0@1500 N·7 S·488B "\b\xab\xd5..j$\xa7,v4753":"th\x00..\x01@U,v4757"
+21:19:58.754221 version@stat F·[2 1] S·253KiB[672B 252KiB] Sc·[0.50 0.00]
+21:19:58.766065 transaction@flush created L0@1501 N·1 S·184B "txr..@B\x9f,v4759":"txr..@B\x9f,v4759"
+21:19:58.766136 version@stat F·[3 1] S·253KiB[856B 252KiB] Sc·[0.75 0.00]
+21:20:03.940739 transaction@flush created L0@1502 N·7 S·486B "\b\xab\xd5..j$\xa7,v4760":"\xeb\xe4V..pB\xbb,v4761"
+21:20:03.940819 version@stat F·[4 1] S·253KiB[1KiB 252KiB] Sc·[1.00 0.00]
+21:20:03.947022 table@compaction L0·4 -> L1·1 S·253KiB Q·4766
+21:20:03.956371 transaction@flush created L0@1504 N·1 S·184B "txr..\x14Q\xf5,v4767":"txr..\x14Q\xf5,v4767"
+21:20:03.956422 version@stat F·[5 1] S·253KiB[1KiB 252KiB] Sc·[1.25 0.00]
+21:20:03.959613 table@build created L1@1503 N·2386 S·252KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:20:03.966176 version@stat F·[1 1] S·252KiB[184B 252KiB] Sc·[0.25 0.00]
+21:20:03.972477 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·25.357746ms
+21:20:03.972687 table@remove removed @1502
+21:20:03.972809 table@remove removed @1501
+21:20:03.972934 table@remove removed @1500
+21:20:03.973046 table@remove removed @1499
+21:20:03.973251 table@remove removed @1498
+21:20:09.123528 transaction@flush created L0@1505 N·7 S·475B "bf\x00..\x01@_,v4774":"\xeb\xe4V..pB\xbb,v4768"
+21:20:09.123589 version@stat F·[2 1] S·253KiB[659B 252KiB] Sc·[0.50 0.00]
+21:20:09.138416 transaction@flush created L0@1506 N·1 S·184B "txr..\x88\xc2\xf4,v4775":"txr..\x88\xc2\xf4,v4775"
+21:20:09.138519 version@stat F·[3 1] S·253KiB[843B 252KiB] Sc·[0.75 0.00]
+21:20:14.309688 transaction@flush created L0@1507 N·7 S·471B "bf\x00..\x01@d,v4782":"\xcc{\x12..<\x0f\x13,v4777"
+21:20:14.309755 version@stat F·[4 1] S·253KiB[1KiB 252KiB] Sc·[1.00 0.00]
+21:20:14.315969 table@compaction L0·4 -> L1·1 S·253KiB Q·4782
+21:20:14.324120 transaction@flush created L0@1509 N·1 S·184B "txr..\xd3\xe5F,v4783":"txr..\xd3\xe5F,v4783"
+21:20:14.324168 version@stat F·[5 1] S·254KiB[1KiB 252KiB] Sc·[1.25 0.00]
+21:20:14.327351 table@build created L1@1508 N·2394 S·253KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:20:14.333773 version@stat F·[1 1] S·253KiB[184B 253KiB] Sc·[0.25 0.00]
+21:20:14.340312 table@compaction committed F-4 S-736B Ke·0 D·8 T·24.286303ms
+21:20:14.340426 table@remove removed @1507
+21:20:14.340470 table@remove removed @1506
+21:20:14.340509 table@remove removed @1505
+21:20:14.340545 table@remove removed @1504
+21:20:14.340622 table@remove removed @1503
+21:20:19.487352 transaction@flush created L0@1510 N·7 S·484B "\a&\x8a..P\xf4\x14,v4785":"\xcc{\x12..<\x0f\x13,v4784"
+21:20:19.487435 version@stat F·[2 1] S·253KiB[668B 253KiB] Sc·[0.50 0.00]
+21:20:19.499597 transaction@flush created L0@1511 N·1 S·184B "txr..\x1c\xb0\xd0,v4791":"txr..\x1c\xb0\xd0,v4791"
+21:20:19.499663 version@stat F·[3 1] S·253KiB[852B 253KiB] Sc·[0.75 0.00]
+21:20:23.648027 transaction@flush created L0@1512 N·7 S·485B "\a&\x8a..P\xf4\x14,v4792":"ҧF..\xf3\x10G,v4793"
+21:20:23.648204 version@stat F·[4 1] S·254KiB[1KiB 253KiB] Sc·[1.00 0.00]
+21:20:23.654993 table@compaction L0·4 -> L1·1 S·254KiB Q·4798
+21:20:23.664814 transaction@flush created L0@1514 N·1 S·184B "txr..\xf1\xc2H,v4799":"txr..\xf1\xc2H,v4799"
+21:20:23.664918 version@stat F·[5 1] S·254KiB[1KiB 253KiB] Sc·[1.25 0.00]
+21:20:23.668224 table@build created L1@1513 N·2402 S·254KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:20:23.674385 version@stat F·[1 1] S·254KiB[184B 254KiB] Sc·[0.25 0.00]
+21:20:23.679943 table@compaction committed F-4 S+248B Ke·0 D·8 T·24.76772ms
+21:20:23.680270 table@remove removed @1512
+21:20:23.680351 table@remove removed @1511
+21:20:23.680418 table@remove removed @1510
+21:20:23.680496 table@remove removed @1509
+21:20:23.680655 table@remove removed @1508
+21:20:28.853272 transaction@flush created L0@1515 N·7 S·473B "bf\x00..\x01@r,v4806":"ҧF..\xf3\x10G,v4800"
+21:20:28.853346 version@stat F·[2 1] S·255KiB[657B 254KiB] Sc·[0.50 0.00]
+21:20:28.868287 transaction@flush created L0@1516 N·1 S·184B "txr..\xe9\xdd\xc0,v4807":"txr..\xe9\xdd\xc0,v4807"
+21:20:28.868386 version@stat F·[3 1] S·255KiB[841B 254KiB] Sc·[0.75 0.00]
+21:20:34.044298 transaction@flush created L0@1517 N·7 S·473B "bf\x00..\x01@w,v4814":"\xb3\x88Q..2ԫ,v4808"
+21:20:34.044375 version@stat F·[4 1] S·255KiB[1KiB 254KiB] Sc·[1.00 0.00]
+21:20:34.050737 table@compaction L0·4 -> L1·1 S·255KiB Q·4814
+21:20:34.059854 transaction@flush created L0@1519 N·1 S·184B "txr..|m\xf7,v4815":"txr..|m\xf7,v4815"
+21:20:34.059927 version@stat F·[5 1] S·256KiB[1KiB 254KiB] Sc·[1.25 0.00]
+21:20:34.063586 table@build created L1@1518 N·2410 S·254KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:20:34.065980 version@stat F·[1 1] S·255KiB[184B 254KiB] Sc·[0.25 0.00]
+21:20:34.072811 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.98972ms
+21:20:34.072965 table@remove removed @1517
+21:20:34.073023 table@remove removed @1516
+21:20:34.073073 table@remove removed @1515
+21:20:34.073113 table@remove removed @1514
+21:20:34.073201 table@remove removed @1513
+21:20:39.229479 transaction@flush created L0@1520 N·7 S·482B "\x12\x15\"..\x916a,v4817":"\xab`\xc9..&\x98\xaa,v4816"
+21:20:39.229555 version@stat F·[2 1] S·255KiB[666B 254KiB] Sc·[0.50 0.00]
+21:20:39.241126 transaction@flush created L0@1521 N·1 S·184B "txr..Ro\x04,v4823":"txr..Ro\x04,v4823"
+21:20:39.241181 version@stat F·[3 1] S·255KiB[850B 254KiB] Sc·[0.75 0.00]
+21:20:44.417852 transaction@flush created L0@1522 N·7 S·484B "\x12\x15\"..\x916a,v4824":"\xb1\x9c\xcc..\x1a\x9b\xc0,v4825"
+21:20:44.417927 version@stat F·[4 1] S·256KiB[1KiB 254KiB] Sc·[1.00 0.00]
+21:20:44.424168 table@compaction L0·4 -> L1·1 S·256KiB Q·4830
+21:20:44.433392 transaction@flush created L0@1524 N·1 S·184B "txr..|\x83N,v4831":"txr..|\x83N,v4831"
+21:20:44.433482 version@stat F·[5 1] S·256KiB[1KiB 254KiB] Sc·[1.25 0.00]
+21:20:44.440883 table@build created L1@1523 N·2418 S·255KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:20:44.441051 version@stat F·[1 1] S·255KiB[184B 255KiB] Sc·[0.25 0.00]
+21:20:44.447503 table@compaction committed F-4 S-792B Ke·0 D·8 T·23.228952ms
+21:20:44.447858 table@remove removed @1522
+21:20:44.447981 table@remove removed @1521
+21:20:44.448072 table@remove removed @1520
+21:20:44.448210 table@remove removed @1519
+21:20:44.448394 table@remove removed @1518
+21:20:49.611257 transaction@flush created L0@1525 N·7 S·490B "E\"m..nr\xf8,v4833":"\xb1\x9c\xcc..\x1a\x9b\xc0,v4832"
+21:20:49.611350 version@stat F·[2 1] S·256KiB[674B 255KiB] Sc·[0.50 0.00]
+21:20:49.623402 transaction@flush created L0@1526 N·1 S·184B "txr..\xf0 A,v4839":"txr..\xf0 A,v4839"
+21:20:49.623463 version@stat F·[3 1] S·256KiB[858B 255KiB] Sc·[0.75 0.00]
+21:20:56.881853 transaction@flush created L0@1527 N·7 S·488B "8\xa4\x93..\xfb\xb0\xd5,v4841":"th\x00..\x01@\x8d,v4845"
+21:20:56.881923 version@stat F·[4 1] S·256KiB[1KiB 255KiB] Sc·[1.00 0.00]
+21:20:56.885206 table@compaction L0·4 -> L1·1 S·256KiB Q·4846
+21:20:56.893135 transaction@flush created L0@1529 N·1 S·184B "txr..\x9d\xe5|,v4847":"txr..\x9d\xe5|,v4847"
+21:20:56.893209 version@stat F·[5 1] S·256KiB[1KiB 255KiB] Sc·[1.25 0.00]
+21:20:56.896434 table@build created L1@1528 N·2426 S·255KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:20:56.903149 version@stat F·[1 1] S·256KiB[184B 255KiB] Sc·[0.25 0.00]
+21:20:56.910076 table@compaction committed F-4 S-868B Ke·0 D·8 T·24.802054ms
+21:20:56.910275 table@remove removed @1527
+21:20:56.910383 table@remove removed @1526
+21:20:56.910499 table@remove removed @1525
+21:20:56.910627 table@remove removed @1524
+21:20:56.910996 table@remove removed @1523
+21:21:02.079965 transaction@flush created L0@1530 N·7 S·486B "8\xa4\x93..\xfb\xb0\xd5,v4848":"\xa9`\x1b..\xb6\xdb\xd0,v4849"
+21:21:02.080033 version@stat F·[2 1] S·256KiB[670B 255KiB] Sc·[0.50 0.00]
+21:21:02.095390 transaction@flush created L0@1531 N·1 S·184B "txr..q;m,v4855":"txr..q;m,v4855"
+21:21:02.095486 version@stat F·[3 1] S·256KiB[854B 255KiB] Sc·[0.75 0.00]
+21:21:06.230336 transaction@flush created L0@1532 N·7 S·485B "\x00_ ..L\xf3\x9d,v4857":"\xa9`\x1b..\xb6\xdb\xd0,v4856"
+21:21:06.230394 version@stat F·[4 1] S·257KiB[1KiB 255KiB] Sc·[1.00 0.00]
+21:21:06.233604 table@compaction L0·4 -> L1·1 S·257KiB Q·4862
+21:21:06.241070 transaction@flush created L0@1534 N·1 S·184B "txr..\x04݀,v4863":"txr..\x04݀,v4863"
+21:21:06.241118 version@stat F·[5 1] S·257KiB[1KiB 255KiB] Sc·[1.25 0.00]
+21:21:06.244244 table@build created L1@1533 N·2434 S·256KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:21:06.250242 version@stat F·[1 1] S·256KiB[184B 256KiB] Sc·[0.25 0.00]
+21:21:06.253671 table@compaction committed F-4 S-554B Ke·0 D·8 T·19.995073ms
+21:21:06.254002 table@remove removed @1532
+21:21:06.254110 table@remove removed @1531
+21:21:06.254188 table@remove removed @1530
+21:21:06.254268 table@remove removed @1529
+21:21:06.254468 table@remove removed @1528
+21:21:11.419607 transaction@flush created L0@1535 N·7 S·484B "\x00_ ..L\xf3\x9d,v4864":"Դs..\tm\f,v4865"
+21:21:11.419691 version@stat F·[2 1] S·257KiB[668B 256KiB] Sc·[0.50 0.00]
+21:21:11.431097 transaction@flush created L0@1536 N·1 S·184B "txr..L\xb9n,v4871":"txr..L\xb9n,v4871"
+21:21:11.431174 version@stat F·[3 1] S·257KiB[852B 256KiB] Sc·[0.75 0.00]
+21:21:16.608063 transaction@flush created L0@1537 N·7 S·485B "6\x8e'..\xe2\x01v,v4873":"Դs..\tm\f,v4872"
+21:21:16.608159 version@stat F·[4 1] S·257KiB[1KiB 256KiB] Sc·[1.00 0.00]
+21:21:16.614499 table@compaction L0·4 -> L1·1 S·257KiB Q·4878
+21:21:16.622974 transaction@flush created L0@1539 N·1 S·184B "txr.. \xbc\xb8,v4879":"txr.. \xbc\xb8,v4879"
+21:21:16.623046 version@stat F·[5 1] S·258KiB[1KiB 256KiB] Sc·[1.25 0.00]
+21:21:16.629769 table@build created L1@1538 N·2442 S·257KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:21:16.629824 version@stat F·[1 1] S·257KiB[184B 257KiB] Sc·[0.25 0.00]
+21:21:16.636221 table@compaction committed F-4 S-878B Ke·0 D·8 T·21.634278ms
+21:21:16.636467 table@remove removed @1537
+21:21:16.636540 table@remove removed @1536
+21:21:16.636591 table@remove removed @1535
+21:21:16.636643 table@remove removed @1534
+21:21:16.636789 table@remove removed @1533
+21:21:21.796775 transaction@flush created L0@1540 N·7 S·484B "6\x8e'..\xe2\x01v,v4880":"th\x00..\x01@\xa5,v4885"
+21:21:21.796853 version@stat F·[2 1] S·257KiB[668B 257KiB] Sc·[0.50 0.00]
+21:21:21.811872 transaction@flush created L0@1541 N·1 S·184B "txr..\x19\x8b!,v4887":"txr..\x19\x8b!,v4887"
+21:21:21.811950 version@stat F·[3 1] S·257KiB[852B 257KiB] Sc·[0.75 0.00]
+21:21:26.976909 transaction@flush created L0@1542 N·7 S·482B "VX\xf4..\xa9C\xae,v4888":"\xb8\xea\x92..\xa3ׄ,v4889"
+21:21:26.976972 version@stat F·[4 1] S·258KiB[1KiB 257KiB] Sc·[1.00 0.00]
+21:21:26.983325 table@compaction L0·4 -> L1·1 S·258KiB Q·4894
+21:21:26.991315 transaction@flush created L0@1544 N·1 S·184B "txr..\x18c\xbc,v4895":"txr..\x18c\xbc,v4895"
+21:21:26.991427 version@stat F·[5 1] S·258KiB[1KiB 257KiB] Sc·[1.25 0.00]
+21:21:26.994504 table@build created L1@1543 N·2450 S·257KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:21:27.000880 version@stat F·[1 1] S·257KiB[184B 257KiB] Sc·[0.25 0.00]
+21:21:27.010248 table@compaction committed F-4 S-690B Ke·0 D·8 T·26.855877ms
+21:21:27.010374 table@remove removed @1542
+21:21:27.010412 table@remove removed @1541
+21:21:27.010441 table@remove removed @1540
+21:21:27.010476 table@remove removed @1539
+21:21:27.010550 table@remove removed @1538
+21:21:32.184382 transaction@flush created L0@1545 N·7 S·471B "bf\x00..\x01@\xaf,v4902":"\xb8\xea\x92..\xa3ׄ,v4896"
+21:21:32.184451 version@stat F·[2 1] S·258KiB[655B 257KiB] Sc·[0.50 0.00]
+21:21:32.198236 transaction@flush created L0@1546 N·1 S·184B "txr..\xf2\v\xc7,v4903":"txr..\xf2\v\xc7,v4903"
+21:21:32.198302 version@stat F·[3 1] S·258KiB[839B 257KiB] Sc·[0.75 0.00]
+21:21:37.356140 transaction@flush created L0@1547 N·7 S·469B "bf\x00..\x01@\xb4,v4910":"\xb9\xba\xb5..~\x81@,v4905"
+21:21:37.356171 version@stat F·[4 1] S·258KiB[1KiB 257KiB] Sc·[1.00 0.00]
+21:21:37.362221 table@compaction L0·4 -> L1·1 S·258KiB Q·4910
+21:21:37.370494 transaction@flush created L0@1549 N·1 S·184B "txr..\x9f\xe5U,v4911":"txr..\x9f\xe5U,v4911"
+21:21:37.370574 version@stat F·[5 1] S·259KiB[1KiB 257KiB] Sc·[1.25 0.00]
+21:21:37.378217 table@build created L1@1548 N·2458 S·258KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:21:37.378399 version@stat F·[1 1] S·258KiB[184B 258KiB] Sc·[0.25 0.00]
+21:21:37.385193 table@compaction committed F-4 S-941B Ke·0 D·8 T·22.886001ms
+21:21:37.385535 table@remove removed @1547
+21:21:37.385689 table@remove removed @1546
+21:21:37.385808 table@remove removed @1545
+21:21:37.385911 table@remove removed @1544
+21:21:37.386073 table@remove removed @1543
+21:21:41.509732 transaction@flush created L0@1550 N·7 S·481B "1\xd7\v..Y\x9d\xad,v4913":"\xb9\xba\xb5..~\x81@,v4912"
+21:21:41.509773 version@stat F·[2 1] S·258KiB[665B 258KiB] Sc·[0.50 0.00]
+21:21:41.525352 transaction@flush created L0@1551 N·1 S·184B "txr..\xe8\x98I,v4919":"txr..\xe8\x98I,v4919"
+21:21:41.525438 version@stat F·[3 1] S·258KiB[849B 258KiB] Sc·[0.75 0.00]
+21:21:46.694752 transaction@flush created L0@1552 N·7 S·489B "1\xd7\v..Y\x9d\xad,v4920":"\xcf+K..\x8diT,v4921"
+21:21:46.694814 version@stat F·[4 1] S·259KiB[1KiB 258KiB] Sc·[1.00 0.00]
+21:21:46.698245 table@compaction L0·4 -> L1·1 S·259KiB Q·4926
+21:21:46.707033 transaction@flush created L0@1554 N·1 S·184B "txr..Lr$,v4927":"txr..Lr$,v4927"
+21:21:46.707108 version@stat F·[5 1] S·259KiB[1KiB 258KiB] Sc·[1.25 0.00]
+21:21:46.710337 table@build created L1@1553 N·2466 S·258KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:21:46.716585 version@stat F·[1 1] S·258KiB[184B 258KiB] Sc·[0.25 0.00]
+21:21:46.723054 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.716082ms
+21:21:46.723163 table@remove removed @1552
+21:21:46.723214 table@remove removed @1551
+21:21:46.723257 table@remove removed @1550
+21:21:46.723301 table@remove removed @1549
+21:21:46.723398 table@remove removed @1548
+21:21:51.884261 transaction@flush created L0@1555 N·7 S·484B "\x1fN3..\x81ك,v4929":"\xcf+K..\x8diT,v4928"
+21:21:51.884327 version@stat F·[2 1] S·259KiB[668B 258KiB] Sc·[0.50 0.00]
+21:21:51.898647 transaction@flush created L0@1556 N·1 S·184B "txr..\xe2G\xb5,v4935":"txr..\xe2G\xb5,v4935"
+21:21:51.898699 version@stat F·[3 1] S·259KiB[852B 258KiB] Sc·[0.75 0.00]
+21:21:57.077946 transaction@flush created L0@1557 N·7 S·482B "\x1fN3..\x81ك,v4936":"{\xb4\xd1..\n+T,v4937"
+21:21:57.078016 version@stat F·[4 1] S·259KiB[1KiB 258KiB] Sc·[1.00 0.00]
+21:21:57.081478 table@compaction L0·4 -> L1·1 S·259KiB Q·4942
+21:21:57.089882 transaction@flush created L0@1559 N·1 S·184B "txr..D\xc0\xe5,v4943":"txr..D\xc0\xe5,v4943"
+21:21:57.089936 version@stat F·[5 1] S·259KiB[1KiB 258KiB] Sc·[1.25 0.00]
+21:21:57.093416 table@build created L1@1558 N·2474 S·259KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:21:57.099824 version@stat F·[1 1] S·259KiB[184B 259KiB] Sc·[0.25 0.00]
+21:21:57.106704 table@compaction committed F-4 S-44B Ke·0 D·8 T·25.132107ms
+21:21:57.107096 table@remove removed @1557
+21:21:57.107188 table@remove removed @1556
+21:21:57.107262 table@remove removed @1555
+21:21:57.107339 table@remove removed @1554
+21:21:57.107510 table@remove removed @1553
+21:22:03.320994 transaction@flush created L0@1560 N·7 S·484B "\x10\xf2\x02..D=p,v4945":"{\xb4\xd1..\n+T,v4944"
+21:22:03.321069 version@stat F·[2 1] S·260KiB[668B 259KiB] Sc·[0.50 0.00]
+21:22:03.344272 transaction@flush created L0@1561 N·1 S·184B "txr..i\xdbF,v4951":"txr..i\xdbF,v4951"
+21:22:03.344386 version@stat F·[3 1] S·260KiB[852B 259KiB] Sc·[0.75 0.00]
+21:22:09.545384 transaction@flush created L0@1562 N·7 S·492B "\x10\xf2\x02..D=p,v4952":"\x92\xa3\xd5..*\xea-,v4953"
+21:22:09.545450 version@stat F·[4 1] S·260KiB[1KiB 259KiB] Sc·[1.00 0.00]
+21:22:09.548997 table@compaction L0·4 -> L1·1 S·260KiB Q·4958
+21:22:09.556823 transaction@flush created L0@1564 N·1 S·184B "txr..\x9f\xbf\xa0,v4959":"txr..\x9f\xbf\xa0,v4959"
+21:22:09.556857 version@stat F·[5 1] S·261KiB[1KiB 259KiB] Sc·[1.25 0.00]
+21:22:09.560209 table@build created L1@1563 N·2482 S·260KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:22:09.566565 version@stat F·[1 1] S·260KiB[184B 260KiB] Sc·[0.25 0.00]
+21:22:09.570180 table@compaction committed F-4 S-712B Ke·0 D·8 T·21.08622ms
+21:22:09.570529 table@remove removed @1562
+21:22:09.570640 table@remove removed @1561
+21:22:09.570746 table@remove removed @1560
+21:22:09.570839 table@remove removed @1559
+21:22:09.571070 table@remove removed @1558
+21:22:14.723663 transaction@flush created L0@1565 N·7 S·471B "bf\x00..\x01@\xd8,v4966":"\x92\xa3\xd5..*\xea-,v4960"
+21:22:14.723696 version@stat F·[2 1] S·260KiB[655B 260KiB] Sc·[0.50 0.00]
+21:22:14.736930 transaction@flush created L0@1566 N·1 S·184B "txr..#p\xbe,v4967":"txr..#p\xbe,v4967"
+21:22:14.737031 version@stat F·[3 1] S·261KiB[839B 260KiB] Sc·[0.75 0.00]
+21:22:19.907016 transaction@flush created L0@1567 N·7 S·482B "QJ;..\u009f\x95,v4969":"v\xe5\xaf..$\x1eO,v4968"
+21:22:19.907045 version@stat F·[4 1] S·261KiB[1KiB 260KiB] Sc·[1.00 0.00]
+21:22:19.910421 table@compaction L0·4 -> L1·1 S·261KiB Q·4974
+21:22:19.916834 table@build created L1@1568 N·2490 S·260KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:22:19.916907 version@stat F·[0 1] S·260KiB[0B 260KiB] Sc·[0.00 0.00]
+21:22:19.920063 transaction@flush created L0@1569 N·1 S·184B "txr..\xe2\x06:,v4975":"txr..\xe2\x06:,v4975"
+21:22:19.926198 table@compaction committed F-4 S-844B Ke·0 D·8 T·15.70893ms
+21:22:19.926390 table@remove removed @1567
+21:22:19.926437 table@remove removed @1566
+21:22:19.926473 table@remove removed @1565
+21:22:19.926514 table@remove removed @1564
+21:22:19.926620 table@remove removed @1563
+21:22:19.926711 version@stat F·[1 1] S·260KiB[184B 260KiB] Sc·[0.25 0.00]
+21:22:24.069561 transaction@flush created L0@1570 N·7 S·486B "&I\xf9..\"M\xa0,v4977":"th\x00..\x01@\xe1,v4981"
+21:22:24.069617 version@stat F·[2 1] S·261KiB[670B 260KiB] Sc·[0.50 0.00]
+21:22:24.080059 transaction@flush created L0@1571 N·1 S·184B "txr..\xba\x8e\xcc,v4983":"txr..\xba\x8e\xcc,v4983"
+21:22:24.080128 version@stat F·[3 1] S·261KiB[854B 260KiB] Sc·[0.75 0.00]
+21:22:29.259014 transaction@flush created L0@1572 N·7 S·486B "&I\xf9..\"M\xa0,v4984":"th\x00..\x01@\xe6,v4989"
+21:22:29.259053 version@stat F·[4 1] S·262KiB[1KiB 260KiB] Sc·[1.00 0.00]
+21:22:29.262217 table@compaction expanding L0+L1 (F·2 S·972B)+(F·1 S·260KiB) -> (F·4 S·1KiB)+(F·1 S·260KiB)
+21:22:29.262242 table@compaction L0·4 -> L1·1 S·262KiB Q·4990
+21:22:29.269012 table@build created L1@1573 N·2498 S·261KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:22:29.269089 version@stat F·[0 1] S·261KiB[0B 261KiB] Sc·[0.00 0.00]
+21:22:29.272220 transaction@flush created L0@1574 N·1 S·184B "txr..\xe7\xa5x,v4991":"txr..\xe7\xa5x,v4991"
+21:22:29.278237 table@compaction committed F-4 S-956B Ke·0 D·8 T·15.96673ms
+21:22:29.278342 table@remove removed @1572
+21:22:29.278375 table@remove removed @1571
+21:22:29.278405 table@remove removed @1570
+21:22:29.278436 table@remove removed @1569
+21:22:29.278505 table@remove removed @1568
+21:22:29.278534 version@stat F·[1 1] S·261KiB[184B 261KiB] Sc·[0.25 0.00]
+21:22:34.446906 transaction@flush created L0@1575 N·7 S·503B "bf\x00..\x01@\xeb,v4998":"~L\xca..8ל,v4993"
+21:22:34.446988 version@stat F·[2 1] S·261KiB[687B 261KiB] Sc·[0.50 0.00]
+21:22:34.459037 transaction@flush created L0@1576 N·1 S·184B "txr..]\xed\xdd,v4999":"txr..]\xed\xdd,v4999"
+21:22:34.459128 version@stat F·[3 1] S·261KiB[871B 261KiB] Sc·[0.75 0.00]
+21:22:39.644519 transaction@flush created L0@1577 N·7 S·473B "bf\x00..\x01@\xf0,v5006":"~L\xca..8ל,v5000"
+21:22:39.644583 version@stat F·[4 1] S·262KiB[1KiB 261KiB] Sc·[1.00 0.00]
+21:22:39.650831 table@compaction L0·4 -> L1·1 S·262KiB Q·5006
+21:22:39.659764 transaction@flush created L0@1579 N·1 S·184B "txr..\x8b4a,v5007":"txr..\x8b4a,v5007"
+21:22:39.659870 version@stat F·[5 1] S·262KiB[1KiB 261KiB] Sc·[1.25 0.00]
+21:22:39.663081 table@build created L1@1578 N·2506 S·262KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:22:39.669480 version@stat F·[1 1] S·262KiB[184B 262KiB] Sc·[0.25 0.00]
+21:22:39.676239 table@compaction committed F-4 S-376B Ke·0 D·8 T·25.320867ms
+21:22:39.676476 table@remove removed @1577
+21:22:39.676539 table@remove removed @1576
+21:22:39.676586 table@remove removed @1575
+21:22:39.676630 table@remove removed @1574
+21:22:39.676739 table@remove removed @1573
+21:22:44.829851 transaction@flush created L0@1580 N·7 S·480B "(Pf..\x86W\xff,v5009":"z\x92\xd2..)\x80\xf8,v5008"
+21:22:44.829931 version@stat F·[2 1] S·262KiB[664B 262KiB] Sc·[0.50 0.00]
+21:22:44.845316 transaction@flush created L0@1581 N·1 S·184B "txr..A\xb9\xe1,v5015":"txr..A\xb9\xe1,v5015"
+21:22:44.845437 version@stat F·[3 1] S·262KiB[848B 262KiB] Sc·[0.75 0.00]
+21:22:50.016537 transaction@flush created L0@1582 N·7 S·482B "(Pf..\x86W\xff,v5016":"th\x00..\x01@\xfa,v5021"
+21:22:50.016589 version@stat F·[4 1] S·263KiB[1KiB 262KiB] Sc·[1.00 0.00]
+21:22:50.022463 table@compaction L0·4 -> L1·1 S·263KiB Q·5022
+21:22:50.029835 transaction@flush created L0@1584 N·1 S·184B "txr..ɨ\x00,v5023":"txr..ɨ\x00,v5023"
+21:22:50.029888 version@stat F·[5 1] S·263KiB[1KiB 262KiB] Sc·[1.25 0.00]
+21:22:50.033066 table@build created L1@1583 N·2514 S·262KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:22:50.039025 version@stat F·[1 1] S·262KiB[184B 262KiB] Sc·[0.25 0.00]
+21:22:50.045688 table@compaction committed F-4 S-836B Ke·0 D·8 T·23.147098ms
+21:22:50.045968 table@remove removed @1582
+21:22:50.046048 table@remove removed @1581
+21:22:50.046112 table@remove removed @1580
+21:22:50.046171 table@remove removed @1579
+21:22:50.046351 table@remove removed @1578
+21:22:55.223037 transaction@flush created L0@1585 N·7 S·488B "2;\xd2..X\xc9\",v5024":"\u007f\xf6\x8d..\x90\x1d\x1c,v5025"
+21:22:55.223114 version@stat F·[2 1] S·263KiB[672B 262KiB] Sc·[0.50 0.00]
+21:22:55.235457 transaction@flush created L0@1586 N·1 S·184B "txr..\xddG\xcd,v5031":"txr..\xddG\xcd,v5031"
+21:22:55.235548 version@stat F·[3 1] S·263KiB[856B 262KiB] Sc·[0.75 0.00]
+21:23:00.403281 transaction@flush created L0@1587 N·7 S·469B "bf\x00..\x01A\x04,v5038":"\xd28m..\x19t1,v5033"
+21:23:00.403331 version@stat F·[4 1] S·263KiB[1KiB 262KiB] Sc·[1.00 0.00]
+21:23:00.406701 table@compaction L0·4 -> L1·1 S·263KiB Q·5038
+21:23:00.414280 table@build created L1@1588 N·2522 S·263KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:23:00.414375 version@stat F·[0 1] S·263KiB[0B 263KiB] Sc·[0.00 0.00]
+21:23:00.417453 transaction@flush created L0@1589 N·1 S·184B "txr..eț,v5039":"txr..eț,v5039"
+21:23:00.423592 table@compaction committed F-4 S-715B Ke·0 D·8 T·16.815034ms
+21:23:00.423663 version@stat F·[1 1] S·263KiB[184B 263KiB] Sc·[0.25 0.00]
+21:23:00.423850 table@remove removed @1587
+21:23:00.424055 table@remove removed @1586
+21:23:00.424193 table@remove removed @1585
+21:23:00.424258 table@remove removed @1584
+21:23:00.424398 table@remove removed @1583
+21:23:05.578318 transaction@flush created L0@1590 N·7 S·472B "bf\x00..\x01A\t,v5046":"\xf2~\xa8..qFv,v5041"
+21:23:05.578384 version@stat F·[2 1] S·263KiB[656B 263KiB] Sc·[0.50 0.00]
+21:23:05.589941 transaction@flush created L0@1591 N·1 S·184B "txr..e\xb7\xaa,v5047":"txr..e\xb7\xaa,v5047"
+21:23:05.590007 version@stat F·[3 1] S·263KiB[840B 263KiB] Sc·[0.75 0.00]
+21:23:10.780279 transaction@flush created L0@1592 N·7 S·482B "\x1b\xa2n..\x1e\xef\xc7,v5049":"\xf2~\xa8..qFv,v5048"
+21:23:10.780355 version@stat F·[4 1] S·264KiB[1KiB 263KiB] Sc·[1.00 0.00]
+21:23:10.786926 table@compaction L0·4 -> L1·1 S·264KiB Q·5054
+21:23:10.795716 transaction@flush created L0@1594 N·1 S·184B "txr..\xc6\xc5\",v5055":"txr..\xc6\xc5\",v5055"
+21:23:10.795790 version@stat F·[5 1] S·264KiB[1KiB 263KiB] Sc·[1.25 0.00]
+21:23:10.810080 table@build created L1@1593 N·2530 S·263KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:23:10.810259 version@stat F·[1 1] S·263KiB[184B 263KiB] Sc·[0.25 0.00]
+21:23:10.813559 table@compaction committed F-4 S-931B Ke·0 D·8 T·26.546106ms
+21:23:10.813682 table@remove removed @1592
+21:23:10.813742 table@remove removed @1591
+21:23:10.813805 table@remove removed @1590
+21:23:10.813858 table@remove removed @1589
+21:23:10.813971 table@remove removed @1588
+21:23:15.972968 transaction@flush created L0@1595 N·7 S·486B "\vcf..\x8a\x8ep,v5057":"th\x00..\x01A\x13,v5061"
+21:23:15.973047 version@stat F·[2 1] S·264KiB[670B 263KiB] Sc·[0.50 0.00]
+21:23:15.987912 transaction@flush created L0@1596 N·1 S·184B "txr..\x89\xf6\x9b,v5063":"txr..\x89\xf6\x9b,v5063"
+21:23:15.987988 version@stat F·[3 1] S·264KiB[854B 263KiB] Sc·[0.75 0.00]
+21:23:21.159933 transaction@flush created L0@1597 N·7 S·484B "\vcf..\x8a\x8ep,v5064":"\x97\x9d\x14..\x126\x98,v5065"
+21:23:21.160013 version@stat F·[4 1] S·264KiB[1KiB 263KiB] Sc·[1.00 0.00]
+21:23:21.166288 table@compaction L0·4 -> L1·1 S·264KiB Q·5070
+21:23:21.175541 transaction@flush created L0@1599 N·1 S·184B "txr..v\u007f\x98,v5071":"txr..v\u007f\x98,v5071"
+21:23:21.175613 version@stat F·[5 1] S·264KiB[1KiB 263KiB] Sc·[1.25 0.00]
+21:23:21.182493 table@build created L1@1598 N·2538 S·264KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:23:21.182676 version@stat F·[1 1] S·264KiB[184B 264KiB] Sc·[0.25 0.00]
+21:23:21.189142 table@compaction committed F-4 S-591B Ke·0 D·8 T·22.754404ms
+21:23:21.189440 table@remove removed @1597
+21:23:21.189567 table@remove removed @1596
+21:23:21.189666 table@remove removed @1595
+21:23:21.189759 table@remove removed @1594
+21:23:21.189936 table@remove removed @1593
+21:23:26.352333 transaction@flush created L0@1600 N·7 S·473B "bf\x00..\x01A\x1d,v5078":"\xae\x8a\x00..A^\x00,v5073"
+21:23:26.352396 version@stat F·[2 1] S·264KiB[657B 264KiB] Sc·[0.50 0.00]
+21:23:26.366406 transaction@flush created L0@1601 N·1 S·184B "txr..5\x91\x81,v5079":"txr..5\x91\x81,v5079"
+21:23:26.366463 version@stat F·[3 1] S·265KiB[841B 264KiB] Sc·[0.75 0.00]
+21:23:31.537355 transaction@flush created L0@1602 N·7 S·469B "bf\x00..\x01A\",v5086":"\xbb8\x94..\\\xaaO,v5081"
+21:23:31.537434 version@stat F·[4 1] S·265KiB[1KiB 264KiB] Sc·[1.00 0.00]
+21:23:31.543739 table@compaction L0·4 -> L1·1 S·265KiB Q·5086
+21:23:31.552740 transaction@flush created L0@1604 N·1 S·184B "txr..\n\x9eK,v5087":"txr..\n\x9eK,v5087"
+21:23:31.552822 version@stat F·[5 1] S·265KiB[1KiB 264KiB] Sc·[1.25 0.00]
+21:23:31.559483 table@build created L1@1603 N·2546 S·264KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:23:31.559646 version@stat F·[1 1] S·264KiB[184B 264KiB] Sc·[0.25 0.00]
+21:23:31.566157 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·22.332963ms
+21:23:31.566298 table@remove removed @1602
+21:23:31.566370 table@remove removed @1601
+21:23:31.566434 table@remove removed @1600
+21:23:31.566497 table@remove removed @1599
+21:23:31.566619 table@remove removed @1598
+21:23:36.740876 transaction@flush created L0@1605 N·7 S·471B "bf\x00..\x01A',v5094":"\xbb8\x94..\\\xaaO,v5088"
+21:23:36.740953 version@stat F·[2 1] S·265KiB[655B 264KiB] Sc·[0.50 0.00]
+21:23:36.756181 transaction@flush created L0@1606 N·1 S·184B "txr..\x8aL6,v5095":"txr..\x8aL6,v5095"
+21:23:36.756249 version@stat F·[3 1] S·265KiB[839B 264KiB] Sc·[0.75 0.00]
+21:23:41.929546 transaction@flush created L0@1607 N·7 S·475B "bf\x00..\x01A,,v5102":"ץL..m\xbb\xd6,v5097"
+21:23:41.929616 version@stat F·[4 1] S·265KiB[1KiB 264KiB] Sc·[1.00 0.00]
+21:23:41.933056 table@compaction L0·4 -> L1·1 S·265KiB Q·5102
+21:23:41.940663 transaction@flush created L0@1609 N·1 S·184B "txr..\xc9\xeb\x94,v5103":"txr..\xc9\xeb\x94,v5103"
+21:23:41.940711 version@stat F·[5 1] S·265KiB[1KiB 264KiB] Sc·[1.25 0.00]
+21:23:41.943885 table@build created L1@1608 N·2554 S·265KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:23:41.949836 version@stat F·[1 1] S·265KiB[184B 265KiB] Sc·[0.25 0.00]
+21:23:41.952739 table@compaction committed F-4 S-728B Ke·0 D·8 T·19.605879ms
+21:23:41.952844 table@remove removed @1607
+21:23:41.952914 table@remove removed @1606
+21:23:41.952959 table@remove removed @1605
+21:23:41.953005 table@remove removed @1604
+21:23:41.953109 table@remove removed @1603
+21:23:47.125623 transaction@flush created L0@1610 N·7 S·478B "/\xddO..\x03\x95\x8f,v5105":"ץL..m\xbb\xd6,v5104"
+21:23:47.125704 version@stat F·[2 1] S·265KiB[662B 265KiB] Sc·[0.50 0.00]
+21:23:47.137704 transaction@flush created L0@1611 N·1 S·184B "txr..\xbc\xf5\x86,v5111":"txr..\xbc\xf5\x86,v5111"
+21:23:47.137782 version@stat F·[3 1] S·265KiB[846B 265KiB] Sc·[0.75 0.00]
+21:23:51.292004 transaction@flush created L0@1612 N·7 S·484B "/\xddO..\x03\x95\x8f,v5112":"\xaa\xbez..\xe1C6,v5113"
+21:23:51.292218 version@stat F·[4 1] S·266KiB[1KiB 265KiB] Sc·[1.00 0.00]
+21:23:51.295725 table@compaction L0·4 -> L1·1 S·266KiB Q·5118
+21:23:51.305316 transaction@flush created L0@1614 N·1 S·184B "txr..\xa0\x01\xb0,v5119":"txr..\xa0\x01\xb0,v5119"
+21:23:51.305444 version@stat F·[5 1] S·266KiB[1KiB 265KiB] Sc·[1.25 0.00]
+21:23:51.308565 table@build created L1@1613 N·2562 S·265KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:23:51.314579 version@stat F·[1 1] S·265KiB[184B 265KiB] Sc·[0.25 0.00]
+21:23:51.320742 table@compaction committed F-4 S-520B Ke·0 D·8 T·24.901182ms
+21:23:51.320916 table@remove removed @1612
+21:23:51.320999 table@remove removed @1611
+21:23:51.321090 table@remove removed @1610
+21:23:51.321179 table@remove removed @1609
+21:23:51.321423 table@remove removed @1608
+21:23:56.469866 transaction@flush created L0@1615 N·7 S·477B "H\xfa4..}r\x9b,v5121":"\xaa\xbez..\xe1C6,v5120"
+21:23:56.469924 version@stat F·[2 1] S·266KiB[661B 265KiB] Sc·[0.50 0.00]
+21:23:56.480819 transaction@flush created L0@1616 N·1 S·184B "txr..\xbe\xe9L,v5127":"txr..\xbe\xe9L,v5127"
+21:23:56.480875 version@stat F·[3 1] S·266KiB[845B 265KiB] Sc·[0.75 0.00]
+21:24:01.654076 transaction@flush created L0@1617 N·7 S·482B "H\xfa4..}r\x9b,v5128":"\x85_\x85..\x10\xf5\x13,v5129"
+21:24:01.654157 version@stat F·[4 1] S·267KiB[1KiB 265KiB] Sc·[1.00 0.00]
+21:24:01.657527 table@compaction L0·4 -> L1·1 S·267KiB Q·5134
+21:24:01.666156 transaction@flush created L0@1619 N·1 S·184B "txr..-I9,v5135":"txr..-I9,v5135"
+21:24:01.666208 version@stat F·[5 1] S·267KiB[1KiB 265KiB] Sc·[1.25 0.00]
+21:24:01.676040 table@build created L1@1618 N·2570 S·265KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:24:01.676269 version@stat F·[1 1] S·266KiB[184B 265KiB] Sc·[0.25 0.00]
+21:24:01.685466 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·27.842919ms
+21:24:01.685596 table@remove removed @1617
+21:24:01.685648 table@remove removed @1616
+21:24:01.685696 table@remove removed @1615
+21:24:01.685745 table@remove removed @1614
+21:24:01.685865 table@remove removed @1613
+21:24:06.849408 transaction@flush created L0@1620 N·7 S·469B "bf\x00..\x01AD,v5142":"\xcf\xe8n..\xfb?\f,v5137"
+21:24:06.849480 version@stat F·[2 1] S·266KiB[653B 265KiB] Sc·[0.50 0.00]
+21:24:06.864338 transaction@flush created L0@1621 N·1 S·184B "txr..\xda0J,v5143":"txr..\xda0J,v5143"
+21:24:06.864419 version@stat F·[3 1] S·266KiB[837B 265KiB] Sc·[0.75 0.00]
+21:24:12.039693 transaction@flush created L0@1622 N·7 S·480B "\\\x0f\x9c..\x92\xa6\xea,v5145":"\xcf\xe8n..\xfb?\f,v5144"
+21:24:12.039771 version@stat F·[4 1] S·267KiB[1KiB 265KiB] Sc·[1.00 0.00]
+21:24:12.045998 table@compaction L0·4 -> L1·1 S·267KiB Q·5150
+21:24:12.054962 transaction@flush created L0@1624 N·1 S·184B "txr..\x8e^?,v5151":"txr..\x8e^?,v5151"
+21:24:12.055050 version@stat F·[5 1] S·267KiB[1KiB 265KiB] Sc·[1.25 0.00]
+21:24:12.061867 table@build created L1@1623 N·2578 S·266KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:24:12.062034 version@stat F·[1 1] S·266KiB[184B 266KiB] Sc·[0.25 0.00]
+21:24:12.068248 table@compaction committed F-4 S-763B Ke·0 D·8 T·22.172143ms
+21:24:12.068514 table@remove removed @1622
+21:24:12.068653 table@remove removed @1621
+21:24:12.068736 table@remove removed @1620
+21:24:12.068780 table@remove removed @1619
+21:24:12.068877 table@remove removed @1618
+21:24:17.229045 transaction@flush created L0@1625 N·7 S·482B "\\\x0f\x9c..\x92\xa6\xea,v5152":"\xea\xad\x18..\xd5+\x84,v5153"
+21:24:17.229080 version@stat F·[2 1] S·267KiB[666B 266KiB] Sc·[0.50 0.00]
+21:24:17.242584 transaction@flush created L0@1626 N·1 S·184B "txr..\xe1\xcf\xf5,v5159":"txr..\xe1\xcf\xf5,v5159"
+21:24:17.242618 version@stat F·[3 1] S·267KiB[850B 266KiB] Sc·[0.75 0.00]
+21:24:22.411488 transaction@flush created L0@1627 N·7 S·473B "bf\x00..\x01AS,v5166":"\xea\xad\x18..\xd5+\x84,v5160"
+21:24:22.411569 version@stat F·[4 1] S·267KiB[1KiB 266KiB] Sc·[1.00 0.00]
+21:24:22.415024 table@compaction L0·4 -> L1·1 S·267KiB Q·5166
+21:24:22.425125 table@build created L1@1628 N·2586 S·266KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:24:22.425254 version@stat F·[0 1] S·266KiB[0B 266KiB] Sc·[0.00 0.00]
+21:24:22.428551 transaction@flush created L0@1629 N·1 S·184B "txr..\x8a?S,v5167":"txr..\x8a?S,v5167"
+21:24:22.434847 table@compaction committed F-4 S-742B Ke·0 D·8 T·19.741475ms
+21:24:22.434957 table@remove removed @1627
+21:24:22.434993 table@remove removed @1626
+21:24:22.435020 table@remove removed @1625
+21:24:22.435047 table@remove removed @1624
+21:24:22.435111 table@remove removed @1623
+21:24:22.435149 version@stat F·[1 1] S·267KiB[184B 266KiB] Sc·[0.25 0.00]
+21:24:27.598565 transaction@flush created L0@1630 N·7 S·477B "_/V..:\xd6\xd6,v5169":"\xc3d\x17..\xb4M\xcb,v5168"
+21:24:27.598645 version@stat F·[2 1] S·267KiB[661B 266KiB] Sc·[0.50 0.00]
+21:24:27.610319 transaction@flush created L0@1631 N·1 S·184B "txr..\x96\xfd\xd2,v5175":"txr..\x96\xfd\xd2,v5175"
+21:24:27.610393 version@stat F·[3 1] S·267KiB[845B 266KiB] Sc·[0.75 0.00]
+21:24:31.755304 transaction@flush created L0@1632 N·7 S·482B "_/V..:\xd6\xd6,v5176":"\x92\xb9\x10..S\xff\xbc,v5177"
+21:24:31.755424 version@stat F·[4 1] S·268KiB[1KiB 266KiB] Sc·[1.00 0.00]
+21:24:31.759123 table@compaction L0·4 -> L1·1 S·268KiB Q·5182
+21:24:31.771313 transaction@flush created L0@1634 N·1 S·184B "txr..\x0e\u07bc,v5183":"txr..\x0e\u07bc,v5183"
+21:24:31.771426 version@stat F·[5 1] S·268KiB[1KiB 266KiB] Sc·[1.25 0.00]
+21:24:31.774765 table@build created L1@1633 N·2594 S·267KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:24:31.781111 version@stat F·[1 1] S·267KiB[184B 267KiB] Sc·[0.25 0.00]
+21:24:31.784662 table@compaction committed F-4 S-709B Ke·0 D·8 T·25.376787ms
+21:24:31.785036 table@remove removed @1632
+21:24:31.785146 table@remove removed @1631
+21:24:31.785215 table@remove removed @1630
+21:24:31.785282 table@remove removed @1629
+21:24:31.785458 table@remove removed @1628
+21:24:37.976329 transaction@flush created L0@1635 N·7 S·471B "bf\x00..\x01Ab,v5190":"\xc7\xf7\xa9..\x9f\x9en,v5185"
+21:24:37.976398 version@stat F·[2 1] S·268KiB[655B 267KiB] Sc·[0.50 0.00]
+21:24:37.991079 transaction@flush created L0@1636 N·1 S·184B "txr..I\u007f\xdd,v5191":"txr..I\u007f\xdd,v5191"
+21:24:37.991207 version@stat F·[3 1] S·268KiB[839B 267KiB] Sc·[0.75 0.00]
+21:24:43.170353 transaction@flush created L0@1637 N·7 S·473B "bf\x00..\x01Ag,v5198":"\xc7\xf7\xa9..\x9f\x9en,v5192"
+21:24:43.170429 version@stat F·[4 1] S·268KiB[1KiB 267KiB] Sc·[1.00 0.00]
+21:24:43.173879 table@compaction L0·4 -> L1·1 S·268KiB Q·5198
+21:24:43.183110 transaction@flush created L0@1639 N·1 S·184B "txr..\xa7C\xb5,v5199":"txr..\xa7C\xb5,v5199"
+21:24:43.183161 version@stat F·[5 1] S·269KiB[1KiB 267KiB] Sc·[1.25 0.00]
+21:24:43.186238 table@build created L1@1638 N·2602 S·267KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:24:43.192240 version@stat F·[1 1] S·268KiB[184B 267KiB] Sc·[0.25 0.00]
+21:24:43.201531 table@compaction committed F-4 S-869B Ke·0 D·8 T·27.587624ms
+21:24:43.201647 table@remove removed @1637
+21:24:43.201688 table@remove removed @1636
+21:24:43.201728 table@remove removed @1635
+21:24:43.201766 table@remove removed @1634
+21:24:43.201878 table@remove removed @1633
+21:24:48.366711 transaction@flush created L0@1640 N·7 S·486B "'z_..Y\u007f\xf1,v5201":"|^\xc5..P9\xeb,v5200"
+21:24:48.366795 version@stat F·[2 1] S·268KiB[670B 267KiB] Sc·[0.50 0.00]
+21:24:48.378096 transaction@flush created L0@1641 N·1 S·184B "txr..\xe6\xd1\xd7,v5207":"txr..\xe6\xd1\xd7,v5207"
+21:24:48.378174 version@stat F·[3 1] S·268KiB[854B 267KiB] Sc·[0.75 0.00]
+21:24:53.559755 transaction@flush created L0@1642 N·7 S·486B "'z_..Y\u007f\xf1,v5208":"\x92H!..\x85H\xd2,v5209"
+21:24:53.559831 version@stat F·[4 1] S·269KiB[1KiB 267KiB] Sc·[1.00 0.00]
+21:24:53.566278 table@compaction L0·4 -> L1·1 S·269KiB Q·5214
+21:24:53.575887 transaction@flush created L0@1644 N·1 S·184B "txr..'\x056,v5215":"txr..'\x056,v5215"
+21:24:53.575922 version@stat F·[5 1] S·269KiB[1KiB 267KiB] Sc·[1.25 0.00]
+21:24:53.579139 table@build created L1@1643 N·2610 S·268KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:24:53.585645 version@stat F·[1 1] S·268KiB[184B 268KiB] Sc·[0.25 0.00]
+21:24:53.592136 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·25.690228ms
+21:24:53.592556 table@remove removed @1642
+21:24:53.592720 table@remove removed @1641
+21:24:53.592888 table@remove removed @1640
+21:24:53.593054 table@remove removed @1639
+21:24:53.593425 table@remove removed @1638
+21:24:58.750590 transaction@flush created L0@1645 N·7 S·484B ")\a^..\x96\xafw,v5217":"\x92H!..\x85H\xd2,v5216"
+21:24:58.750666 version@stat F·[2 1] S·268KiB[668B 268KiB] Sc·[0.50 0.00]
+21:24:58.762355 transaction@flush created L0@1646 N·1 S·184B "txr..}$\xb0,v5223":"txr..}$\xb0,v5223"
+21:24:58.762436 version@stat F·[3 1] S·269KiB[852B 268KiB] Sc·[0.75 0.00]
+21:25:03.938798 transaction@flush created L0@1647 N·7 S·484B ")\a^..\x96\xafw,v5224":"\xe9t\xde..R\xf2\n,v5225"
+21:25:03.938862 version@stat F·[4 1] S·269KiB[1KiB 268KiB] Sc·[1.00 0.00]
+21:25:03.942107 table@compaction L0·4 -> L1·1 S·269KiB Q·5230
+21:25:03.950871 transaction@flush created L0@1649 N·1 S·184B "txr..\x1a\x04\x1e,v5231":"txr..\x1a\x04\x1e,v5231"
+21:25:03.950929 version@stat F·[5 1] S·269KiB[1KiB 268KiB] Sc·[1.25 0.00]
+21:25:03.953983 table@build created L1@1648 N·2618 S·269KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:25:03.960073 version@stat F·[1 1] S·269KiB[184B 269KiB] Sc·[0.25 0.00]
+21:25:03.966521 table@compaction committed F-4 S-263B Ke·0 D·8 T·24.329748ms
+21:25:03.966839 table@remove removed @1647
+21:25:03.966971 table@remove removed @1646
+21:25:03.967074 table@remove removed @1645
+21:25:03.967174 table@remove removed @1644
+21:25:03.967464 table@remove removed @1643
+21:25:09.129477 transaction@flush created L0@1650 N·7 S·471B "bf\x00..\x01A\x80,v5238":"\xe9t\xde..R\xf2\n,v5232"
+21:25:09.129538 version@stat F·[2 1] S·269KiB[655B 269KiB] Sc·[0.50 0.00]
+21:25:09.144363 transaction@flush created L0@1651 N·1 S·184B "txr..'\xd7j,v5239":"txr..'\xd7j,v5239"
+21:25:09.144463 version@stat F·[3 1] S·270KiB[839B 269KiB] Sc·[0.75 0.00]
+21:25:13.277309 transaction@flush created L0@1652 N·7 S·480B "C\x17\xf9..\xbf\b\xe6,v5241":"\xa4\x0fb..\xf3\x1f\xd0,v5240"
+21:25:13.277357 version@stat F·[4 1] S·270KiB[1KiB 269KiB] Sc·[1.00 0.00]
+21:25:13.283534 table@compaction L0·4 -> L1·1 S·270KiB Q·5246
+21:25:13.291269 transaction@flush created L0@1654 N·1 S·184B "txr..⮋,v5247":"txr..⮋,v5247"
+21:25:13.291314 version@stat F·[5 1] S·270KiB[1KiB 269KiB] Sc·[1.25 0.00]
+21:25:13.294357 table@build created L1@1653 N·2626 S·269KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:25:13.300621 version@stat F·[1 1] S·269KiB[184B 269KiB] Sc·[0.25 0.00]
+21:25:13.303945 table@compaction committed F-4 S-975B Ke·0 D·8 T·20.35083ms
+21:25:13.304071 table@remove removed @1652
+21:25:13.304145 table@remove removed @1651
+21:25:13.304202 table@remove removed @1650
+21:25:13.304256 table@remove removed @1649
+21:25:13.304373 table@remove removed @1648
+21:25:18.455324 transaction@flush created L0@1655 N·7 S·485B "C\x17\xf9..\xbf\b\xe6,v5248":"\xff\xd6D..\xa1\x8d\xf1,v5249"
+21:25:18.455402 version@stat F·[2 1] S·270KiB[669B 269KiB] Sc·[0.50 0.00]
+21:25:18.467157 transaction@flush created L0@1656 N·1 S·184B "txr..?h\xc2,v5255":"txr..?h\xc2,v5255"
+21:25:18.467237 version@stat F·[3 1] S·270KiB[853B 269KiB] Sc·[0.75 0.00]
+21:25:23.647357 transaction@flush created L0@1657 N·7 S·474B "bf\x00..\x01A\x8e,v5262":"\xff\xd6D..\xa1\x8d\xf1,v5256"
+21:25:23.647434 version@stat F·[4 1] S·270KiB[1KiB 269KiB] Sc·[1.00 0.00]
+21:25:23.650881 table@compaction L0·4 -> L1·1 S·270KiB Q·5262
+21:25:23.659669 transaction@flush created L0@1659 N·1 S·184B "txr..\xae\"S,v5263":"txr..\xae\"S,v5263"
+21:25:23.659738 version@stat F·[5 1] S·271KiB[1KiB 269KiB] Sc·[1.25 0.00]
+21:25:23.662924 table@build created L1@1658 N·2634 S·270KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:25:23.669274 version@stat F·[1 1] S·270KiB[184B 270KiB] Sc·[0.25 0.00]
+21:25:23.676162 table@compaction committed F-4 S-726B Ke·0 D·8 T·25.126446ms
+21:25:23.676435 table@remove removed @1657
+21:25:23.676495 table@remove removed @1656
+21:25:23.676579 table@remove removed @1655
+21:25:23.676655 table@remove removed @1654
+21:25:23.676870 table@remove removed @1653
+=============== Aug 11, 2020 (BST) ===============
+21:27:00.386471 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:27:00.387105 version@stat F·[1 1] S·270KiB[184B 270KiB] Sc·[0.25 0.00]
+21:27:00.387120 db@open opening
+21:27:00.387162 journal@recovery F·1
+21:27:00.388317 journal@recovery recovering @1158
+21:27:00.389586 version@stat F·[1 1] S·270KiB[184B 270KiB] Sc·[0.25 0.00]
+21:27:00.399125 db@janitor F·4 G·0
+21:27:00.399152 db@open done T·12.024206ms
+21:30:36.610512 transaction@flush created L0@1662 N·7 S·830B "bf\x00..\x01B\xa2,v5270":"\xed\xbb\xd5..Q\xea\x8c,v5264"
+21:30:36.610601 version@stat F·[2 1] S·271KiB[1014B 270KiB] Sc·[0.50 0.00]
+21:30:36.622180 transaction@flush created L0@1663 N·1 S·184B "txr..\x00\x96\x97,v5271":"txr..\x00\x96\x97,v5271"
+21:30:36.622257 version@stat F·[3 1] S·271KiB[1KiB 270KiB] Sc·[0.75 0.00]
+21:30:41.807068 transaction@flush created L0@1664 N·7 S·986B "\x06\xba\xa5..\x99\xb3\xd9,v5273":"th\x00..\x01B\xa7,v5277"
+21:30:41.807224 version@stat F·[4 1] S·272KiB[2KiB 270KiB] Sc·[1.00 0.00]
+21:30:41.813274 table@compaction L0·4 -> L1·1 S·272KiB Q·5278
+21:30:41.823606 transaction@flush created L0@1666 N·1 S·184B "txr..|\xe4\xf1,v5279":"txr..|\xe4\xf1,v5279"
+21:30:41.823688 version@stat F·[5 1] S·272KiB[2KiB 270KiB] Sc·[1.25 0.00]
+21:30:41.830252 table@build created L1@1665 N·2642 S·271KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:30:41.830398 version@stat F·[1 1] S·271KiB[184B 271KiB] Sc·[0.25 0.00]
+21:30:41.836767 table@compaction committed F-4 S-635B Ke·0 D·8 T·23.307735ms
+21:30:41.836973 table@remove removed @1664
+21:30:41.837089 table@remove removed @1663
+21:30:41.837180 table@remove removed @1662
+21:30:41.837279 table@remove removed @1659
+21:30:41.837491 table@remove removed @1658
+21:30:46.988566 transaction@flush created L0@1667 N·7 S·983B "\x06\xba\xa5..\x99\xb3\xd9,v5280":"\xc0W\xfc..2\xc9\x1a,v5281"
+21:30:46.988687 version@stat F·[2 1] S·272KiB[1KiB 271KiB] Sc·[0.50 0.00]
+21:30:47.002322 transaction@flush created L0@1668 N·1 S·184B "txr..\xd0v?,v5287":"txr..\xd0v?,v5287"
+21:30:47.002441 version@stat F·[3 1] S·273KiB[1KiB 271KiB] Sc·[0.75 0.00]
+21:30:53.207791 transaction@flush created L0@1669 N·7 S·966B "bf\x00..\x01B\xb2,v5294":"\xc0W\xfc..2\xc9\x1a,v5288"
+21:30:53.207829 version@stat F·[4 1] S·274KiB[2KiB 271KiB] Sc·[1.00 0.00]
+21:30:53.213787 table@compaction L0·4 -> L1·1 S·274KiB Q·5294
+21:30:53.222807 table@build created L1@1670 N·2650 S·273KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:30:53.223528 version@stat F·[0 1] S·273KiB[0B 273KiB] Sc·[0.00 0.00]
+21:30:53.226809 transaction@flush created L0@1671 N·1 S·184B "txr..\xb4u\x80,v5295":"txr..\xb4u\x80,v5295"
+21:30:53.232562 table@compaction committed F-4 S-986B Ke·0 D·8 T·18.735778ms
+21:30:53.232653 table@remove removed @1669
+21:30:53.232594 version@stat F·[1 1] S·273KiB[184B 273KiB] Sc·[0.25 0.00]
+21:30:53.232839 table@remove removed @1668
+21:30:53.232882 table@remove removed @1667
+21:30:53.232923 table@remove removed @1666
+21:30:53.233025 table@remove removed @1665
+21:30:57.366040 transaction@flush created L0@1672 N·7 S·957B "bf\x00..\x01B\xb6,v5302":"\xb92\xe3..'\xb2\xa1,v5296"
+21:30:57.366140 version@stat F·[2 1] S·274KiB[1KiB 273KiB] Sc·[0.50 0.00]
+21:30:57.381354 transaction@flush created L0@1673 N·1 S·184B "txr..\xcaV\xd2,v5303":"txr..\xcaV\xd2,v5303"
+21:30:57.381441 version@stat F·[3 1] S·274KiB[1KiB 273KiB] Sc·[0.75 0.00]
+21:31:02.538577 transaction@flush created L0@1674 N·7 S·963B "bf\x00..\x01B\xbb,v5310":"\x8f\xaa\x9c..Ѿ\xe0,v5304"
+21:31:02.538624 version@stat F·[4 1] S·275KiB[2KiB 273KiB] Sc·[1.00 0.00]
+21:31:02.544547 table@compaction L0·4 -> L1·1 S·275KiB Q·5310
+21:31:02.552400 transaction@flush created L0@1676 N·1 S·184B "txr..|\xa2\x0e,v5311":"txr..|\xa2\x0e,v5311"
+21:31:02.552451 version@stat F·[5 1] S·275KiB[2KiB 273KiB] Sc·[1.25 0.00]
+21:31:02.555445 table@build created L1@1675 N·2658 S·274KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:31:02.561384 version@stat F·[1 1] S·274KiB[184B 274KiB] Sc·[0.25 0.00]
+21:31:02.567587 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·22.964896ms
+21:31:02.567728 table@remove removed @1674
+21:31:02.567780 table@remove removed @1673
+21:31:02.567824 table@remove removed @1672
+21:31:02.567867 table@remove removed @1671
+21:31:02.568004 table@remove removed @1670
+21:31:07.739103 transaction@flush created L0@1677 N·7 S·968B "bf\x00..\x01B\xc0,v5318":"\x8b\x14l..;\x1e:,v5313"
+21:31:07.739169 version@stat F·[2 1] S·275KiB[1KiB 274KiB] Sc·[0.50 0.00]
+21:31:07.750958 transaction@flush created L0@1678 N·1 S·184B "txr..\xba\x82#,v5319":"txr..\xba\x82#,v5319"
+21:31:07.751032 version@stat F·[3 1] S·275KiB[1KiB 274KiB] Sc·[0.75 0.00]
+21:31:12.931694 transaction@flush created L0@1679 N·7 S·981B "\x12\xc92..b\x8f\xa6,v5321":"\x8b\x14l..;\x1e:,v5320"
+21:31:12.931760 version@stat F·[4 1] S·276KiB[2KiB 274KiB] Sc·[1.00 0.00]
+21:31:12.937937 table@compaction L0·4 -> L1·1 S·276KiB Q·5326
+21:31:12.946300 transaction@flush created L0@1681 N·1 S·184B "txr..\f\xae\",v5327":"txr..\f\xae\",v5327"
+21:31:12.946352 version@stat F·[5 1] S·276KiB[2KiB 274KiB] Sc·[1.25 0.00]
+21:31:12.952457 table@build created L1@1680 N·2666 S·275KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:31:12.952532 version@stat F·[1 1] S·275KiB[184B 275KiB] Sc·[0.25 0.00]
+21:31:12.955421 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·17.398199ms
+21:31:12.955520 table@remove removed @1679
+21:31:12.955566 table@remove removed @1678
+21:31:12.955603 table@remove removed @1677
+21:31:12.955639 table@remove removed @1676
+21:31:12.955716 table@remove removed @1675
+21:31:18.137911 transaction@flush created L0@1682 N·7 S·982B "\x12\xc92..b\x8f\xa6,v5328":"\xa5\xb9}..\xb6\xeb\xb5,v5329"
+21:31:18.137965 version@stat F·[2 1] S·276KiB[1KiB 275KiB] Sc·[0.50 0.00]
+21:31:18.150882 transaction@flush created L0@1683 N·1 S·184B "txr..\x8b\xbcE,v5335":"txr..\x8b\xbcE,v5335"
+21:31:18.150922 version@stat F·[3 1] S·276KiB[1KiB 275KiB] Sc·[0.75 0.00]
+21:31:23.323916 transaction@flush created L0@1684 N·7 S·965B "bf\x00..\x01B\xcf,v5342":"\xbd\xaa\xc9..\xd0J\x9b,v5337"
+21:31:23.323991 version@stat F·[4 1] S·277KiB[2KiB 275KiB] Sc·[1.00 0.00]
+21:31:23.330561 table@compaction L0·4 -> L1·1 S·277KiB Q·5342
+21:31:23.338662 transaction@flush created L0@1686 N·1 S·184B "txr../\x1f\xcf,v5343":"txr../\x1f\xcf,v5343"
+21:31:23.338713 version@stat F·[5 1] S·277KiB[2KiB 275KiB] Sc·[1.25 0.00]
+21:31:23.341937 table@build created L1@1685 N·2674 S·275KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:31:23.347711 version@stat F·[1 1] S·275KiB[184B 275KiB] Sc·[0.25 0.00]
+21:31:23.353939 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·23.3034ms
+21:31:23.354126 table@remove removed @1684
+21:31:23.354240 table@remove removed @1683
+21:31:23.354320 table@remove removed @1682
+21:31:23.354398 table@remove removed @1681
+21:31:23.354552 table@remove removed @1680
+21:31:28.519887 transaction@flush created L0@1687 N·7 S·970B "bf\x00..\x01B\xd4,v5350":"\xc8\u007f?..8u\xa2,v5345"
+21:31:28.519959 version@stat F·[2 1] S·276KiB[1KiB 275KiB] Sc·[0.50 0.00]
+21:31:28.535532 transaction@flush created L0@1688 N·1 S·184B "txr..]\xf4\x90,v5351":"txr..]\xf4\x90,v5351"
+21:31:28.535616 version@stat F·[3 1] S·276KiB[1KiB 275KiB] Sc·[0.75 0.00]
+21:31:33.714136 transaction@flush created L0@1689 N·7 S·965B "bf\x00..\x01B\xd9,v5358":"\xc8\u007f?..8u\xa2,v5352"
+21:31:33.714203 version@stat F·[4 1] S·277KiB[2KiB 275KiB] Sc·[1.00 0.00]
+21:31:33.717631 table@compaction L0·4 -> L1·1 S·277KiB Q·5358
+21:31:33.725533 transaction@flush created L0@1691 N·1 S·184B "txr..\xacZ\x18,v5359":"txr..\xacZ\x18,v5359"
+21:31:33.725600 version@stat F·[5 1] S·278KiB[2KiB 275KiB] Sc·[1.25 0.00]
+21:31:33.728840 table@build created L1@1690 N·2682 S·276KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:31:33.734855 version@stat F·[1 1] S·276KiB[184B 276KiB] Sc·[0.25 0.00]
+21:31:33.741064 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·23.369258ms
+21:31:33.741218 table@remove removed @1689
+21:31:33.741286 table@remove removed @1688
+21:31:33.741347 table@remove removed @1687
+21:31:33.741416 table@remove removed @1686
+21:31:33.741550 table@remove removed @1685
+21:31:38.896956 transaction@flush created L0@1692 N·7 S·964B "bf\x00..\x01B\xde,v5366":"\xac\xbf\x00..B]\x19,v5360"
+21:31:38.897042 version@stat F·[2 1] S·277KiB[1KiB 276KiB] Sc·[0.50 0.00]
+21:31:38.911435 transaction@flush created L0@1693 N·1 S·184B "txr..\xf1R\xe3,v5367":"txr..\xf1R\xe3,v5367"
+21:31:38.911492 version@stat F·[3 1] S·277KiB[1KiB 276KiB] Sc·[0.75 0.00]
+21:31:44.082064 transaction@flush created L0@1694 N·7 S·962B "bf\x00..\x01B\xe3,v5374":"\x87\x11\x04..f\xda\xd1,v5369"
+21:31:44.082114 version@stat F·[4 1] S·278KiB[2KiB 276KiB] Sc·[1.00 0.00]
+21:31:44.085426 table@compaction L0·4 -> L1·1 S·278KiB Q·5374
+21:31:44.093041 transaction@flush created L0@1696 N·1 S·184B "txr..8¢,v5375":"txr..8¢,v5375"
+21:31:44.093096 version@stat F·[5 1] S·279KiB[2KiB 276KiB] Sc·[1.25 0.00]
+21:31:44.096009 table@build created L1@1695 N·2690 S·277KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:31:44.101962 version@stat F·[1 1] S·278KiB[184B 277KiB] Sc·[0.25 0.00]
+21:31:44.108140 table@compaction committed F-4 S-998B Ke·0 D·8 T·22.652879ms
+21:31:44.108269 table@remove removed @1694
+21:31:44.108352 table@remove removed @1693
+21:31:44.108437 table@remove removed @1692
+21:31:44.108511 table@remove removed @1691
+21:31:44.108660 table@remove removed @1690
+21:31:49.271335 transaction@flush created L0@1697 N·7 S·953B "bf\x00..\x01B\xe8,v5382":"\xd7\xf9N..\x13\xb6\x8d,v5377"
+21:31:49.271410 version@stat F·[2 1] S·279KiB[1KiB 277KiB] Sc·[0.50 0.00]
+21:31:49.282857 transaction@flush created L0@1698 N·1 S·184B "txr..\xfe\xc4\xc8,v5383":"txr..\xfe\xc4\xc8,v5383"
+21:31:49.282919 version@stat F·[3 1] S·279KiB[1KiB 277KiB] Sc·[0.75 0.00]
+21:31:54.466551 transaction@flush created L0@1699 N·7 S·961B "bf\x00..\x01B\xed,v5390":"\xd7\xf9N..\x13\xb6\x8d,v5384"
+21:31:54.466634 version@stat F·[4 1] S·280KiB[2KiB 277KiB] Sc·[1.00 0.00]
+21:31:54.470040 table@compaction L0·4 -> L1·1 S·280KiB Q·5390
+21:31:54.478806 transaction@flush created L0@1701 N·1 S·184B "txr..\xf2Ff,v5391":"txr..\xf2Ff,v5391"
+21:31:54.478852 version@stat F·[5 1] S·280KiB[2KiB 277KiB] Sc·[1.25 0.00]
+21:31:54.481918 table@build created L1@1700 N·2698 S·279KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:31:54.488136 version@stat F·[1 1] S·279KiB[184B 279KiB] Sc·[0.25 0.00]
+21:31:54.494228 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.11644ms
+21:31:54.494353 table@remove removed @1699
+21:31:54.494397 table@remove removed @1698
+21:31:54.494435 table@remove removed @1697
+21:31:54.494472 table@remove removed @1696
+21:31:54.494549 table@remove removed @1695
+21:31:59.652654 transaction@flush created L0@1702 N·7 S·988B "&\xa1)..\xadɌ,v5393":"î8..F1\xee,v5392"
+21:31:59.652727 version@stat F·[2 1] S·280KiB[1KiB 279KiB] Sc·[0.50 0.00]
+21:31:59.667301 transaction@flush created L0@1703 N·1 S·184B "txr..\xda?\xf3,v5399":"txr..\xda?\xf3,v5399"
+21:31:59.667379 version@stat F·[3 1] S·280KiB[1KiB 279KiB] Sc·[0.75 0.00]
+21:32:04.854224 transaction@flush created L0@1704 N·7 S·983B "&\xa1)..\xadɌ,v5400":"й\xed..\x99\x03\xdf,v5401"
+21:32:04.854299 version@stat F·[4 1] S·281KiB[2KiB 279KiB] Sc·[1.00 0.00]
+21:32:04.857765 table@compaction L0·4 -> L1·1 S·281KiB Q·5406
+21:32:04.867119 transaction@flush created L0@1706 N·1 S·184B "txr..\x92\xa3k,v5407":"txr..\x92\xa3k,v5407"
+21:32:04.867161 version@stat F·[5 1] S·281KiB[2KiB 279KiB] Sc·[1.25 0.00]
+21:32:04.870117 table@build created L1@1705 N·2706 S·279KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:32:04.876180 version@stat F·[1 1] S·279KiB[184B 279KiB] Sc·[0.25 0.00]
+21:32:04.881562 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·23.73199ms
+21:32:04.881629 table@remove removed @1704
+21:32:04.881667 table@remove removed @1703
+21:32:04.881698 table@remove removed @1702
+21:32:04.881725 table@remove removed @1701
+21:32:04.881791 table@remove removed @1700
+21:32:10.051304 transaction@flush created L0@1707 N·7 S·981B "R|\xb2..\x13\x8c\xa4,v5409":"й\xed..\x99\x03\xdf,v5408"
+21:32:10.051399 version@stat F·[2 1] S·280KiB[1KiB 279KiB] Sc·[0.50 0.00]
+21:32:10.063370 transaction@flush created L0@1708 N·1 S·184B "txr..\x97T`,v5415":"txr..\x97T`,v5415"
+21:32:10.063447 version@stat F·[3 1] S·281KiB[1KiB 279KiB] Sc·[0.75 0.00]
+21:32:15.236269 transaction@flush created L0@1709 N·7 S·976B "R|\xb2..\x13\x8c\xa4,v5416":"\xdd\xf4V..\u007f\xf0\b,v5417"
+21:32:15.236356 version@stat F·[4 1] S·281KiB[2KiB 279KiB] Sc·[1.00 0.00]
+21:32:15.242737 table@compaction L0·4 -> L1·1 S·281KiB Q·5422
+21:32:15.250903 transaction@flush created L0@1711 N·1 S·184B "txr..\x92&K,v5423":"txr..\x92&K,v5423"
+21:32:15.250949 version@stat F·[5 1] S·282KiB[2KiB 279KiB] Sc·[1.25 0.00]
+21:32:15.254205 table@build created L1@1710 N·2714 S·281KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:32:15.256301 version@stat F·[1 1] S·281KiB[184B 281KiB] Sc·[0.25 0.00]
+21:32:15.262354 table@compaction committed F-4 S-748B Ke·0 D·8 T·19.540446ms
+21:32:15.262499 table@remove removed @1709
+21:32:15.262563 table@remove removed @1708
+21:32:15.262630 table@remove removed @1707
+21:32:15.262682 table@remove removed @1706
+21:32:15.262808 table@remove removed @1705
+21:32:20.434294 transaction@flush created L0@1712 N·7 S·980B ":\xaeF..\xd1m\x15,v5425":"\xdd\xf4V..\u007f\xf0\b,v5424"
+21:32:20.434328 version@stat F·[2 1] S·282KiB[1KiB 281KiB] Sc·[0.50 0.00]
+21:32:20.447555 transaction@flush created L0@1713 N·1 S·184B "txr..\xd2\xe6\xf0,v5431":"txr..\xd2\xe6\xf0,v5431"
+21:32:20.447605 version@stat F·[3 1] S·282KiB[1KiB 281KiB] Sc·[0.75 0.00]
+21:32:24.592365 transaction@flush created L0@1714 N·7 S·975B ":\xaeF..\xd1m\x15,v5432":"th\x00..\x01C\n,v5437"
+21:32:24.592450 version@stat F·[4 1] S·283KiB[2KiB 281KiB] Sc·[1.00 0.00]
+21:32:24.599005 table@compaction L0·4 -> L1·1 S·283KiB Q·5438
+21:32:24.607607 transaction@flush created L0@1716 N·1 S·184B "txr..\xf6\x15\xa4,v5439":"txr..\xf6\x15\xa4,v5439"
+21:32:24.607666 version@stat F·[5 1] S·283KiB[2KiB 281KiB] Sc·[1.25 0.00]
+21:32:24.618132 table@build created L1@1715 N·2722 S·282KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:32:24.618236 version@stat F·[1 1] S·282KiB[184B 282KiB] Sc·[0.25 0.00]
+21:32:24.627060 table@compaction committed F-4 S-966B Ke·0 D·8 T·27.95288ms
+21:32:24.627276 table@remove removed @1714
+21:32:24.627423 table@remove removed @1713
+21:32:24.627551 table@remove removed @1712
+21:32:24.627679 table@remove removed @1711
+21:32:24.627959 table@remove removed @1710
+21:32:30.829985 transaction@flush created L0@1717 N·7 S·971B "\x048\xff..\x1e\xa0\x1c,v5441":"th\x00..\x01C\x10,v5445"
+21:32:30.830070 version@stat F·[2 1] S·283KiB[1KiB 282KiB] Sc·[0.50 0.00]
+21:32:30.841982 transaction@flush created L0@1718 N·1 S·184B "txr..\xae!\xbc,v5447":"txr..\xae!\xbc,v5447"
+21:32:30.842073 version@stat F·[3 1] S·283KiB[1KiB 282KiB] Sc·[0.75 0.00]
+21:32:34.996384 transaction@flush created L0@1719 N·7 S·978B "\x048\xff..\x1e\xa0\x1c,v5448":"\x84\xa8\xe5..%`i,v5449"
+21:32:34.996473 version@stat F·[4 1] S·284KiB[2KiB 282KiB] Sc·[1.00 0.00]
+21:32:35.002769 table@compaction L0·4 -> L1·1 S·284KiB Q·5454
+21:32:35.011193 transaction@flush created L0@1721 N·1 S·184B "txr..\xc6l\\,v5455":"txr..\xc6l\\,v5455"
+21:32:35.011256 version@stat F·[5 1] S·285KiB[2KiB 282KiB] Sc·[1.25 0.00]
+21:32:35.014504 table@build created L1@1720 N·2730 S·283KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:32:35.020334 version@stat F·[1 1] S·283KiB[184B 283KiB] Sc·[0.25 0.00]
+21:32:35.026287 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·23.445455ms
+21:32:35.026396 table@remove removed @1719
+21:32:35.026464 table@remove removed @1718
+21:32:35.026529 table@remove removed @1717
+21:32:35.026585 table@remove removed @1716
+21:32:35.026704 table@remove removed @1715
+21:32:40.202873 transaction@flush created L0@1722 N·7 S·962B "bf\x00..\x01C\x19,v5462":"\x84\xa8\xe5..%`i,v5456"
+21:32:40.203024 version@stat F·[2 1] S·284KiB[1KiB 283KiB] Sc·[0.50 0.00]
+21:32:40.215023 transaction@flush created L0@1723 N·1 S·184B "txr..\xd4_\xdc,v5463":"txr..\xd4_\xdc,v5463"
+21:32:40.215148 version@stat F·[3 1] S·284KiB[1KiB 283KiB] Sc·[0.75 0.00]
+21:32:46.435987 transaction@flush created L0@1724 N·7 S·966B "bf\x00..\x01C\x1f,v5470":"th\x00..\x01C\x1f,v5469"
+21:32:46.436040 version@stat F·[4 1] S·285KiB[2KiB 283KiB] Sc·[1.00 0.00]
+21:32:46.445104 table@compaction L0·4 -> L1·1 S·285KiB Q·5470
+21:32:46.452635 transaction@flush created L0@1726 N·1 S·184B "txr..|\vX,v5471":"txr..|\vX,v5471"
+21:32:46.452655 table@build created L1@1725 N·2738 S·283KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:32:46.452683 version@stat F·[5 1] S·285KiB[2KiB 283KiB] Sc·[1.25 0.00]
+21:32:46.458958 version@stat F·[1 1] S·284KiB[184B 283KiB] Sc·[0.25 0.00]
+21:32:46.465250 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·20.074586ms
+21:32:46.465388 table@remove removed @1724
+21:32:46.465457 table@remove removed @1723
+21:32:46.465544 table@remove removed @1722
+21:32:46.465621 table@remove removed @1721
+21:32:46.465772 table@remove removed @1720
+21:32:50.580719 transaction@flush created L0@1727 N·7 S·984B ">\xd7C..=\xb2u,v5473":"th\x00..\x01C#,v5477"
+21:32:50.580772 version@stat F·[2 1] S·285KiB[1KiB 283KiB] Sc·[0.50 0.00]
+21:32:50.592372 transaction@flush created L0@1728 N·1 S·184B "txr..ވ\xe6,v5479":"txr..ވ\xe6,v5479"
+21:32:50.592427 version@stat F·[3 1] S·285KiB[1KiB 283KiB] Sc·[0.75 0.00]
+21:32:56.820820 transaction@flush created L0@1729 N·7 S·974B "\x10\x90\xb3..]J\xea,v5481":"th\x00..\x01C),v5485"
+21:32:56.820847 version@stat F·[4 1] S·286KiB[2KiB 283KiB] Sc·[1.00 0.00]
+21:32:56.824354 table@compaction expanding L0+L1 (F·2 S·1KiB)+(F·1 S·283KiB) -> (F·4 S·2KiB)+(F·1 S·283KiB)
+21:32:56.824424 table@compaction L0·4 -> L1·1 S·286KiB Q·5486
+21:32:56.833125 transaction@flush created L0@1731 N·1 S·184B "txr.._\xb9+,v5487":"txr.._\xb9+,v5487"
+21:32:56.833206 version@stat F·[5 1] S·286KiB[2KiB 283KiB] Sc·[1.25 0.00]
+21:32:56.846565 table@build created L1@1730 N·2746 S·284KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:32:56.846665 version@stat F·[1 1] S·284KiB[184B 284KiB] Sc·[0.25 0.00]
+21:32:56.849861 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·25.383281ms
+21:32:56.849983 table@remove removed @1729
+21:32:56.850050 table@remove removed @1728
+21:32:56.850113 table@remove removed @1727
+21:32:56.850166 table@remove removed @1726
+21:32:56.850295 table@remove removed @1725
+21:33:01.998820 transaction@flush created L0@1732 N·7 S·990B "\x10\x90\xb3..]J\xea,v5488":"߳\x05..\xffp\xe4,v5489"
+21:33:01.998848 version@stat F·[2 1] S·285KiB[1KiB 284KiB] Sc·[0.50 0.00]
+21:33:02.010756 transaction@flush created L0@1733 N·1 S·184B "txr..\xe9^!,v5495":"txr..\xe9^!,v5495"
+21:33:02.010849 version@stat F·[3 1] S·286KiB[1KiB 284KiB] Sc·[0.75 0.00]
+21:33:07.180199 transaction@flush created L0@1734 N·7 S·973B "bf\x00..\x01C3,v5502":"߳\x05..\xffp\xe4,v5496"
+21:33:07.180231 version@stat F·[4 1] S·287KiB[2KiB 284KiB] Sc·[1.00 0.00]
+21:33:07.186871 table@compaction L0·4 -> L1·1 S·287KiB Q·5502
+21:33:07.194094 transaction@flush created L0@1736 N·1 S·184B "txr..\xafs\xf8,v5503":"txr..\xafs\xf8,v5503"
+21:33:07.194125 version@stat F·[5 1] S·287KiB[2KiB 284KiB] Sc·[1.25 0.00]
+21:33:07.194143 table@build created L1@1735 N·2754 S·286KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:33:07.200364 version@stat F·[1 1] S·286KiB[184B 286KiB] Sc·[0.25 0.00]
+21:33:07.206448 table@compaction committed F-4 S-841B Ke·0 D·8 T·19.530877ms
+21:33:07.206616 table@remove removed @1734
+21:33:07.206724 table@remove removed @1733
+21:33:07.206864 table@remove removed @1732
+21:33:07.206963 table@remove removed @1731
+21:33:07.207204 table@remove removed @1730
+21:33:12.375255 transaction@flush created L0@1737 N·7 S·982B "4\xf4W..\xcb\xd6y,v5505":"\xdb\xe1d..j\xbf ,v5504"
+21:33:12.375329 version@stat F·[2 1] S·287KiB[1KiB 286KiB] Sc·[0.50 0.00]
+21:33:12.386857 transaction@flush created L0@1738 N·1 S·184B "txr..BNt,v5511":"txr..BNt,v5511"
+21:33:12.386949 version@stat F·[3 1] S·287KiB[1KiB 286KiB] Sc·[0.75 0.00]
+21:33:17.565070 transaction@flush created L0@1739 N·7 S·982B "\x1f\x9c\x01..\xc0)T,v5513":"th\x00..\x01C=,v5517"
+21:33:17.565148 version@stat F·[4 1] S·288KiB[2KiB 286KiB] Sc·[1.00 0.00]
+21:33:17.571710 table@compaction L0·4 -> L1·1 S·288KiB Q·5518
+21:33:17.580845 transaction@flush created L0@1741 N·1 S·184B "txr..\x02\xe6O,v5519":"txr..\x02\xe6O,v5519"
+21:33:17.580911 version@stat F·[5 1] S·288KiB[2KiB 286KiB] Sc·[1.25 0.00]
+21:33:17.584054 table@build created L1@1740 N·2762 S·287KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:33:17.584147 version@stat F·[1 1] S·287KiB[184B 287KiB] Sc·[0.25 0.00]
+21:33:17.590140 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·18.36877ms
+21:33:17.590262 table@remove removed @1739
+21:33:17.590321 table@remove removed @1738
+21:33:17.590364 table@remove removed @1737
+21:33:17.590406 table@remove removed @1736
+21:33:17.590494 table@remove removed @1735
+21:33:22.763476 transaction@flush created L0@1742 N·7 S·978B "\x1f\x9c\x01..\xc0)T,v5520":"\xfb\x92u..\x16\x00p,v5521"
+21:33:22.763511 version@stat F·[2 1] S·288KiB[1KiB 287KiB] Sc·[0.50 0.00]
+21:33:22.777666 transaction@flush created L0@1743 N·1 S·184B "txr..\xd0\xf9\x9a,v5527":"txr..\xd0\xf9\x9a,v5527"
+21:33:22.777703 version@stat F·[3 1] S·288KiB[1KiB 287KiB] Sc·[0.75 0.00]
+21:33:27.950649 transaction@flush created L0@1744 N·7 S·978B ",mS..&:\xd7,v5529":"\xfb\x92u..\x16\x00p,v5528"
+21:33:27.950728 version@stat F·[4 1] S·289KiB[2KiB 287KiB] Sc·[1.00 0.00]
+21:33:27.954214 table@compaction L0·4 -> L1·1 S·289KiB Q·5534
+21:33:27.962136 transaction@flush created L0@1746 N·1 S·184B "txr..Բi,v5535":"txr..Բi,v5535"
+21:33:27.962207 version@stat F·[5 1] S·289KiB[2KiB 287KiB] Sc·[1.25 0.00]
+21:33:27.968853 table@build created L1@1745 N·2770 S·288KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:33:27.968910 version@stat F·[1 1] S·288KiB[184B 288KiB] Sc·[0.25 0.00]
+21:33:27.974664 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·20.389378ms
+21:33:27.974744 table@remove removed @1744
+21:33:27.974803 table@remove removed @1743
+21:33:27.974850 table@remove removed @1742
+21:33:27.974895 table@remove removed @1741
+21:33:27.974970 table@remove removed @1740
+21:33:33.143424 transaction@flush created L0@1747 N·7 S·975B ",mS..&:\xd7,v5536":"\xc7\xe26..ۤ%,v5537"
+21:33:33.143501 version@stat F·[2 1] S·289KiB[1KiB 288KiB] Sc·[0.50 0.00]
+21:33:33.155501 transaction@flush created L0@1748 N·1 S·184B "txr..Z\x13\xed,v5543":"txr..Z\x13\xed,v5543"
+21:33:33.155601 version@stat F·[3 1] S·289KiB[1KiB 288KiB] Sc·[0.75 0.00]
+21:33:38.329043 transaction@flush created L0@1749 N·7 S·975B "N)\x16..\n6;,v5545":"\xc7\xe26..ۤ%,v5544"
+21:33:38.329117 version@stat F·[4 1] S·290KiB[2KiB 288KiB] Sc·[1.00 0.00]
+21:33:38.335673 table@compaction L0·4 -> L1·1 S·290KiB Q·5550
+21:33:38.344168 transaction@flush created L0@1751 N·1 S·184B "txr..\xac\x00\n,v5551":"txr..\xac\x00\n,v5551"
+21:33:38.344275 version@stat F·[5 1] S·290KiB[2KiB 288KiB] Sc·[1.25 0.00]
+21:33:38.353767 table@build created L1@1750 N·2778 S·290KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:33:38.353853 version@stat F·[1 1] S·290KiB[184B 290KiB] Sc·[0.25 0.00]
+21:33:38.362755 table@compaction committed F-4 S-616B Ke·0 D·8 T·26.998158ms
+21:33:38.362849 table@remove removed @1749
+21:33:38.362897 table@remove removed @1748
+21:33:38.362936 table@remove removed @1747
+21:33:38.362968 table@remove removed @1746
+21:33:38.363055 table@remove removed @1745
+21:33:43.526091 transaction@flush created L0@1752 N·7 S·979B "N)\x16..\n6;,v5552":"\x94\x03\xbe..\x8bcn,v5553"
+21:33:43.526147 version@stat F·[2 1] S·291KiB[1KiB 290KiB] Sc·[0.50 0.00]
+21:33:43.536817 transaction@flush created L0@1753 N·1 S·184B "txr..c\xd0;,v5559":"txr..c\xd0;,v5559"
+21:33:43.536856 version@stat F·[3 1] S·291KiB[1KiB 290KiB] Sc·[0.75 0.00]
+21:33:48.717144 transaction@flush created L0@1754 N·7 S·963B "bf\x00..\x01C[,v5566":"\x94\x03\xbe..\x8bcn,v5560"
+21:33:48.717215 version@stat F·[4 1] S·292KiB[2KiB 290KiB] Sc·[1.00 0.00]
+21:33:48.720585 table@compaction L0·4 -> L1·1 S·292KiB Q·5566
+21:33:48.729744 transaction@flush created L0@1756 N·1 S·184B "txr..\xfb\xa6\xb5,v5567":"txr..\xfb\xa6\xb5,v5567"
+21:33:48.729791 version@stat F·[5 1] S·292KiB[2KiB 290KiB] Sc·[1.25 0.00]
+21:33:48.732750 table@build created L1@1755 N·2786 S·290KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:33:48.738647 version@stat F·[1 1] S·290KiB[184B 290KiB] Sc·[0.25 0.00]
+21:33:48.744659 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.004451ms
+21:33:48.744786 table@remove removed @1754
+21:33:48.744836 table@remove removed @1753
+21:33:48.744881 table@remove removed @1752
+21:33:48.744930 table@remove removed @1751
+21:33:48.745003 table@remove removed @1750
+21:33:53.917446 transaction@flush created L0@1757 N·7 S·985B "\x17$\xfe..y?\xda,v5569":"\x8f\xc4\xda..\xfd\xd9*,v5568"
+21:33:53.917515 version@stat F·[2 1] S·291KiB[1KiB 290KiB] Sc·[0.50 0.00]
+21:33:53.932785 transaction@flush created L0@1758 N·1 S·184B "txr..<+\f,v5575":"txr..<+\f,v5575"
+21:33:53.932897 version@stat F·[3 1] S·291KiB[1KiB 290KiB] Sc·[0.75 0.00]
+21:33:59.120975 transaction@flush created L0@1759 N·7 S·982B "\x17$\xfe..y?\xda,v5576":"th\x00..\x01Ce,v5581"
+21:33:59.121053 version@stat F·[4 1] S·292KiB[2KiB 290KiB] Sc·[1.00 0.00]
+21:33:59.127598 table@compaction L0·4 -> L1·1 S·292KiB Q·5582
+21:33:59.135914 transaction@flush created L0@1761 N·1 S·184B "txr..\xb7!\xd8,v5583":"txr..\xb7!\xd8,v5583"
+21:33:59.135953 version@stat F·[5 1] S·292KiB[2KiB 290KiB] Sc·[1.25 0.00]
+21:33:59.138953 table@build created L1@1760 N·2794 S·290KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:33:59.144786 version@stat F·[1 1] S·290KiB[184B 290KiB] Sc·[0.25 0.00]
+21:33:59.148147 table@compaction committed F-4 S-2KiB Ke·0 D·8 T·20.467719ms
+21:33:59.148247 table@remove removed @1759
+21:33:59.148285 table@remove removed @1758
+21:33:59.148324 table@remove removed @1757
+21:33:59.148354 table@remove removed @1756
+21:33:59.148425 table@remove removed @1755
+21:34:04.314095 transaction@flush created L0@1762 N·7 S·982B "Q\xe4:..\x98-\x89,v5584":"th\x00..\x01Cj,v5589"
+21:34:04.314173 version@stat F·[2 1] S·291KiB[1KiB 290KiB] Sc·[0.50 0.00]
+21:34:04.329241 transaction@flush created L0@1763 N·1 S·184B "txr..\xc6M\xc1,v5591":"txr..\xc6M\xc1,v5591"
+21:34:04.329314 version@stat F·[3 1] S·291KiB[1KiB 290KiB] Sc·[0.75 0.00]
+21:34:09.504462 transaction@flush created L0@1764 N·7 S·976B "U\xee\xaa..)M\xb6,v5592":"\xee\x87Q..\x0f\x87\x9e,v5593"
+21:34:09.504550 version@stat F·[4 1] S·292KiB[2KiB 290KiB] Sc·[1.00 0.00]
+21:34:09.510942 table@compaction L0·4 -> L1·1 S·292KiB Q·5598
+21:34:09.520041 transaction@flush created L0@1766 N·1 S·184B "txr..Q|\x1c,v5599":"txr..Q|\x1c,v5599"
+21:34:09.520122 version@stat F·[5 1] S·293KiB[2KiB 290KiB] Sc·[1.25 0.00]
+21:34:09.526025 table@build created L1@1765 N·2802 S·291KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:34:09.526091 version@stat F·[1 1] S·292KiB[184B 291KiB] Sc·[0.25 0.00]
+21:34:09.532272 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.242765ms
+21:34:09.532422 table@remove removed @1764
+21:34:09.532488 table@remove removed @1763
+21:34:09.532543 table@remove removed @1762
+21:34:09.532596 table@remove removed @1761
+21:34:09.532698 table@remove removed @1760
+21:34:14.678965 transaction@flush created L0@1767 N·7 S·958B "bf\x00..\x01Ct,v5606":"\xee\x87Q..\x0f\x87\x9e,v5600"
+21:34:14.679005 version@stat F·[2 1] S·292KiB[1KiB 291KiB] Sc·[0.50 0.00]
+21:34:14.689764 transaction@flush created L0@1768 N·1 S·184B "txr..l}],v5607":"txr..l}],v5607"
+21:34:14.689819 version@stat F·[3 1] S·293KiB[1KiB 291KiB] Sc·[0.75 0.00]
+21:34:19.873833 transaction@flush created L0@1769 N·7 S·960B "bf\x00..\x01Cy,v5614":"\xb2t\x10..\xb65\x91,v5608"
+21:34:19.873883 version@stat F·[4 1] S·294KiB[2KiB 291KiB] Sc·[1.00 0.00]
+21:34:19.880013 table@compaction L0·4 -> L1·1 S·294KiB Q·5614
+21:34:19.887650 transaction@flush created L0@1771 N·1 S·184B "txr..4\xaaf,v5615":"txr..4\xaaf,v5615"
+21:34:19.887698 version@stat F·[5 1] S·294KiB[2KiB 291KiB] Sc·[1.25 0.00]
+21:34:19.890716 table@build created L1@1770 N·2810 S·293KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:34:19.896837 version@stat F·[1 1] S·293KiB[184B 293KiB] Sc·[0.25 0.00]
+21:34:19.902883 table@compaction committed F-4 S-984B Ke·0 D·8 T·22.80621ms
+21:34:19.902986 table@remove removed @1769
+21:34:19.903046 table@remove removed @1768
+21:34:19.903113 table@remove removed @1767
+21:34:19.903173 table@remove removed @1766
+21:34:19.903290 table@remove removed @1765
+21:34:25.081963 transaction@flush created L0@1772 N·7 S·961B "bf\x00..\x01C~,v5622":"\x95\x9bJ..LMa,v5616"
+21:34:25.082019 version@stat F·[2 1] S·294KiB[1KiB 293KiB] Sc·[0.50 0.00]
+21:34:25.093046 transaction@flush created L0@1773 N·1 S·184B "txr..\xed\xb2\x98,v5623":"txr..\xed\xb2\x98,v5623"
+21:34:25.093114 version@stat F·[3 1] S·294KiB[1KiB 293KiB] Sc·[0.75 0.00]
+21:34:30.280725 transaction@flush created L0@1774 N·7 S·975B "\f\x900..\xd1r\xe9,v5625":"{V\xb1..\xa3Ɛ,v5624"
+21:34:30.280806 version@stat F·[4 1] S·295KiB[2KiB 293KiB] Sc·[1.00 0.00]
+21:34:30.284088 table@compaction L0·4 -> L1·1 S·295KiB Q·5630
+21:34:30.292562 transaction@flush created L0@1776 N·1 S·184B "txr..6J\x90,v5631":"txr..6J\x90,v5631"
+21:34:30.292623 version@stat F·[5 1] S·295KiB[2KiB 293KiB] Sc·[1.25 0.00]
+21:34:30.295525 table@build created L1@1775 N·2818 S·294KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:34:30.301483 version@stat F·[1 1] S·294KiB[184B 294KiB] Sc·[0.25 0.00]
+21:34:30.307503 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·23.343075ms
+21:34:30.307634 table@remove removed @1774
+21:34:30.307682 table@remove removed @1773
+21:34:30.307722 table@remove removed @1772
+21:34:30.307767 table@remove removed @1771
+21:34:30.307872 table@remove removed @1770
+21:34:35.469249 transaction@flush created L0@1777 N·7 S·979B "\f\x900..\xd1r\xe9,v5632":"th\x00..\x01C\x88,v5637"
+21:34:35.469346 version@stat F·[2 1] S·295KiB[1KiB 294KiB] Sc·[0.50 0.00]
+21:34:35.485453 transaction@flush created L0@1778 N·1 S·184B "txr..⟷,v5639":"txr..⟷,v5639"
+21:34:35.485552 version@stat F·[3 1] S·295KiB[1KiB 294KiB] Sc·[0.75 0.00]
+21:34:41.698028 transaction@flush created L0@1779 N·7 S·966B "bf\x00..\x01C\x8e,v5646":"\x98\x06T..vk\xf2,v5641"
+21:34:41.698096 version@stat F·[4 1] S·296KiB[2KiB 294KiB] Sc·[1.00 0.00]
+21:34:41.701473 table@compaction L0·4 -> L1·1 S·296KiB Q·5646
+21:34:41.708156 transaction@flush created L0@1781 N·1 S·184B "txr..\xdam\xd9,v5647":"txr..\xdam\xd9,v5647"
+21:34:41.708205 version@stat F·[5 1] S·296KiB[2KiB 294KiB] Sc·[1.25 0.00]
+21:34:41.711290 table@build created L1@1780 N·2826 S·294KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:34:41.717598 version@stat F·[1 1] S·295KiB[184B 294KiB] Sc·[0.25 0.00]
+21:34:41.723624 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·22.089877ms
+21:34:41.723751 table@remove removed @1779
+21:34:41.723826 table@remove removed @1778
+21:34:41.723940 table@remove removed @1777
+21:34:41.724007 table@remove removed @1776
+21:34:41.724168 table@remove removed @1775
+21:34:46.879625 transaction@flush created L0@1782 N·7 S·982B "Lm\xd1..\x9d\xbd\xf4,v5649":"\x98\x06T..vk\xf2,v5648"
+21:34:46.879704 version@stat F·[2 1] S·296KiB[1KiB 294KiB] Sc·[0.50 0.00]
+21:34:46.895206 transaction@flush created L0@1783 N·1 S·184B "txr..\x81\x18\x96,v5655":"txr..\x81\x18\x96,v5655"
+21:34:46.895296 version@stat F·[3 1] S·296KiB[1KiB 294KiB] Sc·[0.75 0.00]
+21:34:52.075110 transaction@flush created L0@1784 N·7 S·990B "Lm\xd1..\x9d\xbd\xf4,v5656":"\x8a\x9d\xf6..\xcd\xfa\xf5,v5657"
+21:34:52.075188 version@stat F·[4 1] S·297KiB[2KiB 294KiB] Sc·[1.00 0.00]
+21:34:52.078454 table@compaction L0·4 -> L1·1 S·297KiB Q·5662
+21:34:52.087111 transaction@flush created L0@1786 N·1 S·184B "txr..{O(,v5663":"txr..{O(,v5663"
+21:34:52.087177 version@stat F·[5 1] S·297KiB[2KiB 294KiB] Sc·[1.25 0.00]
+21:34:52.095675 table@build created L1@1785 N·2834 S·296KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:34:52.095744 version@stat F·[1 1] S·296KiB[184B 296KiB] Sc·[0.25 0.00]
+21:34:52.104628 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·26.102651ms
+21:34:52.104736 table@remove removed @1784
+21:34:52.104800 table@remove removed @1783
+21:34:52.104844 table@remove removed @1782
+21:34:52.104891 table@remove removed @1781
+21:34:52.104987 table@remove removed @1780
+21:34:57.256183 transaction@flush created L0@1787 N·7 S·990B "0,\xc3..\f\f\xef,v5665":"\x8a\x9d\xf6..\xcd\xfa\xf5,v5664"
+21:34:57.256262 version@stat F·[2 1] S·297KiB[1KiB 296KiB] Sc·[0.50 0.00]
+21:34:57.271338 transaction@flush created L0@1788 N·1 S·184B "txr..\xa5\xeb\xc0,v5671":"txr..\xa5\xeb\xc0,v5671"
+21:34:57.271409 version@stat F·[3 1] S·297KiB[1KiB 296KiB] Sc·[0.75 0.00]
+21:35:02.453033 transaction@flush created L0@1789 N·7 S·975B "0,\xc3..\f\f\xef,v5672":"\x92'\xf0..\x8dG\xad,v5673"
+21:35:02.453056 version@stat F·[4 1] S·298KiB[2KiB 296KiB] Sc·[1.00 0.00]
+21:35:02.459496 table@compaction L0·4 -> L1·1 S·298KiB Q·5678
+21:35:02.468833 transaction@flush created L0@1791 N·1 S·184B "txr..\xc9ϋ,v5679":"txr..\xc9ϋ,v5679"
+21:35:02.468914 version@stat F·[5 1] S·298KiB[2KiB 296KiB] Sc·[1.25 0.00]
+21:35:02.475078 table@build created L1@1790 N·2842 S·297KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:35:02.475398 version@stat F·[1 1] S·297KiB[184B 297KiB] Sc·[0.25 0.00]
+21:35:02.481555 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.9557ms
+21:35:02.481700 table@remove removed @1789
+21:35:02.481772 table@remove removed @1788
+21:35:02.481838 table@remove removed @1787
+21:35:02.481899 table@remove removed @1786
+21:35:02.482046 table@remove removed @1785
+21:35:07.649352 transaction@flush created L0@1792 N·7 S·959B "bf\x00..\x01C\xa7,v5686":"\xcf\f\x10..$>U,v5681"
+21:35:07.649434 version@stat F·[2 1] S·298KiB[1KiB 297KiB] Sc·[0.50 0.00]
+21:35:07.667456 transaction@flush created L0@1793 N·1 S·184B "txr..\xb4{[,v5687":"txr..\xb4{[,v5687"
+21:35:07.667525 version@stat F·[3 1] S·298KiB[1KiB 297KiB] Sc·[0.75 0.00]
+21:35:12.841450 transaction@flush created L0@1794 N·7 S·962B "bf\x00..\x01C\xac,v5694":"\xcf\f\x10..$>U,v5688"
+21:35:12.841530 version@stat F·[4 1] S·299KiB[2KiB 297KiB] Sc·[1.00 0.00]
+21:35:12.848047 table@compaction L0·4 -> L1·1 S·299KiB Q·5694
+21:35:12.856308 transaction@flush created L0@1796 N·1 S·184B "txr..\xd0\x11\r,v5695":"txr..\xd0\x11\r,v5695"
+21:35:12.856339 version@stat F·[5 1] S·299KiB[2KiB 297KiB] Sc·[1.25 0.00]
+21:35:12.859456 table@build created L1@1795 N·2850 S·297KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:35:12.865506 version@stat F·[1 1] S·298KiB[184B 297KiB] Sc·[0.25 0.00]
+21:35:12.871704 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·23.561123ms
+21:35:12.871901 table@remove removed @1794
+21:35:12.872007 table@remove removed @1793
+21:35:12.872133 table@remove removed @1792
+21:35:12.872246 table@remove removed @1791
+21:35:12.872449 table@remove removed @1790
+21:35:18.028289 transaction@flush created L0@1797 N·7 S·968B "bf\x00..\x01C\xb1,v5702":"\xbe\xc4\xc8..\xfb\x9d*,v5697"
+21:35:18.028368 version@stat F·[2 1] S·299KiB[1KiB 297KiB] Sc·[0.50 0.00]
+21:35:18.043993 transaction@flush created L0@1798 N·1 S·184B "txr..I\x85\xf8,v5703":"txr..I\x85\xf8,v5703"
+21:35:18.044087 version@stat F·[3 1] S·299KiB[1KiB 297KiB] Sc·[0.75 0.00]
+21:35:23.205169 transaction@flush created L0@1799 N·7 S·949B "bf\x00..\x01C\xb6,v5710":"\xe3\xb8\x11..\xe3!\x12,v5705"
+21:35:23.205214 version@stat F·[4 1] S·300KiB[2KiB 297KiB] Sc·[1.00 0.00]
+21:35:23.211391 table@compaction L0·4 -> L1·1 S·300KiB Q·5710
+21:35:23.217865 transaction@flush created L0@1801 N·1 S·184B "txr..e\xa4\x8a,v5711":"txr..e\xa4\x8a,v5711"
+21:35:23.217902 version@stat F·[5 1] S·300KiB[2KiB 297KiB] Sc·[1.25 0.00]
+21:35:23.221014 table@build created L1@1800 N·2858 S·299KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:35:23.227235 version@stat F·[1 1] S·299KiB[184B 299KiB] Sc·[0.25 0.00]
+21:35:23.233707 table@compaction committed F-4 S-448B Ke·0 D·8 T·22.268785ms
+21:35:23.233925 table@remove removed @1799
+21:35:23.234052 table@remove removed @1798
+21:35:23.234173 table@remove removed @1797
+21:35:23.234311 table@remove removed @1796
+21:35:23.234606 table@remove removed @1795
+21:35:28.403874 transaction@flush created L0@1802 N·7 S·963B "bf\x00..\x01C\xbb,v5718":"\xe3\xb8\x11..\xe3!\x12,v5712"
+21:35:28.403941 version@stat F·[2 1] S·300KiB[1KiB 299KiB] Sc·[0.50 0.00]
+21:35:28.421473 transaction@flush created L0@1803 N·1 S·184B "txr..\xb5_\xd1,v5719":"txr..\xb5_\xd1,v5719"
+21:35:28.421535 version@stat F·[3 1] S·300KiB[1KiB 299KiB] Sc·[0.75 0.00]
+21:35:33.586709 transaction@flush created L0@1804 N·7 S·955B "bf\x00..\x01C\xc0,v5726":"\xd7\xe58..\x1e\xb0\xa2,v5720"
+21:35:33.586784 version@stat F·[4 1] S·301KiB[2KiB 299KiB] Sc·[1.00 0.00]
+21:35:33.590366 table@compaction L0·4 -> L1·1 S·301KiB Q·5726
+21:35:33.598629 transaction@flush created L0@1806 N·1 S·184B "txr..\x1c\x11%,v5727":"txr..\x1c\x11%,v5727"
+21:35:33.598706 version@stat F·[5 1] S·302KiB[2KiB 299KiB] Sc·[1.25 0.00]
+21:35:33.604337 table@build created L1@1805 N·2866 S·300KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:35:33.604404 version@stat F·[1 1] S·300KiB[184B 300KiB] Sc·[0.25 0.00]
+21:35:33.610298 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·19.868134ms
+21:35:33.610407 table@remove removed @1804
+21:35:33.610474 table@remove removed @1803
+21:35:33.610532 table@remove removed @1802
+21:35:33.610588 table@remove removed @1801
+21:35:33.610716 table@remove removed @1800
+21:35:38.778692 transaction@flush created L0@1807 N·7 S·972B "bf\x00..\x01C\xc5,v5734":"\xd3e\xd9..\xba\x1a\x04,v5728"
+21:35:38.778765 version@stat F·[2 1] S·301KiB[1KiB 300KiB] Sc·[0.50 0.00]
+21:35:38.790476 transaction@flush created L0@1808 N·1 S·184B "txr..\x89I5,v5735":"txr..\x89I5,v5735"
+21:35:38.790552 version@stat F·[3 1] S·301KiB[1KiB 300KiB] Sc·[0.75 0.00]
+21:35:43.973128 transaction@flush created L0@1809 N·7 S·966B "bf\x00..\x01C\xca,v5742":"\xa2\xd4\f..{v\xc7,v5736"
+21:35:43.973211 version@stat F·[4 1] S·302KiB[2KiB 300KiB] Sc·[1.00 0.00]
+21:35:43.976548 table@compaction L0·4 -> L1·1 S·302KiB Q·5742
+21:35:43.984024 transaction@flush created L0@1811 N·1 S·184B "txr..\xab\xb1_,v5743":"txr..\xab\xb1_,v5743"
+21:35:43.984079 version@stat F·[5 1] S·303KiB[2KiB 300KiB] Sc·[1.25 0.00]
+21:35:43.987082 table@build created L1@1810 N·2874 S·301KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:35:43.993051 version@stat F·[1 1] S·301KiB[184B 301KiB] Sc·[0.25 0.00]
+21:35:43.999122 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·22.495056ms
+21:35:43.999238 table@remove removed @1809
+21:35:43.999272 table@remove removed @1808
+21:35:43.999306 table@remove removed @1807
+21:35:43.999335 table@remove removed @1806
+21:35:43.999418 table@remove removed @1805
+21:35:49.172510 transaction@flush created L0@1812 N·7 S·963B "bf\x00..\x01C\xcf,v5750":"\xf7\xf3\xee...\xddt,v5745"
+21:35:49.172612 version@stat F·[2 1] S·302KiB[1KiB 301KiB] Sc·[0.50 0.00]
+21:35:49.191096 transaction@flush created L0@1813 N·1 S·184B "txr..\xeazb,v5751":"txr..\xeazb,v5751"
+21:35:49.191219 version@stat F·[3 1] S·302KiB[1KiB 301KiB] Sc·[0.75 0.00]
+21:35:55.418448 transaction@flush created L0@1814 N·7 S·975B "[$\x14..\x88\u07bd,v5753":"\xf7\xf3\xee...\xddt,v5752"
+21:35:55.418505 version@stat F·[4 1] S·303KiB[2KiB 301KiB] Sc·[1.00 0.00]
+21:35:55.422003 table@compaction L0·4 -> L1·1 S·303KiB Q·5758
+21:35:55.432207 transaction@flush created L0@1816 N·1 S·184B "txr..N\x83O,v5759":"txr..N\x83O,v5759"
+21:35:55.432333 version@stat F·[5 1] S·304KiB[2KiB 301KiB] Sc·[1.25 0.00]
+21:35:55.438224 table@build created L1@1815 N·2882 S·302KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:35:55.438476 version@stat F·[1 1] S·303KiB[184B 302KiB] Sc·[0.25 0.00]
+21:35:55.444847 table@compaction committed F-4 S-1001B Ke·0 D·8 T·22.718961ms
+21:35:55.444965 table@remove removed @1814
+21:35:55.445022 table@remove removed @1813
+21:35:55.445082 table@remove removed @1812
+21:35:55.445139 table@remove removed @1811
+21:35:55.445252 table@remove removed @1810
+21:36:00.629072 transaction@flush created L0@1817 N·7 S·979B "[$\x14..\x88\u07bd,v5760":"\xed\xf0O..\xbbҟ,v5761"
+21:36:00.629168 version@stat F·[2 1] S·303KiB[1KiB 302KiB] Sc·[0.50 0.00]
+21:36:00.640385 transaction@flush created L0@1818 N·1 S·184B "txr..tgP,v5767":"txr..tgP,v5767"
+21:36:00.640450 version@stat F·[3 1] S·304KiB[1KiB 302KiB] Sc·[0.75 0.00]
+21:36:05.815865 transaction@flush created L0@1819 N·7 S·980B "$\xa1\xa2..i\xba\x1b,v5769":"\xed\xf0O..\xbbҟ,v5768"
+21:36:05.815940 version@stat F·[4 1] S·305KiB[2KiB 302KiB] Sc·[1.00 0.00]
+21:36:05.822721 table@compaction L0·4 -> L1·1 S·305KiB Q·5774
+21:36:05.832974 transaction@flush created L0@1821 N·1 S·184B "txr..\x8b\x16\xc5,v5775":"txr..\x8b\x16\xc5,v5775"
+21:36:05.833109 version@stat F·[5 1] S·305KiB[2KiB 302KiB] Sc·[1.25 0.00]
+21:36:05.842624 table@build created L1@1820 N·2890 S·304KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:36:05.842744 version@stat F·[1 1] S·304KiB[184B 304KiB] Sc·[0.25 0.00]
+21:36:05.851580 table@compaction committed F-4 S-728B Ke·0 D·8 T·28.728357ms
+21:36:05.851667 table@remove removed @1819
+21:36:05.851708 table@remove removed @1818
+21:36:05.851744 table@remove removed @1817
+21:36:05.851776 table@remove removed @1816
+21:36:05.851862 table@remove removed @1815
+21:36:11.009172 transaction@flush created L0@1822 N·7 S·972B "$\x85d..f\x91\x02,v5777":"th\x00..\x01C\xe4,v5781"
+21:36:11.009245 version@stat F·[2 1] S·305KiB[1KiB 304KiB] Sc·[0.50 0.00]
+21:36:11.024684 transaction@flush created L0@1823 N·1 S·184B "txr..\xf45\xd4,v5783":"txr..\xf45\xd4,v5783"
+21:36:11.024749 version@stat F·[3 1] S·305KiB[1KiB 304KiB] Sc·[0.75 0.00]
+21:36:16.211395 transaction@flush created L0@1824 N·7 S·976B "\x0e\x99\xbf..\x06\x85\x02,v5785":"th\x00..\x01C\xe9,v5789"
+21:36:16.211446 version@stat F·[4 1] S·306KiB[2KiB 304KiB] Sc·[1.00 0.00]
+21:36:16.217557 table@compaction expanding L0+L1 (F·2 S·1KiB)+(F·1 S·304KiB) -> (F·4 S·2KiB)+(F·1 S·304KiB)
+21:36:16.217590 table@compaction L0·4 -> L1·1 S·306KiB Q·5790
+21:36:16.224764 transaction@flush created L0@1826 N·1 S·184B "txr..\x8a|d,v5791":"txr..\x8a|d,v5791"
+21:36:16.224824 version@stat F·[5 1] S·306KiB[2KiB 304KiB] Sc·[1.25 0.00]
+21:36:16.227876 table@build created L1@1825 N·2898 S·304KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:36:16.233639 version@stat F·[1 1] S·304KiB[184B 304KiB] Sc·[0.25 0.00]
+21:36:16.239582 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.952866ms
+21:36:16.239693 table@remove removed @1824
+21:36:16.239767 table@remove removed @1823
+21:36:16.239838 table@remove removed @1822
+21:36:16.239884 table@remove removed @1821
+21:36:16.239994 table@remove removed @1820
+21:36:22.451972 transaction@flush created L0@1827 N·7 S·976B "\x06\xa5\x80..\xf2\xdfi,v5793":"th\x00..\x01C\xef,v5797"
+21:36:22.452030 version@stat F·[2 1] S·305KiB[1KiB 304KiB] Sc·[0.50 0.00]
+21:36:22.466223 transaction@flush created L0@1828 N·1 S·184B "txr..\x14Y\x95,v5799":"txr..\x14Y\x95,v5799"
+21:36:22.466272 version@stat F·[3 1] S·306KiB[1KiB 304KiB] Sc·[0.75 0.00]
+21:36:27.650126 transaction@flush created L0@1829 N·7 S·974B "\x06\xa5\x80..\xf2\xdfi,v5800":"~\x88\x1a..l\x92,,v5801"
+21:36:27.650202 version@stat F·[4 1] S·307KiB[2KiB 304KiB] Sc·[1.00 0.00]
+21:36:27.653765 table@compaction L0·4 -> L1·1 S·307KiB Q·5806
+21:36:27.662628 transaction@flush created L0@1831 N·1 S·184B "txr..\xbfhi,v5807":"txr..\xbfhi,v5807"
+21:36:27.662683 version@stat F·[5 1] S·307KiB[2KiB 304KiB] Sc·[1.25 0.00]
+21:36:27.672210 table@build created L1@1830 N·2906 S·305KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:36:27.672274 version@stat F·[1 1] S·305KiB[184B 305KiB] Sc·[0.25 0.00]
+21:36:27.681174 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·27.336905ms
+21:36:27.681277 table@remove removed @1829
+21:36:27.681319 table@remove removed @1828
+21:36:27.681362 table@remove removed @1827
+21:36:27.681405 table@remove removed @1826
+21:36:27.681511 table@remove removed @1825
+21:36:32.835520 transaction@flush created L0@1832 N·7 S·979B "\x06\x06\x0e..\xd8}\x9a,v5809":"~\x88\x1a..l\x92,,v5808"
+21:36:32.835583 version@stat F·[2 1] S·306KiB[1KiB 305KiB] Sc·[0.50 0.00]
+21:36:32.847533 transaction@flush created L0@1833 N·1 S·184B "txr..j\x882,v5815":"txr..j\x882,v5815"
+21:36:32.847596 version@stat F·[3 1] S·306KiB[1KiB 305KiB] Sc·[0.75 0.00]
+21:36:38.026189 transaction@flush created L0@1834 N·7 S·979B "\x06\x06\x0e..\xd8}\x9a,v5816":"th\x00..\x01C\xfe,v5821"
+21:36:38.026269 version@stat F·[4 1] S·307KiB[2KiB 305KiB] Sc·[1.00 0.00]
+21:36:38.029654 table@compaction L0·4 -> L1·1 S·307KiB Q·5822
+21:36:38.037735 transaction@flush created L0@1836 N·1 S·184B "txr..\x0e_P,v5823":"txr..\x0e_P,v5823"
+21:36:38.037795 version@stat F·[5 1] S·307KiB[2KiB 305KiB] Sc·[1.25 0.00]
+21:36:38.044390 table@build created L1@1835 N·2914 S·307KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:36:38.044472 version@stat F·[1 1] S·307KiB[184B 307KiB] Sc·[0.25 0.00]
+21:36:38.047628 table@compaction committed F-4 S-671B Ke·0 D·8 T·17.896643ms
+21:36:38.047714 table@remove removed @1834
+21:36:38.047764 table@remove removed @1833
+21:36:38.047806 table@remove removed @1832
+21:36:38.047847 table@remove removed @1831
+21:36:38.047949 table@remove removed @1830
+21:36:43.225572 transaction@flush created L0@1837 N·7 S·978B "\a\xef\xfd..TvW,v5825":"th\x00..\x01D\x03,v5829"
+21:36:43.225648 version@stat F·[2 1] S·308KiB[1KiB 307KiB] Sc·[0.50 0.00]
+21:36:43.238313 transaction@flush created L0@1838 N·1 S·184B "txr..\xb2\x8e\xf7,v5831":"txr..\xb2\x8e\xf7,v5831"
+21:36:43.238343 version@stat F·[3 1] S·308KiB[1KiB 307KiB] Sc·[0.75 0.00]
+21:36:48.408509 transaction@flush created L0@1839 N·7 S·976B "\a\xef\xfd..TvW,v5832":"\x9b:\xa7..\x8d\x1a#,v5833"
+21:36:48.408583 version@stat F·[4 1] S·309KiB[2KiB 307KiB] Sc·[1.00 0.00]
+21:36:48.414831 table@compaction L0·4 -> L1·1 S·309KiB Q·5838
+21:36:48.424351 transaction@flush created L0@1841 N·1 S·184B "txr..\xa4c\xa5,v5839":"txr..\xa4c\xa5,v5839"
+21:36:48.424437 version@stat F·[5 1] S·309KiB[2KiB 307KiB] Sc·[1.25 0.00]
+21:36:48.430255 table@build created L1@1840 N·2922 S·308KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:36:48.430319 version@stat F·[1 1] S·308KiB[184B 308KiB] Sc·[0.25 0.00]
+21:36:48.436315 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.400556ms
+21:36:48.436537 table@remove removed @1839
+21:36:48.436679 table@remove removed @1838
+21:36:48.436801 table@remove removed @1837
+21:36:48.436919 table@remove removed @1836
+21:36:48.437132 table@remove removed @1835
+21:36:53.593534 transaction@flush created L0@1842 N·7 S·968B "bf\x00..\x01D\r,v5846":"\x9b:\xa7..\x8d\x1a#,v5840"
+21:36:53.593606 version@stat F·[2 1] S·309KiB[1KiB 308KiB] Sc·[0.50 0.00]
+21:36:53.608370 transaction@flush created L0@1843 N·1 S·184B "txr..\x9d\x18y,v5847":"txr..\x9d\x18y,v5847"
+21:36:53.608449 version@stat F·[3 1] S·309KiB[1KiB 308KiB] Sc·[0.75 0.00]
+21:36:58.785195 transaction@flush created L0@1844 N·7 S·970B "bf\x00..\x01D\x12,v5854":"\xbb\x81\x84..\xfe\x90\x0f,v5849"
+21:36:58.785269 version@stat F·[4 1] S·310KiB[2KiB 308KiB] Sc·[1.00 0.00]
+21:36:58.788641 table@compaction L0·4 -> L1·1 S·310KiB Q·5854
+21:36:58.796190 transaction@flush created L0@1846 N·1 S·184B "txr..\r\x01\xc6,v5855":"txr..\r\x01\xc6,v5855"
+21:36:58.796227 version@stat F·[5 1] S·310KiB[2KiB 308KiB] Sc·[1.25 0.00]
+21:36:58.799367 table@build created L1@1845 N·2930 S·308KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:36:58.805453 version@stat F·[1 1] S·308KiB[184B 308KiB] Sc·[0.25 0.00]
+21:36:58.811514 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·22.795015ms
+21:36:58.811613 table@remove removed @1844
+21:36:58.811661 table@remove removed @1843
+21:36:58.811695 table@remove removed @1842
+21:36:58.811730 table@remove removed @1841
+21:36:58.811809 table@remove removed @1840
+21:37:03.974474 transaction@flush created L0@1847 N·7 S·956B "bf\x00..\x01D\x17,v5862":"\xbb\x81\x84..\xfe\x90\x0f,v5856"
+21:37:03.974549 version@stat F·[2 1] S·309KiB[1KiB 308KiB] Sc·[0.50 0.00]
+21:37:03.986549 transaction@flush created L0@1848 N·1 S·184B "txr..z\xb8\xd8,v5863":"txr..z\xb8\xd8,v5863"
+21:37:03.986631 version@stat F·[3 1] S·309KiB[1KiB 308KiB] Sc·[0.75 0.00]
+21:37:09.158361 transaction@flush created L0@1849 N·7 S·965B "bf\x00..\x01D\x1c,v5870":"\xbc\x06\x92..ӑ\x1f,v5865"
+21:37:09.158442 version@stat F·[4 1] S·310KiB[2KiB 308KiB] Sc·[1.00 0.00]
+21:37:09.161879 table@compaction L0·4 -> L1·1 S·310KiB Q·5870
+21:37:09.169936 transaction@flush created L0@1851 N·1 S·184B "txr..\x91\b\xde,v5871":"txr..\x91\b\xde,v5871"
+21:37:09.169983 version@stat F·[5 1] S·311KiB[2KiB 308KiB] Sc·[1.25 0.00]
+21:37:09.175892 table@build created L1@1850 N·2938 S·310KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:37:09.181951 version@stat F·[1 1] S·310KiB[184B 310KiB] Sc·[0.25 0.00]
+21:37:09.187979 table@compaction committed F-4 S-690B Ke·0 D·8 T·26.003351ms
+21:37:09.188184 table@remove removed @1849
+21:37:09.188278 table@remove removed @1848
+21:37:09.188351 table@remove removed @1847
+21:37:09.188422 table@remove removed @1846
+21:37:09.188593 table@remove removed @1845
+21:37:14.352829 transaction@flush created L0@1852 N·7 S·967B "bf\x00..\x01D!,v5878":"\xbc\x06\x92..ӑ\x1f,v5872"
+21:37:14.352861 version@stat F·[2 1] S·311KiB[1KiB 310KiB] Sc·[0.50 0.00]
+21:37:14.363364 transaction@flush created L0@1853 N·1 S·184B "txr..\xb7r\x01,v5879":"txr..\xb7r\x01,v5879"
+21:37:14.363441 version@stat F·[3 1] S·311KiB[1KiB 310KiB] Sc·[0.75 0.00]
+21:37:19.536512 transaction@flush created L0@1854 N·7 S·962B "bf\x00..\x01D&,v5886":"\xc4\xfc\x1c..\x97\x98N,v5881"
+21:37:19.536590 version@stat F·[4 1] S·312KiB[2KiB 310KiB] Sc·[1.00 0.00]
+21:37:19.543050 table@compaction L0·4 -> L1·1 S·312KiB Q·5886
+21:37:19.551396 transaction@flush created L0@1856 N·1 S·184B "txr..\x97\x1b\x16,v5887":"txr..\x97\x1b\x16,v5887"
+21:37:19.551432 version@stat F·[5 1] S·312KiB[2KiB 310KiB] Sc·[1.25 0.00]
+21:37:19.554422 table@build created L1@1855 N·2946 S·310KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:37:19.560291 version@stat F·[1 1] S·310KiB[184B 310KiB] Sc·[0.25 0.00]
+21:37:19.565922 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·22.803078ms
+21:37:19.566027 table@remove removed @1854
+21:37:19.566069 table@remove removed @1853
+21:37:19.566102 table@remove removed @1852
+21:37:19.566134 table@remove removed @1851
+21:37:19.566210 table@remove removed @1850
+21:37:24.729267 transaction@flush created L0@1857 N·7 S·968B "bf\x00..\x01D+,v5894":"\xc4\xfc\x1c..\x97\x98N,v5888"
+21:37:24.729341 version@stat F·[2 1] S·311KiB[1KiB 310KiB] Sc·[0.50 0.00]
+21:37:24.745400 transaction@flush created L0@1858 N·1 S·184B "txr..\xe0t\xe1,v5895":"txr..\xe0t\xe1,v5895"
+21:37:24.745493 version@stat F·[3 1] S·311KiB[1KiB 310KiB] Sc·[0.75 0.00]
+21:37:29.919054 transaction@flush created L0@1859 N·7 S·961B "bf\x00..\x01D0,v5902":"\xf0\xa9/..X\xe8T,v5897"
+21:37:29.919134 version@stat F·[4 1] S·312KiB[2KiB 310KiB] Sc·[1.00 0.00]
+21:37:29.922405 table@compaction L0·4 -> L1·1 S·312KiB Q·5902
+21:37:29.929765 transaction@flush created L0@1861 N·1 S·184B "txr..\xb9\x9bj,v5903":"txr..\xb9\x9bj,v5903"
+21:37:29.929803 version@stat F·[5 1] S·312KiB[2KiB 310KiB] Sc·[1.25 0.00]
+21:37:29.932880 table@build created L1@1860 N·2954 S·311KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:37:29.939196 version@stat F·[1 1] S·311KiB[184B 311KiB] Sc·[0.25 0.00]
+21:37:29.945625 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·23.162125ms
+21:37:29.945781 table@remove removed @1859
+21:37:29.945918 table@remove removed @1858
+21:37:29.946004 table@remove removed @1857
+21:37:29.946067 table@remove removed @1856
+21:37:29.946235 table@remove removed @1855
+21:37:35.114363 transaction@flush created L0@1862 N·7 S·967B "bf\x00..\x01D5,v5910":"\xf4\xae\x12..\x91Sl,v5905"
+21:37:35.114428 version@stat F·[2 1] S·312KiB[1KiB 311KiB] Sc·[0.50 0.00]
+21:37:35.126205 transaction@flush created L0@1863 N·1 S·184B "txr..\xe0G\xae,v5911":"txr..\xe0G\xae,v5911"
+21:37:35.126302 version@stat F·[3 1] S·312KiB[1KiB 311KiB] Sc·[0.75 0.00]
+21:37:40.300265 transaction@flush created L0@1864 N·7 S·977B "D\r\xfe..\xf2\xcd\t,v5913":"\xf4\xae\x12..\x91Sl,v5912"
+21:37:40.300344 version@stat F·[4 1] S·313KiB[2KiB 311KiB] Sc·[1.00 0.00]
+21:37:40.306650 table@compaction L0·4 -> L1·1 S·313KiB Q·5918
+21:37:40.316256 transaction@flush created L0@1866 N·1 S·184B "txr..v\xa7\xfa,v5919":"txr..v\xa7\xfa,v5919"
+21:37:40.316341 version@stat F·[5 1] S·313KiB[2KiB 311KiB] Sc·[1.25 0.00]
+21:37:40.322699 table@build created L1@1865 N·2962 S·312KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:37:40.322788 version@stat F·[1 1] S·312KiB[184B 312KiB] Sc·[0.25 0.00]
+21:37:40.328844 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·22.090965ms
+21:37:40.329096 table@remove removed @1864
+21:37:40.329224 table@remove removed @1863
+21:37:40.329331 table@remove removed @1862
+21:37:40.329448 table@remove removed @1861
+21:37:40.329673 table@remove removed @1860
+21:37:45.491423 transaction@flush created L0@1867 N·7 S·977B "D\r\xfe..\xf2\xcd\t,v5920":"\x8c5\x84..Cz\xed,v5921"
+21:37:45.491499 version@stat F·[2 1] S·313KiB[1KiB 312KiB] Sc·[0.50 0.00]
+21:37:45.502816 transaction@flush created L0@1868 N·1 S·184B "txr..:\xa2\xab,v5927":"txr..:\xa2\xab,v5927"
+21:37:45.502882 version@stat F·[3 1] S·313KiB[1KiB 312KiB] Sc·[0.75 0.00]
+21:37:50.676827 transaction@flush created L0@1869 N·7 S·971B "T\x96\xf1..P\xfd0,v5929":"\x8c5\x84..Cz\xed,v5928"
+21:37:50.676908 version@stat F·[4 1] S·314KiB[2KiB 312KiB] Sc·[1.00 0.00]
+21:37:50.683437 table@compaction L0·4 -> L1·1 S·314KiB Q·5934
+21:37:50.692894 transaction@flush created L0@1871 N·1 S·184B "txr..\xd2\xcfd,v5935":"txr..\xd2\xcfd,v5935"
+21:37:50.692971 version@stat F·[5 1] S·314KiB[2KiB 312KiB] Sc·[1.25 0.00]
+21:37:50.702722 table@build created L1@1870 N·2970 S·313KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:37:50.702816 version@stat F·[1 1] S·313KiB[184B 313KiB] Sc·[0.25 0.00]
+21:37:50.709113 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·25.605566ms
+21:37:50.709265 table@remove removed @1869
+21:37:50.709368 table@remove removed @1868
+21:37:50.709471 table@remove removed @1867
+21:37:50.709556 table@remove removed @1866
+21:37:50.709771 table@remove removed @1865
+21:37:55.880771 transaction@flush created L0@1872 N·7 S·977B "1\a\xd9..\xfbWi,v5937":"th\x00..\x01DI,v5941"
+21:37:55.880890 version@stat F·[2 1] S·314KiB[1KiB 313KiB] Sc·[0.50 0.00]
+21:37:55.894751 transaction@flush created L0@1873 N·1 S·184B "txr..\u007f\x8cI,v5943":"txr..\u007f\x8cI,v5943"
+21:37:55.894790 version@stat F·[3 1] S·314KiB[1KiB 313KiB] Sc·[0.75 0.00]
+21:38:02.108426 transaction@flush created L0@1874 N·7 S·975B "1\a\xd9..\xfbWi,v5944":"\x84\x8e\x02..\xd8\xf1\b,v5945"
+21:38:02.108496 version@stat F·[4 1] S·315KiB[2KiB 313KiB] Sc·[1.00 0.00]
+21:38:02.114579 table@compaction L0·4 -> L1·1 S·315KiB Q·5950
+21:38:02.123102 transaction@flush created L0@1876 N·1 S·184B "txr..\xb5\x9e\x03,v5951":"txr..\xb5\x9e\x03,v5951"
+21:38:02.123144 version@stat F·[5 1] S·315KiB[2KiB 313KiB] Sc·[1.25 0.00]
+21:38:02.126187 table@build created L1@1875 N·2978 S·314KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:38:02.132571 version@stat F·[1 1] S·314KiB[184B 314KiB] Sc·[0.25 0.00]
+21:38:02.139289 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·24.641129ms
+21:38:02.139441 table@remove removed @1874
+21:38:02.139522 table@remove removed @1873
+21:38:02.139581 table@remove removed @1872
+21:38:02.139634 table@remove removed @1871
+21:38:02.139769 table@remove removed @1870
+21:38:07.288471 transaction@flush created L0@1877 N·7 S·959B "bf\x00..\x01DT,v5958":"\xd4\xf9\r..@j\x1f,v5953"
+21:38:07.288546 version@stat F·[2 1] S·315KiB[1KiB 314KiB] Sc·[0.50 0.00]
+21:38:07.304175 transaction@flush created L0@1878 N·1 S·184B "txr..\xac\xda\xe2,v5959":"txr..\xac\xda\xe2,v5959"
+21:38:07.304259 version@stat F·[3 1] S·315KiB[1KiB 314KiB] Sc·[0.75 0.00]
+21:38:12.481994 transaction@flush created L0@1879 N·7 S·962B "bf\x00..\x01DY,v5966":"\xd4\xf9\r..@j\x1f,v5960"
+21:38:12.482070 version@stat F·[4 1] S·316KiB[2KiB 314KiB] Sc·[1.00 0.00]
+21:38:12.488548 table@compaction L0·4 -> L1·1 S·316KiB Q·5966
+21:38:12.497167 transaction@flush created L0@1881 N·1 S·184B "txr..lZ\xc7,v5967":"txr..lZ\xc7,v5967"
+21:38:12.497209 version@stat F·[5 1] S·316KiB[2KiB 314KiB] Sc·[1.25 0.00]
+21:38:12.500327 table@build created L1@1880 N·2986 S·315KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:38:12.506170 version@stat F·[1 1] S·315KiB[184B 315KiB] Sc·[0.25 0.00]
+21:38:12.509488 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·20.856661ms
+21:38:12.509604 table@remove removed @1879
+21:38:12.509664 table@remove removed @1878
+21:38:12.509717 table@remove removed @1877
+21:38:12.509779 table@remove removed @1876
+21:38:12.509903 table@remove removed @1875
+21:38:17.686399 transaction@flush created L0@1882 N·7 S·972B "bf\x00..\x01D^,v5974":"\xb5\xb2\x98..q`\",v5969"
+21:38:17.686477 version@stat F·[2 1] S·316KiB[1KiB 315KiB] Sc·[0.50 0.00]
+21:38:17.702054 transaction@flush created L0@1883 N·1 S·184B "txr..O\xecS,v5975":"txr..O\xecS,v5975"
+21:38:17.702126 version@stat F·[3 1] S·316KiB[1KiB 315KiB] Sc·[0.75 0.00]
+21:38:22.887351 transaction@flush created L0@1884 N·7 S·963B "bf\x00..\x01Dc,v5982":"\xb5\xb2\x98..q`\",v5976"
+21:38:22.887427 version@stat F·[4 1] S·317KiB[2KiB 315KiB] Sc·[1.00 0.00]
+21:38:22.890773 table@compaction L0·4 -> L1·1 S·317KiB Q·5982
+21:38:22.899374 transaction@flush created L0@1886 N·1 S·184B "txr..\x14\tR,v5983":"txr..\x14\tR,v5983"
+21:38:22.899417 version@stat F·[5 1] S·317KiB[2KiB 315KiB] Sc·[1.25 0.00]
+21:38:22.902474 table@build created L1@1885 N·2994 S·316KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:38:22.908586 version@stat F·[1 1] S·316KiB[184B 316KiB] Sc·[0.25 0.00]
+21:38:22.914700 table@compaction committed F-4 S-953B Ke·0 D·8 T·23.849535ms
+21:38:22.914843 table@remove removed @1884
+21:38:22.914913 table@remove removed @1883
+21:38:22.914995 table@remove removed @1882
+21:38:22.915084 table@remove removed @1881
+21:38:22.915237 table@remove removed @1880
+21:38:28.080446 transaction@flush created L0@1887 N·7 S·969B "bf\x00..\x01Dh,v5990":"\xe9b\xa3..*:\x8c,v5985"
+21:38:28.080523 version@stat F·[2 1] S·317KiB[1KiB 316KiB] Sc·[0.50 0.00]
+21:38:28.095067 transaction@flush created L0@1888 N·1 S·184B "txr..\xdcG\x1f,v5991":"txr..\xdcG\x1f,v5991"
+21:38:28.095146 version@stat F·[3 1] S·317KiB[1KiB 316KiB] Sc·[0.75 0.00]
+21:38:33.276783 transaction@flush created L0@1889 N·7 S·959B "bf\x00..\x01Dm,v5998":"\xe9b\xa3..*:\x8c,v5992"
+21:38:33.276823 version@stat F·[4 1] S·318KiB[2KiB 316KiB] Sc·[1.00 0.00]
+21:38:33.282891 table@compaction L0·4 -> L1·1 S·318KiB Q·5998
+21:38:33.290300 transaction@flush created L0@1891 N·1 S·184B "txr..\x9c\xfa\x0e,v5999":"txr..\x9c\xfa\x0e,v5999"
+21:38:33.290338 version@stat F·[5 1] S·319KiB[2KiB 316KiB] Sc·[1.25 0.00]
+21:38:33.295860 table@build created L1@1890 N·3002 S·317KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:38:33.295920 version@stat F·[1 1] S·317KiB[184B 317KiB] Sc·[0.25 0.00]
+21:38:33.301983 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·19.031032ms
+21:38:33.302109 table@remove removed @1889
+21:38:33.302176 table@remove removed @1888
+21:38:33.302232 table@remove removed @1887
+21:38:33.302289 table@remove removed @1886
+21:38:33.302404 table@remove removed @1885
+21:38:38.454582 transaction@flush created L0@1892 N·7 S·957B "bf\x00..\x01Dr,v6006":"\xb0zO..\xbdМ,v6001"
+21:38:38.454657 version@stat F·[2 1] S·318KiB[1KiB 317KiB] Sc·[0.50 0.00]
+21:38:38.466680 transaction@flush created L0@1893 N·1 S·184B "txr..\x0fDu,v6007":"txr..\x0fDu,v6007"
+21:38:38.466753 version@stat F·[3 1] S·318KiB[1KiB 317KiB] Sc·[0.75 0.00]
+21:38:43.645554 transaction@flush created L0@1894 N·7 S·961B "bf\x00..\x01Dw,v6014":"\xd5C\t..\x98\xe4\a,v6009"
+21:38:43.645632 version@stat F·[4 1] S·319KiB[2KiB 317KiB] Sc·[1.00 0.00]
+21:38:43.652145 table@compaction L0·4 -> L1·1 S·319KiB Q·6014
+21:38:43.661000 transaction@flush created L0@1896 N·1 S·184B "txr..\x0e\x98y,v6015":"txr..\x0e\x98y,v6015"
+21:38:43.661067 version@stat F·[5 1] S·319KiB[2KiB 317KiB] Sc·[1.25 0.00]
+21:38:43.667420 table@build created L1@1895 N·3010 S·318KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:38:43.667492 version@stat F·[1 1] S·318KiB[184B 318KiB] Sc·[0.25 0.00]
+21:38:43.673587 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.370542ms
+21:38:43.673769 table@remove removed @1894
+21:38:43.673870 table@remove removed @1893
+21:38:43.673959 table@remove removed @1892
+21:38:43.674029 table@remove removed @1891
+21:38:43.674192 table@remove removed @1890
+21:38:48.837980 transaction@flush created L0@1897 N·7 S·973B " \xa6\r..u\xfa\xf0,v6017":"\xd5C\t..\x98\xe4\a,v6016"
+21:38:48.838080 version@stat F·[2 1] S·319KiB[1KiB 318KiB] Sc·[0.50 0.00]
+21:38:48.850018 transaction@flush created L0@1898 N·1 S·184B "txr..n`\xcb,v6023":"txr..n`\xcb,v6023"
+21:38:48.850092 version@stat F·[3 1] S·319KiB[1KiB 318KiB] Sc·[0.75 0.00]
+21:38:54.031989 transaction@flush created L0@1899 N·7 S·974B " \xa6\r..u\xfa\xf0,v6024":"th\x00..\x01D\x81,v6029"
+21:38:54.032066 version@stat F·[4 1] S·320KiB[2KiB 318KiB] Sc·[1.00 0.00]
+21:38:54.038463 table@compaction L0·4 -> L1·1 S·320KiB Q·6030
+21:38:54.047320 transaction@flush created L0@1901 N·1 S·184B "txr..\x02Y\x8e,v6031":"txr..\x02Y\x8e,v6031"
+21:38:54.047406 version@stat F·[5 1] S·320KiB[2KiB 318KiB] Sc·[1.25 0.00]
+21:38:54.053689 table@build created L1@1900 N·3018 S·319KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:38:54.053779 version@stat F·[1 1] S·319KiB[184B 319KiB] Sc·[0.25 0.00]
+21:38:54.060049 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.509992ms
+21:38:54.060257 table@remove removed @1899
+21:38:54.060353 table@remove removed @1898
+21:38:54.060444 table@remove removed @1897
+21:38:54.060532 table@remove removed @1896
+21:38:54.060722 table@remove removed @1895
+21:38:59.220312 transaction@flush created L0@1902 N·7 S·981B "]x=..=$5,v6032":"\x98\x13\xd2..\x880!,v6033"
+21:38:59.220389 version@stat F·[2 1] S·320KiB[1KiB 319KiB] Sc·[0.50 0.00]
+21:38:59.239168 transaction@flush created L0@1903 N·1 S·184B "txr..\xa9\vB,v6039":"txr..\xa9\vB,v6039"
+21:38:59.239242 version@stat F·[3 1] S·320KiB[1KiB 319KiB] Sc·[0.75 0.00]
+21:39:04.409029 transaction@flush created L0@1904 N·7 S·991B "S\xa4\xab..\x8fkt,v6041":"\x98\x13\xd2..\x880!,v6040"
+21:39:04.409118 version@stat F·[4 1] S·321KiB[2KiB 319KiB] Sc·[1.00 0.00]
+21:39:04.415634 table@compaction L0·4 -> L1·1 S·321KiB Q·6046
+21:39:04.424467 transaction@flush created L0@1906 N·1 S·184B "txr..x\xce\xd4,v6047":"txr..x\xce\xd4,v6047"
+21:39:04.424539 version@stat F·[5 1] S·321KiB[2KiB 319KiB] Sc·[1.25 0.00]
+21:39:04.430699 table@build created L1@1905 N·3026 S·320KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:39:04.430757 version@stat F·[1 1] S·320KiB[184B 320KiB] Sc·[0.25 0.00]
+21:39:04.437004 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·21.290902ms
+21:39:04.437226 table@remove removed @1904
+21:39:04.437333 table@remove removed @1903
+21:39:04.437436 table@remove removed @1902
+21:39:04.437525 table@remove removed @1901
+21:39:04.437722 table@remove removed @1900
+21:39:09.614066 transaction@flush created L0@1907 N·7 S·987B "\x03\x98X..2Р,v6049":"th\x00..\x01D\x90,v6053"
+21:39:09.614154 version@stat F·[2 1] S·321KiB[1KiB 320KiB] Sc·[0.50 0.00]
+21:39:09.625602 transaction@flush created L0@1908 N·1 S·184B "txr..\xc2\xe2\u007f,v6055":"txr..\xc2\xe2\u007f,v6055"
+21:39:09.625671 version@stat F·[3 1] S·321KiB[1KiB 320KiB] Sc·[0.75 0.00]
+21:39:14.805458 transaction@flush created L0@1909 N·7 S·983B "\x03\x98X..2Р,v6056":"\xc5~\xa2..\x05\xa6\xb3,v6057"
+21:39:14.805517 version@stat F·[4 1] S·322KiB[2KiB 320KiB] Sc·[1.00 0.00]
+21:39:14.811893 table@compaction L0·4 -> L1·1 S·322KiB Q·6062
+21:39:14.820136 transaction@flush created L0@1911 N·1 S·184B "txr..\x10\x02e,v6063":"txr..\x10\x02e,v6063"
+21:39:14.820185 version@stat F·[5 1] S·322KiB[2KiB 320KiB] Sc·[1.25 0.00]
+21:39:14.826555 table@build created L1@1910 N·3034 S·320KiB "\x00\x10}..\xf3÷,v1864":"\xff\xef\x80..\x91\x19\xaf,v2704"
+21:39:14.826618 version@stat F·[1 1] S·320KiB[184B 320KiB] Sc·[0.25 0.00]
+21:39:14.832556 table@compaction committed F-4 S-1KiB Ke·0 D·8 T·20.609054ms
+21:39:14.832695 table@remove removed @1909
+21:39:14.832752 table@remove removed @1908
+21:39:14.832813 table@remove removed @1907
+21:39:14.832862 table@remove removed @1906
+21:39:14.832973 table@remove removed @1905
