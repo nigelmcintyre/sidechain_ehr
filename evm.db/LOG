@@ -32,3 +32,38 @@
 10:44:25.359611 version@stat F·[1] S·24KiB[24KiB] Sc·[0.25]
 10:44:25.373176 db@janitor F·3 G·0
 10:44:25.373216 db@open done T·49.09648ms
+=============== Aug 10, 2020 (BST) ===============
+21:37:49.489834 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:37:49.490266 version@stat F·[1] S·24KiB[24KiB] Sc·[0.25]
+21:37:49.490286 db@open opening
+21:37:49.490387 journal@recovery F·1
+21:37:49.490573 journal@recovery recovering @7
+21:37:49.495915 memdb@flush created L0@9 N·345 S·38KiB "vm\x00..\xbaE',v510":"vm\x00..\xe4^0,v306"
+21:37:49.496307 version@stat F·[2] S·62KiB[62KiB] Sc·[0.50]
+21:37:49.507385 db@janitor F·4 G·0
+21:37:49.507441 db@open done T·17.144077ms
+=============== Aug 10, 2020 (BST) ===============
+21:46:59.010534 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:46:59.010713 version@stat F·[2] S·62KiB[62KiB] Sc·[0.50]
+21:46:59.010726 db@open opening
+21:46:59.010807 journal@recovery F·1
+21:46:59.012462 journal@recovery recovering @10
+21:46:59.014200 version@stat F·[2] S·62KiB[62KiB] Sc·[0.50]
+21:46:59.025071 db@janitor F·4 G·0
+21:46:59.025159 db@open done T·14.414327ms
+21:58:49.757962 table@compaction L0·2 -> L1·0 S·62KiB Q·548
+21:58:49.773882 table@build created L1@14 N·425 S·61KiB "vm\x00..\xbaE',v510":"vm\x00..\xe4^0,v306"
+21:58:49.774182 version@stat F·[0 1] S·61KiB[0B 61KiB] Sc·[0.00 0.00]
+21:58:49.777890 table@compaction committed F-1 S-1KiB Ke·0 D·121 T·19.757856ms
+21:58:49.778126 table@remove removed @9
+21:58:49.778684 table@remove removed @2
+=============== Aug 11, 2020 (BST) ===============
+08:17:03.225464 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:17:03.225828 version@stat F·[0 1] S·61KiB[0B 61KiB] Sc·[0.00 0.00]
+08:17:03.225839 db@open opening
+08:17:03.225896 journal@recovery F·1
+08:17:03.225999 journal@recovery recovering @12
+08:17:03.230103 memdb@flush created L0@15 N·58 S·5KiB "vm\x00..\xa6\xd6\xe5,v570":"vm\x00..\xban\xd5,v556"
+08:17:03.232406 version@stat F·[1 1] S·66KiB[5KiB 61KiB] Sc·[0.25 0.00]
+08:17:03.251804 db@janitor F·4 G·0
+08:17:03.251855 db@open done T·26.005864ms

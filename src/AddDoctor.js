@@ -107,6 +107,7 @@ class AddDoctor extends Component {
                     <button
                         type="button"
                         className="btn btn-primary"
+                        name="button"
                         onClick={() => this.confirmValue()}
                     >
                         Confirm
