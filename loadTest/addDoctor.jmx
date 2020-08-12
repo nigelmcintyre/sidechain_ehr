@@ -149,7 +149,7 @@ WDS.sampleResult.sampleEnd();
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">resTable</stringProp>
+          <stringProp name="filename">addDocResTable</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>

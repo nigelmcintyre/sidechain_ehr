@@ -96,3 +96,13 @@
 21:30:53.245464 table@remove removed @18
 21:30:53.245503 table@remove removed @15
 21:30:53.245540 table@remove removed @14
+=============== Aug 12, 2020 (BST) ===============
+08:24:30.239545 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:24:30.240145 version@stat F·[0 2] S·2MiB[0B 2MiB] Sc·[0.00 0.03]
+08:24:30.240167 db@open opening
+08:24:30.240246 journal@recovery F·1
+08:24:30.242317 journal@recovery recovering @22
+08:24:30.259462 memdb@flush created L0@26 N·3022 S·539KiB "vm\x00..\xbaE',v15261":"vm\x00..\x98\x17^,v17612"
+08:24:30.261630 version@stat F·[1 2] S·3MiB[539KiB 2MiB] Sc·[0.25 0.03]
+08:24:30.281253 db@janitor F·5 G·0
+08:24:30.281305 db@open done T·41.126242ms

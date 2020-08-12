@@ -53,3 +53,5 @@ WDS.browser
     .accept();
 
 WDS.sampleResult.sampleEnd();
+
+patientAddress,age,gender,totalBilirubin,directBilirubin,alkalinePhosphotase,alamineAminotransferase,totalProteins,albumin,albuminGlobulinRatio,doctorAddress,doctorKey

@@ -21,7 +21,7 @@ let newAccount = loomProvider.accounts;
 let newAccounts = [];
 
 for (let [key, value] of loomProvider.accounts) {
-    newAccounts.push('Address:' + key + ': PrivateKey:' + value + '\n');
+    newAccounts.push(key + '\n');
 }
 
 fs.writeFile('newAccounts.txt', newAccounts, (err) => {
