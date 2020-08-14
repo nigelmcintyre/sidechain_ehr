@@ -1,0 +1,115 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1597424358156,10275,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424368552,7589,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424376241,7698,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424384079,7681,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424391917,7866,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424399917,9505,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424409620,8327,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424418081,8111,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424426364,7867,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424434377,8050,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424442566,8562,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424451325,7807,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424459283,7859,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424467308,8091,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424475499,7727,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424483402,7796,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424491318,8522,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424500015,7989,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424508161,8284,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424516572,9005,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424525725,7723,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424533616,8028,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424541751,8460,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424550369,7861,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424558374,7844,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424566376,8460,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424574987,7898,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424583038,7833,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424591006,8402,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424599507,7861,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424607479,7830,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424615441,7784,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424623363,7861,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424631374,8153,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424639665,7684,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424647496,8450,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424656107,8351,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424664570,7953,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424672672,9325,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424682035,6372,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424688482,6968,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424695516,6336,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424701898,6430,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424708393,6998,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424715461,6519,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424722044,7449,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424729547,6453,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424736065,6395,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424742508,7410,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424749984,6905,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424756934,7088,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424764068,6438,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424770566,6455,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424777086,6498,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424783651,6438,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424790160,6921,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424797151,6906,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424804122,6323,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424810511,6983,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424817531,6471,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424824086,6763,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424830932,8373,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424839431,8882,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424848475,7861,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424856443,7698,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424864267,8171,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424872539,8779,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424881457,8548,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424890119,7771,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424898035,8465,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424906611,8368,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424915127,8508,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424923741,7574,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424931431,7901,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424939447,7926,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424947490,8384,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424956007,7813,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424963924,8022,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424972061,7819,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424980019,1255,addPatientSampler,500,"unexpected alert open: {Alert text : No patient account with that address}
+  (Session info: chrome=84.0.4147.125): No patient account with that address
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'nigel-MACH-WX9', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-64-generic', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.UgRKrf}, goog:chromeOptions: {debuggerAddress: localhost:36909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(system), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 812944be4f7dbebd8a46b9754a82e8d0
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]}",Thread Group 1-1,text,false,,3829,0,1,1,null,0,0,0
+1597424981456,8548,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424990149,7881,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597424998194,7892,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425006208,7847,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425014142,1287,addPatientSampler,500,"unexpected alert open: {Alert text : No patient account with that address}
+  (Session info: chrome=84.0.4147.125): No patient account with that address
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'nigel-MACH-WX9', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-64-generic', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.UgRKrf}, goog:chromeOptions: {debuggerAddress: localhost:36909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(system), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 812944be4f7dbebd8a46b9754a82e8d0
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]}",Thread Group 1-1,text,false,,3829,0,1,1,null,0,0,0
+1597425015522,8025,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425023658,7977,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425031742,7933,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425039781,8581,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425048486,7855,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425056432,8395,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425064923,8510,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425073595,8264,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425081985,8448,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425090546,8568,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425099236,8382,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425107760,8562,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425116474,8455,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425125070,8498,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
+1597425133694,8971,addPatientSampler,200,OK,Thread Group 1-1,text,true,,2297,0,1,1,http://localhost:9000/viewPatient,0,0,0
